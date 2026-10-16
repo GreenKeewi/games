@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Game verification · GreenKeewi</title><style>body{margin:0;background:#f6f5ef;color:#20362e;font:16px/1.6 system-ui,sans-serif}main{max-width:900px;margin:auto;padding:40px 24px}a{color:#215e47;text-underline-offset:4px}a:focus-visible{outline:3px solid #c08a21;outline-offset:4px}h1{line-height:1.1;font-size:clamp(30px,6vw,48px)}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:12px 8px;border-bottom:1px solid #cdd7cd;vertical-align:top}.table{overflow-x:auto}code{font-size:.9em}li{margin:8px 0}.note{padding:16px;border-left:4px solid #c08a21;background:#edeadf}small{color:#52665a}</style></head><body><main>
+<a href="../">← All games</a><h1>Current game verification.</h1>
+<p>This release records exact source commits, local cloud-browser gameplay, and successful GitHub Pages build/deploy jobs separately.</p>
+<p class="note"><strong>Live-origin limitation:</strong> direct public game requests from this cloud fail with <code>net::ERR_TUNNEL_CONNECTION_FAILED</code> and an Envoy <code>403 CONNECT tunnel failed</code>. Local gameplay and successful deployment jobs do not constitute a current live-origin gameplay pass.</p>
+<div class="table"><table><thead><tr><th>Game</th><th>Release source</th><th>Pages build / deploy</th></tr></thead><tbody>
+<tr><td>Skybreak</td><td><a href="https://github.com/GreenKeewi/jets/commit/dc24281f78877f4354eb3480a995d7304bc2859f">dc24281</a></td><td><a href="https://github.com/GreenKeewi/jets/actions/runs/38895526293">Passed</a></td></tr>
+<tr><td>Cloudliner</td><td><a href="https://github.com/GreenKeewi/flight/commit/a9268309f30e1ac8286a34d0c048cc5862dbdf5d">a926830</a> · validation only</td><td><a href="https://github.com/GreenKeewi/flight/actions/runs/38895986972">Passed</a></td></tr>
+<tr><td>Borough Line</td><td><a href="https://github.com/GreenKeewi/subway/commit/c051856feb31078e946f66940798a55d04f15815">c051856</a> · README only</td><td><a href="https://github.com/GreenKeewi/subway/actions/runs/38895996248">Passed</a></td></tr>
+<tr><td>Toronto Taxi</td><td><a href="https://github.com/GreenKeewi/taxi/commit/648d048f470e9cd144fd9860336f15c5ff67cd8d">648d048</a></td><td><a href="https://github.com/GreenKeewi/taxi/actions/runs/38895536968">Passed</a></td></tr>
+<tr><td>3D taxi mirror</td><td><a href="https://github.com/GreenKeewi/night-shift-taxi/commit/2de989bb6d893ceab5ae3aa00aec0fbd7fb0d4db">2de989b</a></td><td><a href="https://github.com/GreenKeewi/night-shift-taxi/actions/runs/38895540545">Passed</a></td></tr>
+</tbody></table></div>
+<h2>Accessible evidence</h2><ul>
+<li><a href="release.json">Release manifest</a>, <a href="source-hashes.json">runtime hashes</a>, and <a href="reports/current/pages-game-jobs.json">exact game deployment jobs</a>.</li>
+<li><a href="reports/current/final-regressions.json">48 fighter, 22 airline, 18 subway tests and taxi regression results</a>.</li>
+<li><a href="reports/current/jets-strike-regression.json">Strike regression:</a> eliminating the defender leaves bombing and escape required; actual bomb release and escape then finish the sortie.</li>
+<li><a href="reports/current/flight-qa.json">All three airline trips:</a> normal animation and native keyboard/autopilot, zero recoveries. Clear conditions; runtime unchanged by the validation-only update.</li>
+<li><a href="reports/current/subway-qa.json">Full manual subway service:</a> ten perfect stops, three signals, 1,500 points, 100% comfort, zero penalties; 719.98 wall seconds.</li>
+<li><a href="reports/current/taxi-keyboard-navigation.json">Taxi keyboard navigation</a>, <a href="reports/current/mirror-keyboard-navigation.json">mirror navigation</a>, and <a href="reports/current/taxi-preview-native-pickup.json">normal-traffic pickup</a>.</li>
+<li><a href="reports/current/hub-final-local.json">Responsive hub/image/keyboard checks</a> and <a href="reports/current/public-load-check.json">the public-origin failures</a>.</li>
+</ul>
+<p>Taxi continuous intercity physics checks use controlled starts and disable other traffic. The separate highway browser fixture uses explicit placement. An uninterrupted completed browser intercity fare is not claimed. No physical Chromebook, separate-device Wi-Fi, hardware-speaker or human control assessment was performed.</p>
+<p><a href="https://github.com/GreenKeewi/games/blob/main/verification/README.md">Detailed methods and limits</a> · <a href="https://github.com/GreenKeewi/games/actions">Hub deployment jobs</a></p>
+<p><small>The 03:18 manifest and reports outside <code>reports/current/</code> are retained as historical evidence. Their old live-origin claims do not apply to this release. Current card previews are actual local gameplay captures with methods and hashes recorded in the manifest.</small></p>
+</main></body></html>

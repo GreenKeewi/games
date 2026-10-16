@@ -92,7 +92,8 @@
       "assets/jets-current.png": "0ab4701786b70fb5ef7b5afa3b7beb88b12e4a6fc10e9a22feede7caf85b42a8",
       "assets/flight-current.png": "739a64156374bb939ed4d05525eb484767c9cbdccae1d287b2682b1622cdb12c",
       "assets/subway-current.png": "6adf45ba10b8af5cd2af925d252f70b0c31e332e196fa316ccc2568b42b7a1ae",
-      "assets/taxi-current.png": "860c8a9e13ed7791b45bc27faa740a7594c324a0639f211c9ca122808a817c88"
+      "assets/taxi-current.png": "860c8a9e13ed7791b45bc27faa740a7594c324a0639f211c9ca122808a817c88",
+      "verification/index.html": "b691cc1a1801b2ad0a398d7a5180b6e1050a913389e3ccad68847071feaf923f"
     },
     "previews": [
       {
@@ -137,7 +138,8 @@
       }
     ],
     "publicationVerification": "The hub commit and its own Pages job are verified after this manifest is committed; see the final publication report and repository Actions.",
-    "responsiveKeyboardReport": "reports/current/hub-final-local.json"
+    "responsiveKeyboardReport": "reports/current/hub-final-local.json",
+    "verificationLandingPage": "verification/index.html"
   },
   "fixes": [
     {
