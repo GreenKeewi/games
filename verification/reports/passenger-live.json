@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "game": "Cloudliner",
+  "sourceCommit": "b5e4fff9538301cebd4696392b1ce5da18c5eb66",
+  "moving": {
+    "phase": "taxi",
+    "speed": 2.14241819564965,
+    "doors": false
+  },
+  "cockpit": true,
+  "keyboardPauseResume": true,
+  "keyboardAllGames": true,
+  "hubTitle": "Games · GreenKeewi",
+  "errors": [],
+  "failed": [],
+  "conditions": "One real WebGL browser page in1GBcloudVM. 1100x700 CSS,.5drawingScale,noAA,200ms test frame scheduler; functional validation, not a frame-rate benchmark. Only keyboard events, observed state, no simulation advance or state mutation."
+}

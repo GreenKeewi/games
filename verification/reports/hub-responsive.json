@@ -1,0 +1,36 @@
+{
+  "name": "hub-responsive",
+  "url": "http://127.0.0.1:8200/",
+  "at": "2026-10-16T02:33:53.177Z",
+  "errors": [],
+  "failedRequests": [],
+  "console": [],
+  "sizes": [
+    {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "links": 5
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "links": 5
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "links": 5
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "links": 5
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "links": 5
+    }
+  ],
+  "skipLinkPassed": true
+}

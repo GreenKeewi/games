@@ -1,0 +1,23 @@
+{
+  "url": "https://greenkeewi.github.io/subway/?v=0b3923e7",
+  "status": 200,
+  "title": "Borough Line · Subway Driver",
+  "errors": [],
+  "moving": {
+    "started": true,
+    "s": 2.887932295664736,
+    "v": 2.1775217194659873,
+    "doors": null,
+    "time": 7.583333333333312,
+    "graphics": {
+      "fps": 5.882352941176471,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    }
+  },
+  "paused": true,
+  "resumed": true,
+  "view": "exterior",
+  "method": "Actual keyboard Enter,D,ArrowUp,P,Escape,C in published page. Waited on observed boarding clock; no state mutation or time advance."
+}

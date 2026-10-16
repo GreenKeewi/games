@@ -1,0 +1,268 @@
+{
+  "pass": true,
+  "method": "Real browser keyboard and elapsed wall time only; no advance/setState hooks",
+  "boardingWallSeconds": 4.588,
+  "powerWallSeconds": 5.521,
+  "boarded": {
+    "s": 0,
+    "v": 0,
+    "handle": 0,
+    "time": 4.183333333333324,
+    "next": 0,
+    "doors": "right",
+    "phase": "service",
+    "score": 0,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 0,
+    "aligned": true,
+    "stops": [],
+    "penalties": 0,
+    "started": true,
+    "paused": false,
+    "view": "cab",
+    "graphics": {
+      "fps": 3.158060950576347,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 21,
+      "calls": 80,
+      "triangles": 54228,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "closed": {
+    "s": 0,
+    "v": 0,
+    "handle": 0,
+    "time": 4.866666666666655,
+    "next": 1,
+    "doors": null,
+    "phase": "service",
+    "score": 150,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 640,
+    "aligned": false,
+    "stops": [
+      {
+        "name": "Canal Street",
+        "error": 0,
+        "time": 4.416666666666656
+      }
+    ],
+    "penalties": 0,
+    "started": true,
+    "paused": false,
+    "view": "cab",
+    "graphics": {
+      "fps": 3.7268932617769823,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 24,
+      "calls": 80,
+      "triangles": 54228,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "powered": {
+    "s": 9.381081916543902,
+    "v": 3.942594255975445,
+    "handle": 1,
+    "time": 10.366666666666761,
+    "next": 1,
+    "doors": null,
+    "phase": "service",
+    "score": 150,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 630.6189180834562,
+    "aligned": false,
+    "stops": [
+      {
+        "name": "Canal Street",
+        "error": 0,
+        "time": 4.416666666666656
+      }
+    ],
+    "penalties": 0,
+    "started": true,
+    "paused": false,
+    "view": "cab",
+    "graphics": {
+      "fps": 6.2965295010926345,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 55,
+      "calls": 78,
+      "triangles": 53148,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "beforePause": {
+    "s": 17.655615783698067,
+    "v": 5.410094104902769,
+    "handle": 1,
+    "time": 12.133333333333516,
+    "next": 1,
+    "doors": null,
+    "phase": "service",
+    "score": 150,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 622.3443842163019,
+    "aligned": false,
+    "stops": [
+      {
+        "name": "Canal Street",
+        "error": 0,
+        "time": 4.416666666666656
+      }
+    ],
+    "penalties": 0,
+    "started": true,
+    "paused": true,
+    "view": "cab",
+    "graphics": {
+      "fps": 4.499943750703118,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 65,
+      "calls": 75,
+      "triangles": 52596,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "afterPause": {
+    "s": 17.655615783698067,
+    "v": 5.410094104902769,
+    "handle": 1,
+    "time": 12.133333333333516,
+    "next": 1,
+    "doors": null,
+    "phase": "service",
+    "score": 150,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 622.3443842163019,
+    "aligned": false,
+    "stops": [
+      {
+        "name": "Canal Street",
+        "error": 0,
+        "time": 4.416666666666656
+      }
+    ],
+    "penalties": 0,
+    "started": true,
+    "paused": true,
+    "view": "cab",
+    "graphics": {
+      "fps": 4.499943750703118,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 70,
+      "calls": 75,
+      "triangles": 52596,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "resumed": {
+    "s": 24.645820512520732,
+    "v": 6.390146363853753,
+    "handle": 1,
+    "time": 13.316666666666908,
+    "next": 1,
+    "doors": null,
+    "phase": "service",
+    "score": 150,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 615.3541794874793,
+    "aligned": false,
+    "stops": [
+      {
+        "name": "Canal Street",
+        "error": 0,
+        "time": 4.416666666666656
+      }
+    ],
+    "penalties": 0,
+    "started": true,
+    "paused": false,
+    "view": "cab",
+    "graphics": {
+      "fps": 4.342333807042478,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 78,
+      "calls": 72,
+      "triangles": 52476,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "restarted": {
+    "s": 0,
+    "v": 0,
+    "handle": 0,
+    "time": 0.18333333333333332,
+    "next": 0,
+    "doors": "right",
+    "phase": "service",
+    "score": 0,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 0,
+    "aligned": true,
+    "stops": [],
+    "penalties": 0,
+    "started": true,
+    "paused": false,
+    "view": "cab",
+    "graphics": {
+      "fps": 4.342333807042478,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 83,
+      "calls": 80,
+      "triangles": 54228,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "errors": []
+}

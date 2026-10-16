@@ -1,0 +1,102 @@
+{
+  "name": "jets-compact",
+  "url": "http://127.0.0.1:8201/",
+  "at": "2026-10-16T02:51:12.576Z",
+  "errors": [],
+  "failedRequests": [],
+  "console": [],
+  "focus": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "← All games",
+      "x": 42,
+      "y": 14,
+      "width": 78.1875,
+      "height": 38,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "menu-sound",
+      "text": "Sound on",
+      "x": 899.28125,
+      "y": 15,
+      "width": 82.71875,
+      "height": 36,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "01\n⌁\nDogfight\nOutfly the other squadron.",
+      "x": 81.90625,
+      "y": 273.46875,
+      "width": 219.328125,
+      "height": 123,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "02\n⌖\nStrike & escape\nHit the target. Make it home.",
+      "x": 312.234375,
+      "y": 273.46875,
+      "width": 219.34375,
+      "height": 123,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "03\n→\nFree flight\nTake off. Find your calm.",
+      "x": 542.578125,
+      "y": 273.46875,
+      "width": 219.328125,
+      "height": 123,
+      "within": true
+    },
+    {
+      "tag": "SELECT",
+      "id": "team-size",
+      "text": "1 v 1\n2 v 2\n3 v 3",
+      "x": 81.90625,
+      "y": 430.46875,
+      "width": 110,
+      "height": 36,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "launch",
+      "text": "Launch sortie\n→",
+      "x": 81.90625,
+      "y": 483.46875,
+      "width": 260,
+      "height": 48,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "network-open",
+      "text": "Play with friends\n+",
+      "x": 353.90625,
+      "y": 483.46875,
+      "width": 235,
+      "height": 48,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "menu-help",
+      "text": "All controls",
+      "x": 465.203125,
+      "y": 548.46875,
+      "width": 56.90625,
+      "height": 25,
+      "within": true
+    }
+  ],
+  "clipped": [],
+  "passed": true
+}

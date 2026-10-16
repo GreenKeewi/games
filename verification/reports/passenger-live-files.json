@@ -1,0 +1,135 @@
+[
+  {
+    "path": "package.json",
+    "status": 200,
+    "bytes": 120,
+    "sha256": "c3d14908a412998c3ab3436fd039f9a0949b410efc39c0aa2a36b5d9c2eaf210",
+    "same": true
+  },
+  {
+    "path": "sim.js",
+    "status": 200,
+    "bytes": 10724,
+    "sha256": "f2f57a6fac6077ba9f06aab39d93380167ad013179057da56ec9b10395a3a298",
+    "same": true
+  },
+  {
+    "path": "index.html",
+    "status": 200,
+    "bytes": 9590,
+    "sha256": "78b6be2679e70e67132315960316d72d0104e27e4ab9f2e20ee57babe0a5f4bb",
+    "same": true
+  },
+  {
+    "path": "renderer.js",
+    "status": 200,
+    "bytes": 21110,
+    "sha256": "a1ad77390dfe8c0cade1496bff078d37922b4d6fc1afb00ba2512f8da69ba6f9",
+    "same": true
+  },
+  {
+    "path": "game.js",
+    "status": 200,
+    "bytes": 14513,
+    "sha256": "72b17cdd287ee8b85991255fcf851a840794f49bc9804decf3c7aaaeaf768d4a",
+    "same": true
+  },
+  {
+    "path": "VALIDATION.md",
+    "status": 200,
+    "bytes": 2710,
+    "sha256": "b37aeed2c105fc5247096b948d8b4aefe659ff2d787b7b82c97b4b3d6d365794",
+    "same": true
+  },
+  {
+    "path": "README.md",
+    "status": 200,
+    "bytes": 1943,
+    "sha256": "d13f1fff5ea6e2682fe9b6295041e0ebdb4acb72d42c7fd2550a69989aef94ba",
+    "same": true
+  },
+  {
+    "path": "style.css",
+    "status": 200,
+    "bytes": 18375,
+    "sha256": "56e672afbb5e007d72c85d863005243d3e7600af20cac830003fede97caa612d",
+    "same": true
+  },
+  {
+    "path": "audio.js",
+    "status": 200,
+    "bytes": 3200,
+    "sha256": "938c44dd22b034696e2da5fa6181789bc3ae6478629ff4102516e8a39e7f286b",
+    "same": true
+  },
+  {
+    "path": "tests/realtime.cjs",
+    "status": 200,
+    "bytes": 2590,
+    "sha256": "b3c3ed893716a693fbd6deb9053435d20abbdee24c6b161d5860a0ae0abaab51",
+    "same": true
+  },
+  {
+    "path": "tests/mission.test.js",
+    "status": 200,
+    "bytes": 5010,
+    "sha256": "378f3322dbc9e7b9beab21ef8c5a8dc34c56fc1d0395839ae30744bca1c65176",
+    "same": true
+  },
+  {
+    "path": "tests/smoke.cjs",
+    "status": 200,
+    "bytes": 4634,
+    "sha256": "7002b998db8f3a12dea32e6544921a90e73fe378223bf914c9588fd40761fa8c",
+    "same": true
+  },
+  {
+    "path": "tests/visual.cjs",
+    "status": 200,
+    "bytes": 1380,
+    "sha256": "ed8403531c1c8ad3a72426a7274362e4c1a5d9a67b977d6ddd3ba8cc74cc8a44",
+    "same": true
+  },
+  {
+    "path": "tests/manual-policy.mjs",
+    "status": 200,
+    "bytes": 1414,
+    "sha256": "fe977957f8ee9238768b3429e55ed839dc4738e6251ad65ee4c617234a790d00",
+    "same": true
+  },
+  {
+    "path": "vendor/three.module.js",
+    "status": 200,
+    "bytes": 603113,
+    "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+    "same": true
+  },
+  {
+    "path": "vendor/three.core.js",
+    "status": 200,
+    "bytes": 1403455,
+    "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+    "same": true
+  },
+  {
+    "path": "vendor/THREE-LICENSE.txt",
+    "status": 200,
+    "bytes": 1081,
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "same": true
+  },
+  {
+    "path": "assets/airliner-menu-art.webp",
+    "status": 200,
+    "bytes": 166896,
+    "sha256": "6bc6989f96eb0087104b59bb258e17ce78bc5cc08913486571363f503040571e",
+    "same": true
+  },
+  {
+    "path": "assets/gameplay.webp",
+    "status": 200,
+    "bytes": 28282,
+    "sha256": "6cab44108daa52182a55d9a4926c0637ce19c1dd785ff0741012364f22595126",
+    "same": true
+  }
+]

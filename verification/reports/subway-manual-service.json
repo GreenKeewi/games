@@ -1,0 +1,318 @@
+{
+  "name": "subway-flow",
+  "url": "http://127.0.0.1:8203/",
+  "at": "2026-10-16T02:34:13.588Z",
+  "errors": [],
+  "failedRequests": [],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    }
+  ],
+  "steps": [
+    {
+      "label": "early-door-close-refused",
+      "state": {
+        "s": 0,
+        "v": 0,
+        "handle": 0,
+        "time": 0.49999999999999994,
+        "next": 0,
+        "doors": "right",
+        "phase": "service",
+        "score": 0,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "distance": 0,
+        "aligned": true,
+        "stops": [],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 12,
+          "calls": 198,
+          "triangles": 78516,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "label": "keyboard-acceleration-door-interlock",
+      "state": {
+        "s": 32.061013836826014,
+        "v": 7.285345817186919,
+        "handle": 1,
+        "time": 13.43333333333358,
+        "next": 1,
+        "doors": null,
+        "phase": "service",
+        "score": 150,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "distance": 607.938986163174,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.099999999999991
+          }
+        ],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 143,
+          "calls": 191,
+          "triangles": 76836,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "label": "pause-help-resume",
+      "state": {
+        "s": 34.537602322058476,
+        "v": 7.560401808749509,
+        "handle": 1,
+        "time": 13.76666666666693,
+        "next": 1,
+        "doors": null,
+        "phase": "service",
+        "score": 150,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "distance": 605.4623976779416,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.099999999999991
+          }
+        ],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "exterior",
+        "renderer": {
+          "frame": 156,
+          "calls": 326,
+          "triangles": 79334,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "label": "manual-first-station-stop",
+      "state": {
+        "s": 632.0165335017648,
+        "v": 0,
+        "handle": -1,
+        "time": 53.36666666666492,
+        "next": 1,
+        "doors": null,
+        "phase": "service",
+        "score": 150,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "distance": 7.983466498235202,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.099999999999991
+          }
+        ],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "exterior",
+        "renderer": {
+          "frame": 562,
+          "calls": 329,
+          "triangles": 80294,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "label": "assisted-route-elevated",
+      "state": {
+        "s": 1310,
+        "v": 0,
+        "handle": 0,
+        "time": 143.35000000000622,
+        "next": 2,
+        "doors": "right",
+        "phase": "service",
+        "score": 276,
+        "assist": true,
+        "signal": "green",
+        "signalCleared": true,
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.099999999999991
+          },
+          {
+            "name": "Bowery",
+            "error": -8,
+            "time": 57.816666666664666
+          }
+        ],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "exterior",
+        "renderer": {
+          "frame": 614,
+          "calls": 314,
+          "triangles": 74126,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "label": "full-service-complete",
+      "state": {
+        "s": 2800,
+        "v": 0,
+        "handle": 0,
+        "time": 276.2666666667441,
+        "next": 5,
+        "doors": null,
+        "phase": "complete",
+        "score": 726,
+        "assist": true,
+        "signal": "green",
+        "signalCleared": true,
+        "distance": 0,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.099999999999991
+          },
+          {
+            "name": "Bowery",
+            "error": -8,
+            "time": 57.816666666664666
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 147.08333333334252
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 212.85000000006153
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 276.2666666667441
+          }
+        ],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "exterior",
+        "renderer": {
+          "frame": 618,
+          "calls": 198,
+          "triangles": 50834,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "label": "result-and-pause-restarts",
+      "state": {
+        "s": 0,
+        "v": 0,
+        "handle": 0,
+        "time": 0,
+        "next": 0,
+        "doors": "right",
+        "phase": "service",
+        "score": 0,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "distance": 0,
+        "aligned": true,
+        "stops": [],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 618,
+          "calls": 198,
+          "triangles": 50834,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    }
+  ],
+  "passed": true,
+  "manualStationStop": {
+    "s": 632.0165335017648,
+    "v": 0,
+    "handle": -1,
+    "time": 53.68333333333157,
+    "next": 1,
+    "doors": null,
+    "phase": "service",
+    "score": 150,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "distance": 7.983466498235202,
+    "aligned": true,
+    "stops": [
+      {
+        "name": "Canal Street",
+        "error": 0,
+        "time": 4.099999999999991
+      }
+    ],
+    "penalties": 0,
+    "started": true,
+    "paused": false,
+    "view": "exterior",
+    "renderer": {
+      "frame": 566,
+      "calls": 329,
+      "triangles": 80294,
+      "points": 0,
+      "lines": 0
+    }
+  }
+}

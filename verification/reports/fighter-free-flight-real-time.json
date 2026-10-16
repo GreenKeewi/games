@@ -1,0 +1,2295 @@
+{
+  "test": "Normal requestAnimationFrame manual takeoff + G route assist + landing, read-only state polling",
+  "hooksUsed": [],
+  "pass": true,
+  "recoveries": [],
+  "wallSeconds": 138.384,
+  "simSeconds": 137.50000000000156,
+  "result": {
+    "title": "Beautiful landing",
+    "text": "Route flown, runway reached, aircraft safely stopped.",
+    "winner": 0
+  },
+  "final": {
+    "wallSeconds": 137.741,
+    "simSeconds": 137.50000000000156,
+    "status": "complete",
+    "stage": "landed",
+    "route": 5,
+    "approach": 3,
+    "pos": {
+      "x": -1800.0034908459058,
+      "y": 3,
+      "z": -1512.0193561354117
+    },
+    "speed": 4.92165311680701,
+    "power": 0,
+    "grounded": true,
+    "paused": false
+  },
+  "events": [
+    {
+      "id": 1,
+      "type": "start",
+      "text": "Clear for takeoff. Add power, then gently climb.",
+      "t": 0
+    },
+    {
+      "id": 2,
+      "type": "takeoff",
+      "text": "Positive climb. Gear up — follow the route.",
+      "t": 3.7999999999999914,
+      "pilotId": "host"
+    },
+    {
+      "id": 3,
+      "type": "gate",
+      "text": "Route gate 1 cleared",
+      "t": 19.51666666666684
+    },
+    {
+      "id": 4,
+      "type": "gate",
+      "text": "Route gate 2 cleared",
+      "t": 35.44999999999927
+    },
+    {
+      "id": 5,
+      "type": "gate",
+      "text": "Route gate 3 cleared",
+      "t": 51.06666666666505
+    },
+    {
+      "id": 6,
+      "type": "gate",
+      "text": "Route gate 4 cleared",
+      "t": 68.0166666666641
+    },
+    {
+      "id": 7,
+      "type": "gate",
+      "text": "Route complete. Line up with the runway and reduce power.",
+      "t": 84.63333333332982
+    },
+    {
+      "id": 8,
+      "type": "landed",
+      "text": "Touchdown! Hold brakes and roll to a stop.",
+      "t": 136.0500000000004,
+      "pilotId": "host"
+    }
+  ],
+  "samples": [
+    {
+      "wallSeconds": 1.505,
+      "simSeconds": 2.033333333333331,
+      "status": "playing",
+      "stage": "takeoff",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 3,
+        "z": -2712.1942255864183
+      },
+      "speed": 16.295757169418156,
+      "power": 0.5193333333333341,
+      "grounded": true,
+      "paused": false
+    },
+    {
+      "wallSeconds": 2.556,
+      "simSeconds": 3.0666666666666607,
+      "status": "playing",
+      "stage": "takeoff",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 3,
+        "z": -2680.7241797543566
+      },
+      "speed": 46.29980235044735,
+      "power": 0.9119999999999988,
+      "grounded": true,
+      "paused": false
+    },
+    {
+      "wallSeconds": 3.562,
+      "simSeconds": 4.116666666666657,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 7.871680159416146,
+        "z": -2612.8120230896966
+      },
+      "speed": 81.8950223060348,
+      "power": 1,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 4.633,
+      "simSeconds": 5.166666666666654,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 48.20095263831974,
+        "z": -2521.573714072393
+      },
+      "speed": 106.6428174184683,
+      "power": 1,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 6.768,
+      "simSeconds": 7.349999999999979,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 96.5476652257679,
+        "z": -2259.5567807128014
+      },
+      "speed": 131.80075638809447,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 7.813,
+      "simSeconds": 8.416666666666664,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 110.53969091697725,
+        "z": -2118.01023576785
+      },
+      "speed": 134.72257102501365,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 8.884,
+      "simSeconds": 9.483333333333384,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 124.79162477964955,
+        "z": -1973.7319503048334
+      },
+      "speed": 136.98396361543072,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 9.94,
+      "simSeconds": 10.516666666666769,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 138.79754816960465,
+        "z": -1831.9422235094723
+      },
+      "speed": 138.6855574162849,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 10.973,
+      "simSeconds": 11.550000000000153,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 152.9562035604769,
+        "z": -1688.6062681652616
+      },
+      "speed": 140.0127530809059,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 12.054,
+      "simSeconds": 12.63333333333354,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 167.92739058335326,
+        "z": -1537.0446016326246
+      },
+      "speed": 141.0917873751228,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 13.105,
+      "simSeconds": 13.70000000000026,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 182.76701534786304,
+        "z": -1386.8148131152493
+      },
+      "speed": 141.91212330939683,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 14.183,
+      "simSeconds": 14.76666666666698,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 197.68235774605444,
+        "z": -1235.8184928101336
+      },
+      "speed": 142.5468538497099,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 15.213,
+      "simSeconds": 15.800000000000365,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 212.18760434265423,
+        "z": -1088.973800765345
+      },
+      "speed": 143.02445597932018,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 16.238,
+      "simSeconds": 16.816666666666993,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 226.50078601984472,
+        "z": -944.0734888974443
+      },
+      "speed": 143.3916689341932,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 17.286,
+      "simSeconds": 17.866666666666934,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 241.31727418369144,
+        "z": -794.0779250774319
+      },
+      "speed": 143.68752447586866,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 18.371,
+      "simSeconds": 18.950000000000205,
+      "status": "playing",
+      "stage": "route",
+      "route": 0,
+      "approach": 0,
+      "pos": {
+        "x": -1800,
+        "y": 256.6322851613815,
+        "z": -639.0355370901366
+      },
+      "speed": 143.92374874307367,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 19.461,
+      "simSeconds": 20.050000000000143,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1792.6401229021433,
+        "y": 274.4010694675944,
+        "z": -482.2239054032165
+      },
+      "speed": 143.9681962963586,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 20.47,
+      "simSeconds": 21.03333333333342,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1724.6062795554,
+        "y": 294.941799657192,
+        "z": -361.5374494952544
+      },
+      "speed": 143.7111370754623,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 21.638,
+      "simSeconds": 22.150000000000023,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1612.3730095379444,
+        "y": 318.4519313798301,
+        "z": -249.55048295936578
+      },
+      "speed": 143.4702415885769,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 22.654,
+      "simSeconds": 23.233333333333295,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1501.1899629229397,
+        "y": 341.2310979378264,
+        "z": -143.5097138365778
+      },
+      "speed": 143.29064756585342,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 23.704,
+      "simSeconds": 24.2999999999999,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1392.2231706434127,
+        "y": 363.6353440205248,
+        "z": -38.81098868987938
+      },
+      "speed": 143.15410791293144,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 24.75,
+      "simSeconds": 25.34999999999984,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1285.0960143488599,
+        "y": 385.67113753746014,
+        "z": 64.21543311470182
+      },
+      "speed": 143.04991201063038,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 25.762,
+      "simSeconds": 26.349999999999785,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1183.1305455177069,
+        "y": 406.6444014774359,
+        "z": 162.27013208717295
+      },
+      "speed": 142.97237599138182,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 26.798,
+      "simSeconds": 27.399999999999725,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -1076.118318471665,
+        "y": 428.6555133070938,
+        "z": 265.17589410370346
+      },
+      "speed": 142.90873319272242,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 27.806,
+      "simSeconds": 28.416666666666334,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -972.543454268928,
+        "y": 449.95960267351086,
+        "z": 364.776209709598
+      },
+      "speed": 142.86067742502252,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 28.84,
+      "simSeconds": 29.433333333332943,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -868.9994524991772,
+        "y": 471.25734827256883,
+        "z": 464.34688863743327
+      },
+      "speed": 142.82304474364895,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 29.868,
+      "simSeconds": 30.44999999999955,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -765.4796043588603,
+        "y": 492.5501260397274,
+        "z": 563.8943434832141
+      },
+      "speed": 142.79357442665795,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 30.893,
+      "simSeconds": 31.483333333332826,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -660.2820662708824,
+        "y": 514.1879842213003,
+        "z": 665.0551091868881
+      },
+      "speed": 142.7701627943982,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 31.95,
+      "simSeconds": 32.53333333333277,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -553.4033871745805,
+        "y": 536.1716327147114,
+        "z": 767.8325049264502
+      },
+      "speed": 142.75164345445293,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 32.969,
+      "simSeconds": 33.54999999999938,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -449.92936329580056,
+        "y": 557.4549849084277,
+        "z": 867.3358931739275
+      },
+      "speed": 142.7376597655343,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 34.008,
+      "simSeconds": 34.59999999999932,
+      "status": "playing",
+      "stage": "route",
+      "route": 1,
+      "approach": 0,
+      "pos": {
+        "x": -343.0721456474756,
+        "y": 579.434219043014,
+        "z": 970.0926510192644
+      },
+      "speed": 142.72639340958253,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 35.053,
+      "simSeconds": 35.64999999999926,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": -235.68911513762055,
+        "y": 600.0802674909039,
+        "z": 1072.5107652661309
+      },
+      "speed": 142.7975273920704,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 36.075,
+      "simSeconds": 36.683333333332534,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": -101.8508607195776,
+        "y": 602.4808287580797,
+        "z": 1129.4257727526954
+      },
+      "speed": 143.9743492706613,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 37.092,
+      "simSeconds": 37.68333333333248,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 37.816676475346746,
+        "y": 602.3871433904001,
+        "z": 1098.4110825287673
+      },
+      "speed": 145.01587895088988,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 38.105,
+      "simSeconds": 38.71666666666575,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 171.41653721695408,
+        "y": 602.2347964353652,
+        "z": 1029.6086308274155
+      },
+      "speed": 145.86218445402744,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 39.146,
+      "simSeconds": 39.73333333333236,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 302.2469662772081,
+        "y": 602.0828764952495,
+        "z": 959.0534398586667
+      },
+      "speed": 146.51295830079118,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 40.196,
+      "simSeconds": 40.81666666666563,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 442.5228354652649,
+        "y": 601.920309760388,
+        "z": 884.1292181398459
+      },
+      "speed": 147.05184777709846,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 41.217,
+      "simSeconds": 41.83333333333224,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 574.6218090693409,
+        "y": 601.7672672320325,
+        "z": 813.673232978306
+      },
+      "speed": 147.444590536925,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 42.278,
+      "simSeconds": 42.88333333333218,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 711.3755881814242,
+        "y": 601.6088285138711,
+        "z": 740.7275478928908
+      },
+      "speed": 147.7610148914057,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 43.34,
+      "simSeconds": 43.93333333333212,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 848.3869637055951,
+        "y": 601.4500902509498,
+        "z": 667.6421696438248
+      },
+      "speed": 148.00682980246074,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 44.367,
+      "simSeconds": 44.98333333333206,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 985.5991879458311,
+        "y": 601.291119286262,
+        "z": 594.4496472917778
+      },
+      "speed": 148.19779162204796,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 45.438,
+      "simSeconds": 46.033333333332,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 1122.9674610999953,
+        "y": 601.1319675467321,
+        "z": 521.1739257706289
+      },
+      "speed": 148.3461407046299,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 46.45,
+      "simSeconds": 47.04999999999861,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 1256.0906304296072,
+        "y": 600.9777340886546,
+        "z": 450.16265291569647
+      },
+      "speed": 148.45815697671762,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 47.488,
+      "simSeconds": 48.083333333331886,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 1391.4871939386874,
+        "y": 600.8208667278108,
+        "z": 377.93869338455875
+      },
+      "speed": 148.54714427095064,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 48.5,
+      "simSeconds": 49.099999999998495,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 1524.7699980103957,
+        "y": 600.6664483202426,
+        "z": 306.8422666241366
+      },
+      "speed": 148.61556374656757,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 49.516,
+      "simSeconds": 50.13333333333177,
+      "status": "playing",
+      "stage": "route",
+      "route": 2,
+      "approach": 0,
+      "pos": {
+        "x": 1660.2933777783658,
+        "y": 600.5094340329349,
+        "z": 234.5506599867756
+      },
+      "speed": 148.66991713553963,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 50.572,
+      "simSeconds": 51.18333333333171,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1797.9705815196744,
+        "y": 600.1866765952416,
+        "z": 160.92903755075108
+      },
+      "speed": 148.72124622761285,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 51.616,
+      "simSeconds": 52.23333333333165,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1904.0680975057646,
+        "y": 594.3849040293763,
+        "z": 50.04766088160464
+      },
+      "speed": 149.08863349508314,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 52.636,
+      "simSeconds": 53.23333333333159,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1916.5274843706145,
+        "y": 588.0712365607116,
+        "z": -95.71645722716953
+      },
+      "speed": 149.40803708699482,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 53.67,
+      "simSeconds": 54.2499999999982,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1844.521652482239,
+        "y": 581.6969413393216,
+        "z": -228.27378398036106
+      },
+      "speed": 149.6595086665509,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 54.68,
+      "simSeconds": 55.249999999998145,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1749.7131930285427,
+        "y": 575.4260793427749,
+        "z": -344.0205882799788
+      },
+      "speed": 149.85309796147837,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 55.716,
+      "simSeconds": 56.31666666666475,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1647.5661567387983,
+        "y": 568.7295787125781,
+        "z": -466.90274356595415
+      },
+      "speed": 150.01419395277023,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 56.762,
+      "simSeconds": 57.349999999998026,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1548.92000915113,
+        "y": 562.2362977877127,
+        "z": -586.3885449573551
+      },
+      "speed": 150.13540989440577,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 57.797,
+      "simSeconds": 58.41666666666463,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1447.057582727287,
+        "y": 555.5287075663088,
+        "z": -709.8505795003791
+      },
+      "speed": 150.23263075427732,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 58.809,
+      "simSeconds": 59.416666666664575,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1351.5037571386563,
+        "y": 549.236852963951,
+        "z": -825.6564756711364
+      },
+      "speed": 150.30369737743482,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 59.841,
+      "simSeconds": 60.44999999999785,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1252.7218171654051,
+        "y": 542.7325038571576,
+        "z": -945.3726705413643
+      },
+      "speed": 150.361214429761,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 60.895,
+      "simSeconds": 61.516666666664456,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1150.7184520878611,
+        "y": 536.0160362475987,
+        "z": -1068.993051315903
+      },
+      "speed": 150.40734580510988,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 61.937,
+      "simSeconds": 62.533333333331065,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 1053.4707820538447,
+        "y": 529.6127085951744,
+        "z": -1186.8499317615729
+      },
+      "speed": 150.44156312734057,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 62.989,
+      "simSeconds": 63.59999999999767,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 951.4194660842953,
+        "y": 522.8930821162181,
+        "z": -1310.528472316665
+      },
+      "speed": 150.4695151799931,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 64.055,
+      "simSeconds": 64.66666666666428,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 849.3514603701325,
+        "y": 516.172356716104,
+        "z": -1434.2272388326612
+      },
+      "speed": 150.4911429311882,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 65.068,
+      "simSeconds": 65.66666666666423,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 753.6509181091604,
+        "y": 509.87090054065015,
+        "z": -1550.2091172077521
+      },
+      "speed": 150.50695241129978,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 66.147,
+      "simSeconds": 66.73333333333083,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 651.5605596567185,
+        "y": 503.1487033142599,
+        "z": -1673.9349734920909
+      },
+      "speed": 150.52010978862086,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 67.196,
+      "simSeconds": 67.8166666666641,
+      "status": "playing",
+      "stage": "route",
+      "route": 3,
+      "approach": 0,
+      "pos": {
+        "x": 547.8670084355522,
+        "y": 496.32094295580424,
+        "z": -1799.6037791535693
+      },
+      "speed": 150.5304294987352,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 68.274,
+      "simSeconds": 68.86666666666405,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": 439.841704598581,
+        "y": 486.0499790236495,
+        "z": -1914.2289471889076
+      },
+      "speed": 150.75672500107382,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 69.293,
+      "simSeconds": 69.91666666666399,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": 313.5762595467989,
+        "y": 473.101308352789,
+        "z": -2009.03369643131
+      },
+      "speed": 151.08512005163482,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 70.368,
+      "simSeconds": 70.94999999999726,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": 186.15826518962552,
+        "y": 460.2718768249556,
+        "z": -2098.573903757635
+      },
+      "speed": 151.34028309932927,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 71.408,
+      "simSeconds": 72.01666666666387,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": 54.55477837520285,
+        "y": 447.00728792339737,
+        "z": -2191.3177272101007
+      },
+      "speed": 151.54501078596013,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 72.466,
+      "simSeconds": 73.04999999999714,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -73.02935756558145,
+        "y": 434.1421019359467,
+        "z": -2281.3488902867543
+      },
+      "speed": 151.6990593449395,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 73.508,
+      "simSeconds": 74.11666666666375,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -204.84818461473094,
+        "y": 420.8498248250389,
+        "z": -2374.3699434344885
+      },
+      "speed": 151.8226135487452,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 74.515,
+      "simSeconds": 75.13333333333036,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -330.57719534982783,
+        "y": 408.17172323999836,
+        "z": -2463.09159866071
+      },
+      "speed": 151.9142582048992,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 75.582,
+      "simSeconds": 76.1833333333303,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -460.4988693442793,
+        "y": 395.07085385751265,
+        "z": -2554.771699747926
+      },
+      "speed": 151.98809432378553,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 76.602,
+      "simSeconds": 77.21666666666357,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -588.4127096266894,
+        "y": 382.1724463856181,
+        "z": -2645.034988159722
+      },
+      "speed": 152.0446521036737,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 77.65,
+      "simSeconds": 78.24999999999685,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -716.3686011881979,
+        "y": 369.269798393394,
+        "z": -2735.3279547436714
+      },
+      "speed": 152.0887655853129,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 78.674,
+      "simSeconds": 79.26666666666345,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -842.2927395017568,
+        "y": 356.5720256763922,
+        "z": -2824.187200236765
+      },
+      "speed": 152.12268302608246,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 79.687,
+      "simSeconds": 80.28333333333006,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -968.2417380323946,
+        "y": 343.8717461424041,
+        "z": -2913.063988412046
+      },
+      "speed": 152.14924392194527,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 80.702,
+      "simSeconds": 81.31666666666334,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -1096.2753986640548,
+        "y": 330.96125619222846,
+        "z": -3003.411832917784
+      },
+      "speed": 152.1703442693429,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 81.738,
+      "simSeconds": 82.33333333332995,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -1222.25933103771,
+        "y": 318.2574540453462,
+        "z": -3092.3132724018556
+      },
+      "speed": 152.18656764950893,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 82.775,
+      "simSeconds": 83.36666666666322,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -1350.320743601778,
+        "y": 305.344165682188,
+        "z": -3182.680700254268
+      },
+      "speed": 152.19945572976172,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 83.803,
+      "simSeconds": 84.43333333332983,
+      "status": "playing",
+      "stage": "route",
+      "route": 4,
+      "approach": 0,
+      "pos": {
+        "x": -1482.5231958675363,
+        "y": 292.01330860164364,
+        "z": -3275.9702816186627
+      },
+      "speed": 152.20979257498627,
+      "power": 0.7086666666666681,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 84.814,
+      "simSeconds": 85.44999999999644,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -1598.4349159013207,
+        "y": 292.9540296772529,
+        "z": -3375.4676963775287
+      },
+      "speed": 148.34422440816311,
+      "power": 0.5535000000000022,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 85.84,
+      "simSeconds": 86.46666666666304,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -1680.0607906224157,
+        "y": 303.87796710925,
+        "z": -3496.532263155
+      },
+      "speed": 140.41899491155422,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 86.848,
+      "simSeconds": 87.46666666666299,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -1749.4135237864375,
+        "y": 314.3636216666064,
+        "z": -3614.4214464088163
+      },
+      "speed": 134.28391007983373,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 87.854,
+      "simSeconds": 88.46666666666293,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -1816.089908013742,
+        "y": 324.43915681298176,
+        "z": -3727.5888937539817
+      },
+      "speed": 129.45980829571081,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 88.897,
+      "simSeconds": 89.51666666666287,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -1883.9340831259017,
+        "y": 334.6676903003709,
+        "z": -3842.380947854333
+      },
+      "speed": 125.50009853252999,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 89.913,
+      "simSeconds": 90.53333333332948,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -1947.8575964416043,
+        "y": 344.30359068329966,
+        "z": -3950.5159767798486
+      },
+      "speed": 122.51017804468913,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 90.948,
+      "simSeconds": 91.56666666666275,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -2011.4294263926442,
+        "y": 353.8867911549779,
+        "z": -4058.0608293031996
+      },
+      "speed": 120.13494335950223,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 91.956,
+      "simSeconds": 92.58333333332936,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -2072.900205621354,
+        "y": 363.1533278806193,
+        "z": -4162.0522496575095
+      },
+      "speed": 118.30870161297963,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 92.968,
+      "simSeconds": 93.5833333333293,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -2132.548602355918,
+        "y": 372.1451472779721,
+        "z": -4262.96072811703
+      },
+      "speed": 116.89930080250866,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 93.982,
+      "simSeconds": 94.58333333332925,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -2191.562677450606,
+        "y": 381.0413435168746,
+        "z": -4362.796095126754
+      },
+      "speed": 115.79116031606684,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 94.993,
+      "simSeconds": 95.63333333332919,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -2252.9927066903556,
+        "y": 390.30173743295614,
+        "z": -4466.718579825922
+      },
+      "speed": 114.88158096775986,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 96,
+      "simSeconds": 96.63333333332913,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 0,
+      "pos": {
+        "x": -2311.0986686244883,
+        "y": 399.0610380903916,
+        "z": -4565.01766907402
+      },
+      "speed": 114.20472938558177,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 97.044,
+      "simSeconds": 97.66666666666241,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 1,
+      "pos": {
+        "x": -2363.8746640946183,
+        "y": 401.17431783988394,
+        "z": -4669.721921656977
+      },
+      "speed": 114.2082005129677,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 98.087,
+      "simSeconds": 98.71666666666235,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 1,
+      "pos": {
+        "x": -2359.1305021502058,
+        "y": 393.4237169672897,
+        "z": -4787.789742179015
+      },
+      "speed": 114.96253370263933,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 99.11,
+      "simSeconds": 99.73333333332896,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 1,
+      "pos": {
+        "x": -2288.7179111571572,
+        "y": 386.6167913972087,
+        "z": -4878.9035897145795
+      },
+      "speed": 115.4751794298452,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 100.14,
+      "simSeconds": 100.7333333333289,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 1,
+      "pos": {
+        "x": -2180.2594299939333,
+        "y": 380.4685231444383,
+        "z": -4913.491250010462
+      },
+      "speed": 115.82686918410927,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 101.175,
+      "simSeconds": 101.74999999999551,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 1,
+      "pos": {
+        "x": -2064.4080842684707,
+        "y": 374.4015454461305,
+        "z": -4895.211839416657
+      },
+      "speed": 116.0921539001895,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 102.255,
+      "simSeconds": 102.83333333332878,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1948.5836247261116,
+        "y": 366.6592760245985,
+        "z": -4847.95695117534
+      },
+      "speed": 116.41096083463508,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 103.262,
+      "simSeconds": 103.81666666666206,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1878.595997125825,
+        "y": 357.83679683511383,
+        "z": -4759.601961687217
+      },
+      "speed": 116.76961304365594,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 104.363,
+      "simSeconds": 104.93333333332866,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1852.814514746767,
+        "y": 347.83378474421164,
+        "z": -4632.48218917478
+      },
+      "speed": 117.08291157238779,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 105.453,
+      "simSeconds": 106.0333333333286,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1844.3283026785039,
+        "y": 337.9698914300977,
+        "z": -4504.217344659968
+      },
+      "speed": 117.31836309187676,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 106.518,
+      "simSeconds": 107.11666666666187,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1837.0340327941458,
+        "y": 328.23883223531976,
+        "z": -4377.602923275207
+      },
+      "speed": 117.49666255794713,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 107.605,
+      "simSeconds": 108.16666666666181,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1829.814690802466,
+        "y": 318.7947771999505,
+        "z": -4254.730864606537
+      },
+      "speed": 117.63035245992342,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 108.67,
+      "simSeconds": 109.24999999999508,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1822.3206742573348,
+        "y": 309.0410086308567,
+        "z": -4127.831499898546
+      },
+      "speed": 117.73709642336598,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 109.687,
+      "simSeconds": 110.24999999999503,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 2,
+      "pos": {
+        "x": -1815.395069569218,
+        "y": 300.030587746161,
+        "z": -4010.6034650353217
+      },
+      "speed": 117.81376340647851,
+      "power": 0.5471666666666689,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 110.708,
+      "simSeconds": 111.26666666666164,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1809.3370339571463,
+        "y": 288.0591683426509,
+        "z": -3899.3937899323623
+      },
+      "speed": 102.56178232906471,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 111.806,
+      "simSeconds": 112.36666666666157,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1805.859883597192,
+        "y": 271.6484143469153,
+        "z": -3788.772107980894
+      },
+      "speed": 100.98341418095056,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 112.915,
+      "simSeconds": 113.46666666666151,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1803.9694635351661,
+        "y": 254.79057442836546,
+        "z": -3679.67771376187
+      },
+      "speed": 99.83055634284543,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 113.951,
+      "simSeconds": 114.51666666666145,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1802.819410411534,
+        "y": 238.48162919293785,
+        "z": -3576.6003289174682
+      },
+      "speed": 99.01452483224199,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 115.042,
+      "simSeconds": 115.59999999999472,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1802.0018085609825,
+        "y": 221.4920457894996,
+        "z": -3471.057722448641
+      },
+      "speed": 98.38865986648646,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 116.145,
+      "simSeconds": 116.683333333328,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1801.4271592363853,
+        "y": 204.37761839900122,
+        "z": -3366.125134660899
+      },
+      "speed": 97.92611279060937,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 117.212,
+      "simSeconds": 117.78333333332793,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1801.0142473299993,
+        "y": 186.90256553101258,
+        "z": -3260.039803776518
+      },
+      "speed": 97.58019694765494,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 118.287,
+      "simSeconds": 118.84999999999454,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.7291571218905,
+        "y": 169.8848767587013,
+        "z": -3157.4976766131363
+      },
+      "speed": 97.3330116236922,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 119.362,
+      "simSeconds": 119.94999999999447,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.519250532789,
+        "y": 152.27765472038416,
+        "z": -3052.000907760858
+      },
+      "speed": 97.14539032133948,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 120.436,
+      "simSeconds": 120.98333333332775,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.3776646659016,
+        "y": 135.69569989697777,
+        "z": -2953.0690176676685
+      },
+      "speed": 97.01538477019972,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 121.473,
+      "simSeconds": 122.06666666666102,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.2705987795962,
+        "y": 118.2772138141582,
+        "z": -2849.4815315292244
+      },
+      "speed": 96.9147346312406,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 122.558,
+      "simSeconds": 123.13333333332763,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.1949422366301,
+        "y": 101.09971978323861,
+        "z": -2747.584906681086
+      },
+      "speed": 96.84210515029449,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 123.648,
+      "simSeconds": 124.2166666666609,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.139752686385,
+        "y": 83.63224170821103,
+        "z": -2644.1686389275555
+      },
+      "speed": 96.78817452381426,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 124.739,
+      "simSeconds": 125.31666666666084,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0996861406516,
+        "y": 66.01596131560876,
+        "z": -2539.1947403596764
+      },
+      "speed": 96.73579095679266,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 125.837,
+      "simSeconds": 126.41666666666077,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0710377716941,
+        "y": 51.033794211359,
+        "z": -2433.981427664885
+      },
+      "speed": 96.45270042442677,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 126.844,
+      "simSeconds": 127.41666666666072,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.052183041898,
+        "y": 40.44432414659733,
+        "z": -2338.3453333938
+      },
+      "speed": 95.97668035417475,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 127.854,
+      "simSeconds": 128.43333333332768,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0381559772582,
+        "y": 32.044649525001915,
+        "z": -2241.4355895863955
+      },
+      "speed": 95.38169645989922,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 128.872,
+      "simSeconds": 129.44999999999516,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.027931364791,
+        "y": 25.511200180334647,
+        "z": -2145.0136803583846
+      },
+      "speed": 94.74601121994236,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 129.939,
+      "simSeconds": 130.51666666666267,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0201673720617,
+        "y": 20.207726212491682,
+        "z": -2044.4517758311383
+      },
+      "speed": 94.08553711813774,
+      "power": 0.4268333333333362,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 130.984,
+      "simSeconds": 131.54999999999683,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0147444019767,
+        "y": 16.24407285524533,
+        "z": -1947.8265074626092
+      },
+      "speed": 92.3665717267936,
+      "power": 0.3350000000000033,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 132.065,
+      "simSeconds": 132.6499999999977,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.010708009443,
+        "y": 13.09412568759747,
+        "z": -1849.2446306498082
+      },
+      "speed": 87.25054655414105,
+      "power": 0.32866666666667,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 133.089,
+      "simSeconds": 133.66666666666518,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.00807901103,
+        "y": 10.85158629635969,
+        "z": -1762.5656644615683
+      },
+      "speed": 83.52999004698984,
+      "power": 0.32866666666667,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 134.106,
+      "simSeconds": 134.71666666666601,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0061055548929,
+        "y": 8.144091699978555,
+        "z": -1676.5550643582244
+      },
+      "speed": 80.52497031756408,
+      "power": 0.32866666666667,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 135.136,
+      "simSeconds": 135.7333333333335,
+      "status": "playing",
+      "stage": "approach",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.004693701736,
+        "y": 4.334421482083991,
+        "z": -1595.9326790096363
+      },
+      "speed": 78.25558514261316,
+      "power": 0.32866666666667,
+      "grounded": false,
+      "paused": false
+    },
+    {
+      "wallSeconds": 136.19,
+      "simSeconds": 136.78333333333433,
+      "status": "playing",
+      "stage": "landed",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0037150134292,
+        "y": 3,
+        "z": -1527.8368369094874
+      },
+      "speed": 40.966989849898816,
+      "power": 0.05000000000000315,
+      "grounded": true,
+      "paused": false
+    },
+    {
+      "wallSeconds": 137.741,
+      "simSeconds": 137.50000000000156,
+      "status": "complete",
+      "stage": "landed",
+      "route": 5,
+      "approach": 3,
+      "pos": {
+        "x": -1800.0034908459058,
+        "y": 3,
+        "z": -1512.0193561354117
+      },
+      "speed": 4.92165311680701,
+      "power": 0,
+      "grounded": true,
+      "paused": false
+    }
+  ],
+  "errors": []
+}

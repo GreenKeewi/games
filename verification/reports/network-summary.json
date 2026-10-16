@@ -1,0 +1,14 @@
+{
+  "publishedUrl": "https://greenkeewi.github.io/jets/?v=4cbaedcf",
+  "publishedCommitReportedByParent": "4cbaedcfa8a7ae3aaeb5a5796d64bc0e89016664",
+  "productionFiles": ["jets/network.js", "jets/network-ui.js"],
+  "unitTests": {"passed": 5, "command": "node --test jets/tests/network.test.js"},
+  "protocol": {"passedGroups": 10, "browserProfiles": 6, "report": "protocol-results.json", "nativeWebRTC": true, "defaultMdns": true},
+  "localRenderedGame": {"passedGroups": 8, "report": "game-integration-two-results.json"},
+  "publishedRenderedGame": {"passedGroups": 8, "report": "game-integration-live-results.json", "errors": []},
+  "renderedTestConditions": {"gameDocuments": 2, "sharedBrowserProfile": true, "nativeWebRTC": true, "realWebGL": true, "cssViewport": [640, 480], "drawingScale": 0.35, "antialias": false, "testFrameSchedulerMilliseconds": 200, "performanceBenchmark": false},
+  "stressRegression": {"simulationSteps": 600, "pilots": 6, "maxUnencodedSnapshotCharacters": 90151, "maxEncodedSnapshotBytes": 54041, "oversizedEncodedFrames": 0, "hostStateMutated": false},
+  "captures": ["live-two-peer-guest-cockpit.png", "live-two-peer-host-victory.png"],
+  "limitations": ["Same-machine cloud browser verification; physical separate-device Wi-Fi unverified", "Six rendered game documents paired successfully, but the 1 GB VM could not sustain a complete six-renderer gameplay suite", "Rendered integration used reduced drawing buffers and a test-only frame scheduler; no frame-rate claim"],
+  "initialExecutorPolicy": "Managed Chromium WebRtcIPHandling=disable_non_proxied_udp; left unchanged. Friendly no-candidate diagnostics verified; native peer tests ran in the second authorized cloud executor."
+}

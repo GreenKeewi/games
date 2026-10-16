@@ -1,0 +1,56 @@
+{
+  "created": "2026-10-16T02:52:13.060Z",
+  "environment": "Chromium on one cloud machine; separate isolated browser contexts, not physical separate-device Wi-Fi",
+  "results": [
+    {
+      "name": "pure validation, replay rejection, action cooldown and rate limits",
+      "passed": true,
+      "milliseconds": 3
+    },
+    {
+      "name": "snapshot interpolation wraps heading, clamps and does not mutate source",
+      "passed": true,
+      "milliseconds": 0
+    },
+    {
+      "name": "keyboard-only host and guest pairing controls",
+      "passed": true,
+      "milliseconds": 1986
+    },
+    {
+      "name": "guest input identity, reliable actions, stale neutralization, host start and snapshots",
+      "passed": true,
+      "milliseconds": 764
+    },
+    {
+      "name": "malformed, mismatched and replayed pairing preserves current session",
+      "passed": true,
+      "milliseconds": 10
+    },
+    {
+      "name": "malicious identity, oversized/invalid packets and old sequence are ignored",
+      "passed": true,
+      "milliseconds": 11
+    },
+    {
+      "name": "six isolated browser contexts connect host star and late joins get mission",
+      "passed": true,
+      "milliseconds": 2102
+    },
+    {
+      "name": "backpressure skips realtime without unbounded queue; reliable control resumes",
+      "passed": true,
+      "milliseconds": 75
+    },
+    {
+      "name": "guest disconnect frees its seat and a fresh complete exchange reconnects",
+      "passed": true,
+      "milliseconds": 212
+    },
+    {
+      "name": "host disconnect reaches every guest, neutralizes and supports solo return",
+      "passed": true,
+      "milliseconds": 75
+    }
+  ]
+}

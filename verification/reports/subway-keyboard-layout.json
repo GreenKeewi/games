@@ -1,0 +1,57 @@
+{
+  "name": "subway-compact",
+  "url": "http://127.0.0.1:8203/",
+  "at": "2026-10-16T02:51:16.907Z",
+  "errors": [],
+  "failedRequests": [],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    }
+  ],
+  "focus": [
+    {
+      "tag": "BUTTON",
+      "id": "training",
+      "text": "Ride with driving assist\nA",
+      "x": 71.671875,
+      "y": 384.09375,
+      "width": 440,
+      "height": 38,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "menu-help",
+      "text": "How to drive\nH",
+      "x": 71.671875,
+      "y": 430.09375,
+      "width": 440,
+      "height": 38,
+      "within": true
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "← All games",
+      "x": 71.671875,
+      "y": 485.09375,
+      "width": 72.984375,
+      "height": 15,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "start",
+      "text": "Start your shift\n↵",
+      "x": 71.671875,
+      "y": 338.09375,
+      "width": 440,
+      "height": 38,
+      "within": true
+    }
+  ],
+  "clipped": [],
+  "passed": true
+}

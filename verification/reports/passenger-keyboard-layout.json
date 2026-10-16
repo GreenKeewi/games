@@ -1,0 +1,62 @@
+{
+  "name": "flight-compact",
+  "url": "http://127.0.0.1:8202/",
+  "at": "2026-10-16T02:51:14.955Z",
+  "errors": [],
+  "failedRequests": [],
+  "console": [],
+  "focus": [
+    {
+      "tag": "BUTTON",
+      "id": "practice",
+      "text": "Practice a landing",
+      "x": 356.484375,
+      "y": 382.46875,
+      "width": 144.703125,
+      "height": 63,
+      "within": true
+    },
+    {
+      "tag": "SUMMARY",
+      "id": "",
+      "text": "How to fly & accessibility",
+      "x": 51.1875,
+      "y": 490.46875,
+      "width": 450,
+      "height": 20,
+      "within": true
+    },
+    {
+      "tag": "CANVAS",
+      "id": "world",
+      "text": "3D flight view. Arrow keys turn, climb and descend. W increases thrust",
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 600,
+      "within": true
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "← All games",
+      "x": 51.1875,
+      "y": 22,
+      "width": 77.546875,
+      "height": 15,
+      "within": true
+    },
+    {
+      "tag": "BUTTON",
+      "id": "start",
+      "text": "Fly from the gate\n↵",
+      "x": 51.1875,
+      "y": 382.46875,
+      "width": 293.296875,
+      "height": 63,
+      "within": true
+    }
+  ],
+  "clipped": [],
+  "passed": true
+}

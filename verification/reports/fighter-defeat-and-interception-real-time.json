@@ -1,0 +1,23 @@
+{
+  "passiveLoss": {
+    "wall": 36.138,
+    "time": 36.683333333332534,
+    "result": {
+      "title": "Squadron defeated",
+      "text": "Your squadron has been intercepted. Try another sortie.",
+      "winner": 1
+    },
+    "hp": 0
+  },
+  "defender": {
+    "wall": 9.138,
+    "time": 8.866666666666687,
+    "result": {
+      "title": "Interceptor victory",
+      "text": "The bomber was stopped before reaching its escape zone.",
+      "winner": 0
+    },
+    "hp": 100
+  },
+  "errors": []
+}

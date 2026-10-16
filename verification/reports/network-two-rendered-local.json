@@ -1,0 +1,56 @@
+{
+  "created": "2026-10-16T03:10:39.979Z",
+  "url": "http://127.0.0.1:37925/jets/index.html",
+  "environment": "2 rendered game documents in one shared browser profile on one cloud machine; physical separate-device Wi-Fi unverified",
+  "peerCount": 2,
+  "deviceScale": 0.35,
+  "viewport": {
+    "width": 640,
+    "height": 480
+  },
+  "testFrameInterval": 200,
+  "testAntialiasDisabled": true,
+  "results": [
+    {
+      "name": "Tab-only game menus pair first guest; 2 rendered contexts form authoritative host star",
+      "passed": true,
+      "milliseconds": 3601
+    },
+    {
+      "name": "keyboard launches 3v3; every guest receives identical pilot identities and teams",
+      "passed": true,
+      "milliseconds": 1252
+    },
+    {
+      "name": "guest keyboard controls its own aircraft and guest HUD follows local identity",
+      "passed": true,
+      "milliseconds": 6429
+    },
+    {
+      "name": "host keyboard pause freezes authoritative simulation; resume reaches all guests",
+      "passed": true,
+      "milliseconds": 570
+    },
+    {
+      "name": "guest personal menu cannot pause host or choose mission settings",
+      "passed": true,
+      "milliseconds": 267
+    },
+    {
+      "name": "disconnect gives bot control; reconnect restores human control and inherits host pause",
+      "passed": true,
+      "milliseconds": 703
+    },
+    {
+      "name": "host victory and opposite-team defeat arrive through snapshots; keyboard restart resets all",
+      "passed": true,
+      "milliseconds": 5641
+    },
+    {
+      "name": "host return sends every guest to menu; disconnect closes every data channel",
+      "passed": true,
+      "milliseconds": 123
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,56 @@
+{
+  "created": "2026-10-16T03:13:00.380Z",
+  "url": "https://greenkeewi.github.io/jets/?v=4cbaedcf",
+  "environment": "2 rendered game documents in one shared browser profile on one cloud machine; physical separate-device Wi-Fi unverified",
+  "peerCount": 2,
+  "deviceScale": 0.35,
+  "viewport": {
+    "width": 640,
+    "height": 480
+  },
+  "testFrameInterval": 200,
+  "testAntialiasDisabled": true,
+  "results": [
+    {
+      "name": "Tab-only game menus pair first guest; 2 rendered contexts form authoritative host star",
+      "passed": true,
+      "milliseconds": 4079
+    },
+    {
+      "name": "keyboard launches 3v3; every guest receives identical pilot identities and teams",
+      "passed": true,
+      "milliseconds": 1234
+    },
+    {
+      "name": "guest keyboard controls its own aircraft and guest HUD follows local identity",
+      "passed": true,
+      "milliseconds": 5977
+    },
+    {
+      "name": "host keyboard pause freezes authoritative simulation; resume reaches all guests",
+      "passed": true,
+      "milliseconds": 569
+    },
+    {
+      "name": "guest personal menu cannot pause host or choose mission settings",
+      "passed": true,
+      "milliseconds": 98
+    },
+    {
+      "name": "disconnect gives bot control; reconnect restores human control and inherits host pause",
+      "passed": true,
+      "milliseconds": 899
+    },
+    {
+      "name": "host victory and opposite-team defeat arrive through snapshots; keyboard restart resets all",
+      "passed": true,
+      "milliseconds": 5687
+    },
+    {
+      "name": "host return sends every guest to menu; disconnect closes every data channel",
+      "passed": true,
+      "milliseconds": 131
+    }
+  ],
+  "errors": []
+}

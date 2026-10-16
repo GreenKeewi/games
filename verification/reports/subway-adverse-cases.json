@@ -1,0 +1,311 @@
+{
+  "name": "subway-adverse",
+  "url": "http://127.0.0.1:8203/",
+  "at": "2026-10-16T02:38:56.468Z",
+  "errors": [],
+  "failedRequests": [],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    }
+  ],
+  "checks": [
+    {
+      "label": "keyboard-assist-manual-override",
+      "state": {
+        "s": 0.48499377545753103,
+        "v": 0.8950598477773442,
+        "handle": 1,
+        "time": 6.083333333333317,
+        "next": 1,
+        "doors": null,
+        "phase": "service",
+        "score": 150,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "distance": 639.5150062245425,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 5.016666666666654
+          }
+        ],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 16,
+          "calls": 218,
+          "triangles": 82392,
+          "points": 0,
+          "lines": 0
+        }
+      },
+      "message": "Manual control. You have the handle."
+    },
+    {
+      "label": "wrong-side-doors-interlock",
+      "state": {
+        "s": 640,
+        "v": 0,
+        "handle": 0,
+        "time": 10.300000000000091,
+        "next": 2,
+        "doors": null,
+        "phase": "service",
+        "score": 300,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "distance": 670,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 5.016666666666654
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 10.300000000000091
+          }
+        ],
+        "penalties": 0,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 16,
+          "calls": 218,
+          "triangles": 82392,
+          "points": 0,
+          "lines": 0
+        }
+      },
+      "message": "Doors open · Bowery. Boarding passengers."
+    },
+    {
+      "label": "red-signal-protection",
+      "state": {
+        "s": 1020,
+        "v": 0,
+        "handle": 0,
+        "time": 15.63333333333369,
+        "next": 2,
+        "doors": null,
+        "phase": "service",
+        "score": 250,
+        "assist": false,
+        "signal": "red",
+        "signalCleared": false,
+        "distance": 290,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 5.016666666666654
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 10.300000000000091
+          }
+        ],
+        "penalties": 1,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 20,
+          "calls": 217,
+          "triangles": 79944,
+          "points": 0,
+          "lines": 0
+        }
+      },
+      "message": "Train protection stopped you at red. Wait for the signal."
+    },
+    {
+      "label": "signal-clears-after-hold",
+      "state": {
+        "s": 1020,
+        "v": 0,
+        "handle": 0,
+        "time": 22.649999999999995,
+        "next": 2,
+        "doors": null,
+        "phase": "service",
+        "score": 250,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "distance": 290,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 5.016666666666654
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 10.300000000000091
+          }
+        ],
+        "penalties": 1,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 20,
+          "calls": 217,
+          "triangles": 79944,
+          "points": 0,
+          "lines": 0
+        }
+      },
+      "message": "Signal clear. Proceed toward East River."
+    },
+    {
+      "label": "missed-stop-keyboard-recovery-beyond-signal",
+      "state": {
+        "s": 2100,
+        "v": 0,
+        "handle": 0,
+        "time": 22.86666666666665,
+        "next": 3,
+        "doors": "left",
+        "phase": "service",
+        "score": 175,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 5.016666666666654
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 10.300000000000091
+          }
+        ],
+        "penalties": 2,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "renderer": {
+          "frame": 20,
+          "calls": 217,
+          "triangles": 79944,
+          "points": 0,
+          "lines": 0
+        }
+      },
+      "message": "Recovered to Grand Avenue. Board passengers, then D to continue."
+    },
+    {
+      "label": "exterior-camera-open-track",
+      "state": {
+        "s": 1737.619751878881,
+        "v": 12.060762521659626,
+        "handle": 0.2,
+        "time": 23.499999999999947,
+        "next": 3,
+        "doors": null,
+        "phase": "service",
+        "score": 175,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "distance": 362.38024812111894,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 5.016666666666654
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 10.300000000000091
+          }
+        ],
+        "penalties": 2,
+        "started": true,
+        "paused": false,
+        "view": "exterior",
+        "renderer": {
+          "frame": 28,
+          "calls": 513,
+          "triangles": 74582,
+          "points": 0,
+          "lines": 0
+        }
+      },
+      "message": "Recovered to Grand Avenue. Board passengers, then D to continue."
+    },
+    {
+      "label": "native-pause-help-return",
+      "state": {
+        "s": 1737.619751878881,
+        "v": 12.060762521659626,
+        "handle": 0.2,
+        "time": 23.499999999999947,
+        "next": 3,
+        "doors": null,
+        "phase": "service",
+        "score": 175,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "distance": 362.38024812111894,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 5.016666666666654
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 10.300000000000091
+          }
+        ],
+        "penalties": 2,
+        "started": true,
+        "paused": false,
+        "view": "exterior",
+        "renderer": {
+          "frame": 28,
+          "calls": 513,
+          "triangles": 74582,
+          "points": 0,
+          "lines": 0
+        }
+      },
+      "message": "Recovered to Grand Avenue. Board passengers, then D to continue."
+    }
+  ],
+  "passed": true,
+  "hubKeyboardNavigation": true,
+  "hubNavigationNote": "Published hub URL intercepted to local identical hub for this executor; root verifies public deployment separately."
+}

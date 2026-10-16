@@ -1,0 +1,1116 @@
+{
+  "name": "jets-realtime",
+  "url": "http://127.0.0.1:8201/",
+  "at": "2026-10-16T02:50:17.787Z",
+  "errors": [],
+  "failedRequests": [],
+  "console": [],
+  "checks": [
+    {
+      "label": "normal-rAF-keyboard-dogfight",
+      "wallSeconds": 10.528,
+      "state": {
+        "version": 1,
+        "mode": "dogfight",
+        "teamSize": 1,
+        "role": "attack",
+        "difficulty": "normal",
+        "rng": 1354682268,
+        "time": 9.500000000000052,
+        "tick": 570,
+        "status": "complete",
+        "result": {
+          "title": "Air superiority",
+          "text": "The skies are yours. Every opposing aircraft is down.",
+          "winner": 0
+        },
+        "pilots": [
+          {
+            "id": "host",
+            "team": 0,
+            "human": true,
+            "bomber": false,
+            "pos": {
+              "x": -180,
+              "y": 700,
+              "z": -382.61347459008965
+            },
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "speed": 161.37674086508227,
+            "throttle": 0.78,
+            "hp": 100,
+            "heat": 0,
+            "radar": 0,
+            "flares": 6,
+            "chaff": 5,
+            "bombs": 0,
+            "heatCD": 0.9500000000000021,
+            "radarCD": 2.0166666666666684,
+            "flareCD": 0,
+            "chaffCD": 0.2666666666666659,
+            "bombCD": 0,
+            "lock": 3,
+            "targetId": "bot1",
+            "dead": false,
+            "grounded": false,
+            "landed": false,
+            "aiTimer": 0,
+            "aiShot": 2,
+            "aiDefend": 0,
+            "aiBreak": 0,
+            "aiNextBreak": 7,
+            "rearm": 9.500000000000052,
+            "aiEvade": 0,
+            "trail": []
+          },
+          {
+            "id": "bot1",
+            "team": 1,
+            "human": false,
+            "bomber": false,
+            "pos": {
+              "x": -125.12210632107025,
+              "y": 707.5287202593278,
+              "z": 556.9162266673384
+            },
+            "yaw": 3.0143512174117504,
+            "pitch": -0.0004955021301322343,
+            "roll": 0.3261634219690363,
+            "speed": 136.5460647873317,
+            "throttle": 0.6517499999999787,
+            "hp": 0,
+            "heat": 6,
+            "radar": 3,
+            "flares": 6,
+            "chaff": 5,
+            "bombs": 0,
+            "heatCD": 0,
+            "radarCD": 0,
+            "flareCD": 0,
+            "chaffCD": 0,
+            "bombCD": 0,
+            "lock": 3,
+            "targetId": "host",
+            "dead": true,
+            "grounded": false,
+            "landed": false,
+            "aiTimer": 0,
+            "aiShot": 0.34149399251523127,
+            "aiDefend": 2.7024490612869556,
+            "aiBreak": 0,
+            "aiNextBreak": -0.6000000000000204,
+            "rearm": 9.500000000000052,
+            "aiEvade": 1.1884955915932949,
+            "trail": []
+          }
+        ],
+        "missiles": [
+          {
+            "id": 4,
+            "type": "radar",
+            "ownerId": "host",
+            "team": 0,
+            "targetId": "bot1",
+            "pos": {
+              "x": -180,
+              "y": 700.4819473041439,
+              "z": 1339.7603680600007
+            },
+            "dir": {
+              "x": 4.360369786267428e-17,
+              "y": 0.0009036540418381327,
+              "z": 0.999999591704603
+            },
+            "speed": 390,
+            "age": 8.04999999999998,
+            "life": 17,
+            "decoyed": true
+          },
+          {
+            "id": 10,
+            "type": "radar",
+            "ownerId": "host",
+            "team": 0,
+            "targetId": "bot1",
+            "pos": {
+              "x": -146.88474390745154,
+              "y": 706.3649746689523,
+              "z": 755.6291184986053
+            },
+            "dir": {
+              "x": 0.044711931746329044,
+              "y": 0.008739040516791745,
+              "z": 0.9989616971287526
+            },
+            "speed": 390,
+            "age": 5.533333333333319,
+            "life": 17,
+            "decoyed": true
+          },
+          {
+            "id": 12,
+            "type": "radar",
+            "ownerId": "bot1",
+            "team": 1,
+            "targetId": "host",
+            "pos": {
+              "x": -180,
+              "y": 699.9961294372821,
+              "z": -439.5713187642878
+            },
+            "dir": {
+              "x": 3.181537283341367e-20,
+              "y": 0.0013541552982646713,
+              "z": -0.9999990831312937
+            },
+            "speed": 390,
+            "age": 4.633333333333322,
+            "life": 17,
+            "decoyed": true
+          },
+          {
+            "id": 14,
+            "type": "heat",
+            "ownerId": "host",
+            "team": 0,
+            "targetId": "bot1",
+            "pos": {
+              "x": -135.97673061359788,
+              "y": 706.1943307600259,
+              "z": 260.21532897297675
+            },
+            "dir": {
+              "x": 0.08945384156952937,
+              "y": 0.009952784011862822,
+              "z": 0.995941239390591
+            },
+            "speed": 325,
+            "age": 4.049999999999991,
+            "life": 13,
+            "decoyed": false
+          },
+          {
+            "id": 16,
+            "type": "radar",
+            "ownerId": "host",
+            "team": 0,
+            "targetId": "bot1",
+            "pos": {
+              "x": -137.47553419442374,
+              "y": 705.9315736334422,
+              "z": 177.69802610126
+            },
+            "dir": {
+              "x": 0.07227124177889827,
+              "y": 0.00872460988911948,
+              "z": 0.9973468548073026
+            },
+            "speed": 390,
+            "age": 3.016666666666661,
+            "life": 17,
+            "decoyed": false
+          },
+          {
+            "id": 26,
+            "type": "heat",
+            "ownerId": "host",
+            "team": 0,
+            "targetId": "bot1",
+            "pos": {
+              "x": -138.14769016079413,
+              "y": 705.2872454948339,
+              "z": -14.59252741916876
+            },
+            "dir": {
+              "x": 0.0765592760054188,
+              "y": 0.009189829377223133,
+              "z": 0.9970226799293703
+            },
+            "speed": 325,
+            "age": 2.3833333333333298,
+            "life": 13,
+            "decoyed": false
+          },
+          {
+            "id": 39,
+            "type": "heat",
+            "ownerId": "host",
+            "team": 0,
+            "targetId": "bot1",
+            "pos": {
+              "x": -165.35832867470899,
+              "y": 700.140491114131,
+              "z": -281.1546059104747
+            },
+            "dir": {
+              "x": 0.10406055172776583,
+              "y": 0.013696445905865147,
+              "z": 0.9944766507785192
+            },
+            "speed": 297.51580548187087,
+            "age": 0.7166666666666672,
+            "life": 13,
+            "decoyed": false
+          },
+          {
+            "id": 43,
+            "type": "radar",
+            "ownerId": "host",
+            "team": 0,
+            "targetId": "bot1",
+            "pos": {
+              "x": -172.43785670734974,
+              "y": 699.0622561074374,
+              "z": -308.8693734215116
+            },
+            "dir": {
+              "x": 0.0874178001884447,
+              "y": 0.011218775450391807,
+              "z": 0.9961085619989453
+            },
+            "speed": 283.5780568881717,
+            "age": 0.49999999999999994,
+            "life": 17,
+            "decoyed": false
+          }
+        ],
+        "countermeasures": [
+          {
+            "id": 18,
+            "type": "chaff",
+            "ownerId": "bot1",
+            "pos": {
+              "x": -227.00768410210028,
+              "y": 578.0255423343805,
+              "z": 872.3473794106291
+            },
+            "vel": {
+              "x": -17.518715760670602,
+              "y": -61.658301242441354,
+              "z": -14.149282635189593
+            },
+            "age": 2.6833333333333287,
+            "life": 5
+          },
+          {
+            "id": 19,
+            "type": "chaff",
+            "ownerId": "bot1",
+            "pos": {
+              "x": -235.0457293843431,
+              "y": 615.1432588481098,
+              "z": 941.9674024146412
+            },
+            "vel": {
+              "x": -20.514260586351156,
+              "y": -47.82561185844259,
+              "z": 11.796067552641034
+            },
+            "age": 2.6833333333333287,
+            "life": 5
+          },
+          {
+            "id": 20,
+            "type": "chaff",
+            "ownerId": "bot1",
+            "pos": {
+              "x": -224.25497600650877,
+              "y": 612.9874186457204,
+              "z": 980.0980778275886
+            },
+            "vel": {
+              "x": -16.492861812002957,
+              "y": -48.62903056740779,
+              "z": 26.00625714752823
+            },
+            "age": 2.6833333333333287,
+            "life": 5
+          },
+          {
+            "id": 21,
+            "type": "chaff",
+            "ownerId": "bot1",
+            "pos": {
+              "x": -181.76323988200627,
+              "y": 592.3691769893031,
+              "z": 879.0583580497083
+            },
+            "vel": {
+              "x": -0.6574322003871202,
+              "y": -56.312847333774286,
+              "z": -11.648296806961298
+            },
+            "age": 2.6833333333333287,
+            "life": 5
+          },
+          {
+            "id": 22,
+            "type": "chaff",
+            "ownerId": "bot1",
+            "pos": {
+              "x": -145.3265159826772,
+              "y": 599.6015308152022,
+              "z": 930.6864379020304
+            },
+            "vel": {
+              "x": 12.921471116133034,
+              "y": -53.61756019368795,
+              "z": 7.591981398873031
+            },
+            "age": 2.6833333333333287,
+            "life": 5
+          },
+          {
+            "id": 23,
+            "type": "chaff",
+            "ownerId": "bot1",
+            "pos": {
+              "x": -241.71032951171972,
+              "y": 608.1252444736107,
+              "z": 886.4023316951831
+            },
+            "vel": {
+              "x": -22.99796249717474,
+              "y": -50.44102094210706,
+              "z": -8.91141221858561
+            },
+            "age": 2.6833333333333287,
+            "life": 5
+          },
+          {
+            "id": 31,
+            "type": "chaff",
+            "ownerId": "host",
+            "pos": {
+              "x": -174.54610970034264,
+              "y": 675.4179410792142,
+              "z": -521.9447266639605
+            },
+            "vel": {
+              "x": 5.740937157534063,
+              "y": -31.675851495563943,
+              "z": 11.598097910173237
+            },
+            "age": 0.9500000000000013,
+            "life": 5
+          },
+          {
+            "id": 32,
+            "type": "chaff",
+            "ownerId": "host",
+            "pos": {
+              "x": -200.8163909954019,
+              "y": 682.1028354151365,
+              "z": -558.3279761784639
+            },
+            "vel": {
+              "x": -21.911990521475673,
+              "y": -24.639120615646203,
+              "z": -26.700059473514557
+            },
+            "age": 0.9500000000000013,
+            "life": 5
+          },
+          {
+            "id": 33,
+            "type": "chaff",
+            "ownerId": "host",
+            "pos": {
+              "x": -182.2145197747741,
+              "y": 698.5651790739228,
+              "z": -512.4600143617414
+            },
+            "vel": {
+              "x": -2.3310734471306205,
+              "y": -7.310337816923862,
+              "z": 21.582005596719682
+            },
+            "age": 0.9500000000000013,
+            "life": 5
+          },
+          {
+            "id": 34,
+            "type": "chaff",
+            "ownerId": "host",
+            "pos": {
+              "x": -178.07153971027583,
+              "y": 664.4930850520913,
+              "z": -557.9125460000638
+            },
+            "vel": {
+              "x": 2.029958199709654,
+              "y": -43.17569994516686,
+              "z": -26.262764548882842
+            },
+            "age": 0.9500000000000013,
+            "life": 5
+          },
+          {
+            "id": 35,
+            "type": "chaff",
+            "ownerId": "host",
+            "pos": {
+              "x": -155.2968182999175,
+              "y": 695.2634695123132,
+              "z": -554.6220695230573
+            },
+            "vel": {
+              "x": 26.003349157981575,
+              "y": -10.785821565985675,
+              "z": -22.799105099402368
+            },
+            "age": 0.9500000000000013,
+            "life": 5
+          },
+          {
+            "id": 36,
+            "type": "chaff",
+            "ownerId": "host",
+            "pos": {
+              "x": -204.93892913823947,
+              "y": 676.2346975954432,
+              "z": -543.4844616475444
+            },
+            "vel": {
+              "x": -26.25150435604155,
+              "y": -30.81610779426988,
+              "z": -11.075307335704565
+            },
+            "age": 0.9500000000000013,
+            "life": 5
+          }
+        ],
+        "bombs": [],
+        "effects": [
+          {
+            "id": 41,
+            "type": "hit",
+            "pos": {
+              "x": -139.80851721288306,
+              "y": 706.3010906354579,
+              "z": 639.6226144942167
+            },
+            "age": 0.6333333333333336,
+            "life": 0.8
+          },
+          {
+            "id": 45,
+            "type": "hit",
+            "pos": {
+              "x": -125.12210632107025,
+              "y": 707.5287202593278,
+              "z": 556.9162266673384
+            },
+            "age": 0.016666666666666666,
+            "life": 0.8
+          },
+          {
+            "id": 47,
+            "type": "explosion",
+            "pos": {
+              "x": -125.12210632107025,
+              "y": 707.5287202593278,
+              "z": 556.9162266673384
+            },
+            "age": 0.016666666666666666,
+            "life": 2.3
+          }
+        ],
+        "events": [
+          {
+            "id": 1,
+            "type": "start",
+            "text": "Weapons free. Protect your wingmates.",
+            "t": 0
+          },
+          {
+            "id": 3,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 0.4666666666666666,
+            "pilotId": "host"
+          },
+          {
+            "id": 5,
+            "type": "launch",
+            "text": "Fox one · radar missile away",
+            "t": 1.4666666666666663,
+            "pilotId": "host"
+          },
+          {
+            "id": 7,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 2.1333333333333306,
+            "pilotId": "host"
+          },
+          {
+            "id": 9,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 3.7999999999999914,
+            "pilotId": "host"
+          },
+          {
+            "id": 11,
+            "type": "launch",
+            "text": "Fox one · radar missile away",
+            "t": 3.983333333333324,
+            "pilotId": "host"
+          },
+          {
+            "id": 13,
+            "type": "launch",
+            "text": "Fox one · radar missile away",
+            "t": 4.883333333333321,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 15,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 5.466666666666653,
+            "pilotId": "host"
+          },
+          {
+            "id": 17,
+            "type": "launch",
+            "text": "Fox one · radar missile away",
+            "t": 6.499999999999982,
+            "pilotId": "host"
+          },
+          {
+            "id": 24,
+            "type": "counter",
+            "text": "Chaff out",
+            "t": 6.833333333333314,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 25,
+            "type": "evade",
+            "text": "Radar missile defeated",
+            "t": 6.833333333333314,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 27,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 7.133333333333313,
+            "pilotId": "host"
+          },
+          {
+            "id": 28,
+            "type": "evade",
+            "text": "Radar missile defeated",
+            "t": 8.083333333333314,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 30,
+            "type": "hit",
+            "text": "Missile hit",
+            "t": 8.24999999999999,
+            "pilotId": "host",
+            "targetId": "bot1"
+          },
+          {
+            "id": 37,
+            "type": "counter",
+            "text": "Chaff out",
+            "t": 8.566666666666672,
+            "pilotId": "host"
+          },
+          {
+            "id": 38,
+            "type": "evade",
+            "text": "Radar missile defeated",
+            "t": 8.566666666666672,
+            "pilotId": "host"
+          },
+          {
+            "id": 40,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 8.800000000000017,
+            "pilotId": "host"
+          },
+          {
+            "id": 42,
+            "type": "hit",
+            "text": "Missile hit",
+            "t": 8.883333333333354,
+            "pilotId": "host",
+            "targetId": "bot1"
+          },
+          {
+            "id": 44,
+            "type": "launch",
+            "text": "Fox one · radar missile away",
+            "t": 9.016666666666694,
+            "pilotId": "host"
+          },
+          {
+            "id": 46,
+            "type": "hit",
+            "text": "Missile hit",
+            "t": 9.500000000000052,
+            "pilotId": "host",
+            "targetId": "bot1"
+          },
+          {
+            "id": 48,
+            "type": "kill",
+            "text": "Bandit down",
+            "t": 9.500000000000052,
+            "pilotId": "bot1",
+            "source": "host"
+          }
+        ],
+        "serial": 48,
+        "targetHp": 100,
+        "bombed": false,
+        "routeIndex": 0,
+        "flightStage": "takeoff",
+        "approachIndex": 0,
+        "missionMessage": "",
+        "escaped": false
+      }
+    },
+    {
+      "label": "normal-rAF-keyboard-strike",
+      "wallSeconds": 51.749,
+      "bombedAt": 23.88333333333326,
+      "state": {
+        "version": 1,
+        "mode": "strike",
+        "teamSize": 1,
+        "role": "attack",
+        "difficulty": "normal",
+        "rng": 2568118842,
+        "time": 50.149999999998435,
+        "tick": 3009,
+        "status": "complete",
+        "result": {
+          "title": "Clean getaway",
+          "text": "The target was destroyed and the strike aircraft reached safety.",
+          "winner": 0
+        },
+        "pilots": [
+          {
+            "id": "host",
+            "team": 0,
+            "human": true,
+            "bomber": true,
+            "pos": {
+              "x": 2289.8835082621204,
+              "y": 485.50521968633655,
+              "z": -1136.2218134580191
+            },
+            "yaw": 2.2660621639915037,
+            "pitch": 0.00424931383840875,
+            "roll": -0.00172871021737083,
+            "speed": 133.1212003182616,
+            "throttle": 0.78,
+            "hp": 100,
+            "heat": 6,
+            "radar": 4,
+            "flares": 0,
+            "chaff": 4,
+            "bombs": 2,
+            "heatCD": 0,
+            "radarCD": 0,
+            "flareCD": 0,
+            "chaffCD": 0,
+            "bombCD": 0,
+            "lock": 0,
+            "targetId": null,
+            "dead": false,
+            "grounded": false,
+            "landed": false,
+            "aiTimer": 0,
+            "aiShot": 2,
+            "aiDefend": 0,
+            "aiBreak": 0,
+            "aiNextBreak": 7,
+            "rearm": 6.1499999999999835,
+            "aiEvade": 0,
+            "trail": []
+          },
+          {
+            "id": "bot1",
+            "team": 1,
+            "human": false,
+            "bomber": false,
+            "pos": {
+              "x": 2144.6963801840056,
+              "y": 477.28645543802094,
+              "z": -1005.9657147261888
+            },
+            "yaw": 2.3405251262099336,
+            "pitch": 0.029705326201193507,
+            "roll": -0.08385941943900949,
+            "speed": 134.0634534004134,
+            "throttle": 0.6422499999998889,
+            "hp": 100,
+            "heat": 4,
+            "radar": 4,
+            "flares": 6,
+            "chaff": 6,
+            "bombs": 0,
+            "heatCD": 0,
+            "radarCD": 0,
+            "flareCD": 0,
+            "chaffCD": 0,
+            "bombCD": 0,
+            "lock": 3,
+            "targetId": "host",
+            "dead": false,
+            "grounded": false,
+            "landed": false,
+            "aiTimer": 0,
+            "aiShot": 1.4211005134508126,
+            "aiDefend": 0,
+            "aiBreak": 0,
+            "aiNextBreak": -41.24999999999896,
+            "rearm": 6.1499999999999835,
+            "aiEvade": 0,
+            "trail": []
+          }
+        ],
+        "missiles": [
+          {
+            "id": 67,
+            "type": "heat",
+            "ownerId": "bot1",
+            "team": 1,
+            "targetId": "host",
+            "pos": {
+              "x": 3277.4959804612363,
+              "y": 484.69854154912633,
+              "z": -2243.2741464052215
+            },
+            "dir": {
+              "x": 0.6768567647098032,
+              "y": 0.011645419538748534,
+              "z": -0.7360226248359113
+            },
+            "speed": 325,
+            "age": 9.083333333333364,
+            "life": 13,
+            "decoyed": true
+          },
+          {
+            "id": 78,
+            "type": "heat",
+            "ownerId": "bot1",
+            "team": 1,
+            "targetId": "host",
+            "pos": {
+              "x": 2512.3555962313935,
+              "y": 491.39995505428124,
+              "z": -1411.2507390982155
+            },
+            "dir": {
+              "x": 0.6766173493823883,
+              "y": 0.02903281258885437,
+              "z": -0.7357622294654241
+            },
+            "speed": 325,
+            "age": 3.1666666666666603,
+            "life": 13,
+            "decoyed": true
+          }
+        ],
+        "countermeasures": [
+          {
+            "id": 80,
+            "type": "flare",
+            "ownerId": "host",
+            "pos": {
+              "x": 2030.8570728067991,
+              "y": 404.3980878605177,
+              "z": -857.8770712049376
+            },
+            "vel": {
+              "x": 10.13571905437857,
+              "y": -40.851288094371604,
+              "z": -1.3088473537936807
+            },
+            "age": 3.0666666666666607,
+            "life": 3.8
+          },
+          {
+            "id": 81,
+            "type": "flare",
+            "ownerId": "host",
+            "pos": {
+              "x": 2015.176549536058,
+              "y": 378.39993430189577,
+              "z": -834.7053186421912
+            },
+            "vel": {
+              "x": 5.022504944354296,
+              "y": -49.32894686348754,
+              "z": 6.247158916667104
+            },
+            "age": 3.0666666666666607,
+            "life": 3.8
+          },
+          {
+            "id": 82,
+            "type": "flare",
+            "ownerId": "host",
+            "pos": {
+              "x": 2080.6110549968416,
+              "y": 406.5346751152208,
+              "z": -781.5268693262409
+            },
+            "vel": {
+              "x": 26.359843681566417,
+              "y": -40.154574859142336,
+              "z": 23.58795760665089
+            },
+            "age": 3.0666666666666607,
+            "life": 3.8
+          },
+          {
+            "id": 83,
+            "type": "flare",
+            "ownerId": "host",
+            "pos": {
+              "x": 2058.9586871274496,
+              "y": 345.4494752611941,
+              "z": -864.9574038622599
+            },
+            "vel": {
+              "x": 19.299288941547275,
+              "y": -60.07366176806427,
+              "z": -3.617651481181383
+            },
+            "age": 3.0666666666666607,
+            "life": 3.8
+          },
+          {
+            "id": 84,
+            "type": "flare",
+            "ownerId": "host",
+            "pos": {
+              "x": 2008.460120155358,
+              "y": 372.656661198907,
+              "z": -895.1979472892057
+            },
+            "vel": {
+              "x": 2.832364928908646,
+              "y": -51.201753310114356,
+              "z": -13.478698250837624
+            },
+            "age": 3.0666666666666607,
+            "life": 3.8
+          },
+          {
+            "id": 85,
+            "type": "flare",
+            "ownerId": "host",
+            "pos": {
+              "x": 2011.9123831883755,
+              "y": 411.40668351960477,
+              "z": -835.8429082682054
+            },
+            "vel": {
+              "x": 3.958102874457836,
+              "y": -38.56587646640838,
+              "z": 5.876205777749419
+            },
+            "age": 3.0666666666666607,
+            "life": 3.8
+          }
+        ],
+        "bombs": [],
+        "effects": [],
+        "events": [
+          {
+            "id": 20,
+            "type": "counter",
+            "text": "Flares out",
+            "t": 11.083333333333464,
+            "pilotId": "host"
+          },
+          {
+            "id": 21,
+            "type": "evade",
+            "text": "Heat seeker defeated",
+            "t": 11.083333333333464,
+            "pilotId": "host"
+          },
+          {
+            "id": 23,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 15.333333333333675,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 30,
+            "type": "counter",
+            "text": "Flares out",
+            "t": 15.583333333333687,
+            "pilotId": "host"
+          },
+          {
+            "id": 31,
+            "type": "evade",
+            "text": "Heat seeker defeated",
+            "t": 15.583333333333687,
+            "pilotId": "host"
+          },
+          {
+            "id": 33,
+            "type": "bomb",
+            "text": "Bomb released",
+            "t": 19.216666666666857,
+            "pilotId": "host"
+          },
+          {
+            "id": 34,
+            "type": "rearm",
+            "text": "Weapons topped up · +2 heat, +1 radar",
+            "t": 22.000000000000032,
+            "pilotId": "host"
+          },
+          {
+            "id": 36,
+            "type": "launch",
+            "text": "Fox one · radar missile away",
+            "t": 22.150000000000023,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 43,
+            "type": "counter",
+            "text": "Chaff out",
+            "t": 22.466666666666672,
+            "pilotId": "host"
+          },
+          {
+            "id": 44,
+            "type": "evade",
+            "text": "Radar missile defeated",
+            "t": 22.466666666666672,
+            "pilotId": "host"
+          },
+          {
+            "id": 45,
+            "type": "target",
+            "text": "Target destroyed. Turn toward ESCAPE.",
+            "t": 23.649999999999938
+          },
+          {
+            "id": 48,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 28.19999999999968,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 55,
+            "type": "counter",
+            "text": "Flares out",
+            "t": 28.216666666666345,
+            "pilotId": "host"
+          },
+          {
+            "id": 56,
+            "type": "evade",
+            "text": "Heat seeker defeated",
+            "t": 28.216666666666345,
+            "pilotId": "host"
+          },
+          {
+            "id": 58,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 35.199999999999285,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 65,
+            "type": "counter",
+            "text": "Flares out",
+            "t": 35.26666666666595,
+            "pilotId": "host"
+          },
+          {
+            "id": 66,
+            "type": "evade",
+            "text": "Heat seeker defeated",
+            "t": 35.26666666666595,
+            "pilotId": "host"
+          },
+          {
+            "id": 68,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 41.083333333332284,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 75,
+            "type": "counter",
+            "text": "Flares out",
+            "t": 41.21666666666561,
+            "pilotId": "host"
+          },
+          {
+            "id": 76,
+            "type": "evade",
+            "text": "Heat seeker defeated",
+            "t": 41.21666666666561,
+            "pilotId": "host"
+          },
+          {
+            "id": 77,
+            "type": "rearm",
+            "text": "Weapons topped up · +2 heat, +1 radar",
+            "t": 43.999999999998785,
+            "pilotId": "host"
+          },
+          {
+            "id": 79,
+            "type": "launch",
+            "text": "Fox two · heat seeker away",
+            "t": 46.999999999998614,
+            "pilotId": "bot1"
+          },
+          {
+            "id": 86,
+            "type": "counter",
+            "text": "Flares out",
+            "t": 47.09999999999861,
+            "pilotId": "host"
+          },
+          {
+            "id": 87,
+            "type": "evade",
+            "text": "Heat seeker defeated",
+            "t": 47.09999999999861,
+            "pilotId": "host"
+          }
+        ],
+        "serial": 87,
+        "targetHp": 0,
+        "bombed": true,
+        "routeIndex": 0,
+        "flightStage": "takeoff",
+        "approachIndex": 0,
+        "missionMessage": "",
+        "escaped": true
+      }
+    }
+  ],
+  "passed": true,
+  "method": "Actual keyboard events and normal requestAnimationFrame simulation. Only read-only state inspection, no step/setState hooks."
+}
