@@ -1,0 +1,10 @@
+{
+  "base": "http://127.0.0.1:8766/night-shift-taxi/3d/",
+  "method": "Native keyboard and normal animation loop; state observed only",
+  "errors": [],
+  "navigationRequested": "https://greenkeewi.github.io/night-shift-taxi/",
+  "navigation": {
+    "error": "page.waitForNavigation: net::ERR_TUNNEL_CONNECTION_FAILED\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================"
+  },
+  "pass": true
+}

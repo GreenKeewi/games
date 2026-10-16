@@ -1,0 +1,3747 @@
+{
+  "controllerVersion": 3,
+  "environment": "LOCAL clone, normal rAF, manual digital keyboard controller, read-only telemetry",
+  "errors": [],
+  "events": [
+    {
+      "wall": 0.005,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 0,
+        "v": 0,
+        "handle": 0,
+        "time": 0,
+        "next": 0,
+        "doors": "right",
+        "phase": "service",
+        "score": 0,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "nextSignal": {
+          "at": 1020,
+          "hold": 0,
+          "cleared": false,
+          "index": 0,
+          "distance": 1020
+        },
+        "signals": [
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · RIGHT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": 15,
+          "zoneDistance": 760,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 1020,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 0,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 2.215330084182533,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 5,
+          "calls": 99,
+          "triangles": 31962,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 4.584,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 0,
+        "v": 0,
+        "handle": 0,
+        "time": 4.483333333333323,
+        "next": 1,
+        "doors": null,
+        "phase": "service",
+        "score": 150,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "nextSignal": {
+          "at": 1020,
+          "hold": 0,
+          "cleared": false,
+          "index": 0,
+          "distance": 1020
+        },
+        "signals": [
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 640,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": 15,
+          "zoneDistance": 760,
+          "brakingDistance": 6,
+          "targetSpeed": 19,
+          "signalAhead": false,
+          "signalDistance": 1020,
+          "distance": 640,
+          "targetIsSignal": false,
+          "schedule": "Due 01:25 · 81s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 5.000192315089046,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 28,
+          "calls": 99,
+          "triangles": 31962,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 1,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 640,
+        "v": 0,
+        "handle": -0.05,
+        "time": 62.14999999999775,
+        "next": 1,
+        "doors": null,
+        "phase": "service",
+        "score": 150,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "nextSignal": {
+          "at": 1020,
+          "hold": 0,
+          "cleared": false,
+          "index": 0,
+          "distance": 380
+        },
+        "signals": [
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m short. D opens the left doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": 15,
+          "zoneDistance": 120,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": true,
+          "signalDistance": 380,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Due 01:25 · 23s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.186143863810798,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 235,
+          "calls": 128,
+          "triangles": 36056,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 63.131,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 640,
+        "v": 0,
+        "handle": 0,
+        "time": 62.14999999999775,
+        "next": 1,
+        "doors": "left",
+        "phase": "service",
+        "score": 150,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "nextSignal": {
+          "at": 1020,
+          "hold": 0,
+          "cleared": false,
+          "index": 0,
+          "distance": 380
+        },
+        "signals": [
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · LEFT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": 15,
+          "zoneDistance": 120,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": true,
+          "signalDistance": 380,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.186143863810798,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 235,
+          "calls": 128,
+          "triangles": 36056,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 67.538,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 640,
+        "v": 0,
+        "handle": 0,
+        "time": 66.73333333333083,
+        "next": 2,
+        "doors": null,
+        "phase": "service",
+        "score": 300,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": false,
+        "nextSignal": {
+          "at": 1020,
+          "hold": 0,
+          "cleared": false,
+          "index": 0,
+          "distance": 380
+        },
+        "signals": [
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 670,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": 15,
+          "zoneDistance": 120,
+          "brakingDistance": 6,
+          "targetSpeed": 18.973665961010276,
+          "signalAhead": true,
+          "signalDistance": 380,
+          "distance": 380,
+          "targetIsSignal": true,
+          "schedule": "Due 02:53 · 106s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 4.099582587954663,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 253,
+          "calls": 128,
+          "triangles": 36056,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 118.235,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 1018.7885356184854,
+        "v": 0,
+        "handle": -0.024999999999998954,
+        "time": 117.39999999999462,
+        "next": 2,
+        "doors": null,
+        "phase": "service",
+        "score": 300,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 2951.211464381515
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 291.2114643815146,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 15,
+          "signalAhead": false,
+          "signalDistance": 2951.211464381515,
+          "distance": 291.2114643815146,
+          "targetIsSignal": false,
+          "schedule": "Due 02:53 · 56s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 1
+        },
+        "graphics": {
+          "fps": 6.53896453573351,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 585,
+          "calls": 130,
+          "triangles": 46600,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 2,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 1310,
+        "v": 0,
+        "handle": -0.025,
+        "time": 155.01666666668217,
+        "next": 2,
+        "doors": null,
+        "phase": "service",
+        "score": 300,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 2660
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m short. D opens the right doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": 16,
+          "zoneDistance": 1990,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 2660,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Due 02:53 · 18s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.844961240310056,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 748,
+          "calls": 163,
+          "triangles": 63252,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 156.432,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 1310,
+        "v": 0,
+        "handle": 0,
+        "time": 155.1500000000156,
+        "next": 2,
+        "doors": "right",
+        "phase": "service",
+        "score": 300,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 2660
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · RIGHT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": 16,
+          "zoneDistance": 1990,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 2660,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 4.844961240310056,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 749,
+          "calls": 163,
+          "triangles": 63252,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 160.791,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 1310,
+        "v": 0,
+        "handle": 0,
+        "time": 159.4833333333524,
+        "next": 3,
+        "doors": null,
+        "phase": "service",
+        "score": 450,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 2660
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 790,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": 16,
+          "zoneDistance": 1990,
+          "brakingDistance": 6,
+          "targetSpeed": 18,
+          "signalAhead": false,
+          "signalDistance": 2660,
+          "distance": 790,
+          "targetIsSignal": false,
+          "schedule": "Due 04:35 · 116s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 4.074224971295198,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 767,
+          "calls": 163,
+          "triangles": 63252,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 3,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 2100.000106246736,
+        "v": 0.0028748833359721914,
+        "handle": 0.135,
+        "time": 221.28333333340157,
+        "next": 3,
+        "doors": null,
+        "phase": "service",
+        "score": 450,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 1869.9998937532641
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.00010624673586789868,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m past. D opens the left doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": 18,
+          "zoneDistance": 179.99989375326413,
+          "brakingDistance": 6.002302858438133,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 1869.9998937532641,
+          "distance": -0.00010624673586789868,
+          "targetIsSignal": false,
+          "schedule": "Due 04:35 · 54s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 6.27475587277934,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1071,
+          "calls": 187,
+          "triangles": 76478,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 222.786,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 2100.000106246736,
+        "v": 0,
+        "handle": 0,
+        "time": 221.48333333340173,
+        "next": 3,
+        "doors": "left",
+        "phase": "service",
+        "score": 450,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 1869.9998937532641
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.00010624673586789868,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · LEFT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": 18,
+          "zoneDistance": 179.99989375326413,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 1869.9998937532641,
+          "distance": -0.00010624673586789868,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 6.27475587277934,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1072,
+          "calls": 188,
+          "triangles": 76490,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 227.086,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 2100.000106246736,
+        "v": 0,
+        "handle": 0,
+        "time": 225.583333333405,
+        "next": 4,
+        "doors": null,
+        "phase": "service",
+        "score": 600,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 1869.9998937532641
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 699.9998937532641,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": 18,
+          "zoneDistance": 179.99989375326413,
+          "brakingDistance": 6,
+          "targetSpeed": 22,
+          "signalAhead": false,
+          "signalDistance": 1869.9998937532641,
+          "distance": 699.9998937532641,
+          "targetIsSignal": false,
+          "schedule": "Due 06:10 · 144s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.1251031275782255,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1089,
+          "calls": 188,
+          "triangles": 76490,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 4,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 2800.0002683206944,
+        "v": 0.005599650013610776,
+        "handle": 0.16500000000000004,
+        "time": 285.4333333334024,
+        "next": 4,
+        "doors": null,
+        "phase": "service",
+        "score": 600,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 1169.9997316793056
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.0002683206944311678,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m past. D opens the right doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": 16,
+          "zoneDistance": 499.99973167930557,
+          "brakingDistance": 6.004490918610987,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 1169.9997316793056,
+          "distance": -0.0002683206944311678,
+          "targetIsSignal": false,
+          "schedule": "Due 06:10 · 85s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.024439322430778,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1302,
+          "calls": 129,
+          "triangles": 63972,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 287.531,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 2800.0002683206944,
+        "v": 0.005599650013610776,
+        "handle": 0,
+        "time": 285.4333333334024,
+        "next": 4,
+        "doors": "right",
+        "phase": "service",
+        "score": 600,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 1169.9997316793056
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.0002683206944311678,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · RIGHT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": 16,
+          "zoneDistance": 499.99973167930557,
+          "brakingDistance": 6.004490918610987,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 1169.9997316793056,
+          "distance": -0.0002683206944311678,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.024439322430778,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1302,
+          "calls": 129,
+          "triangles": 63972,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 291.89,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 2800.0002683206944,
+        "v": 0,
+        "handle": 0,
+        "time": 289.7333333333985,
+        "next": 5,
+        "doors": null,
+        "phase": "service",
+        "score": 750,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 1169.9997316793056
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 749.9997316793056,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": 16,
+          "zoneDistance": 499.99973167930557,
+          "brakingDistance": 6,
+          "targetSpeed": 18,
+          "signalAhead": false,
+          "signalDistance": 1169.9997316793056,
+          "distance": 749.9997316793056,
+          "targetIsSignal": false,
+          "schedule": "Due 07:30 · 160s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 3.3963545794181362,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1317,
+          "calls": 128,
+          "triangles": 63780,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 5,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 3550,
+        "v": 0,
+        "handle": 0.03,
+        "time": 353.26666666667404,
+        "next": 5,
+        "doors": null,
+        "phase": "service",
+        "score": 750,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 420
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m short. D opens the left doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 420,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Due 07:30 · 97s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.370976714614897,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1684,
+          "calls": 97,
+          "triangles": 51226,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 355.689,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 3550,
+        "v": 0,
+        "handle": 0,
+        "time": 353.46666666667386,
+        "next": 5,
+        "doors": "left",
+        "phase": "service",
+        "score": 750,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 420
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · LEFT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 420,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 4.370976714614897,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1685,
+          "calls": 97,
+          "triangles": 51226,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 360.032,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 3550,
+        "v": 0,
+        "handle": 0,
+        "time": 357.7500000000033,
+        "next": 6,
+        "doors": null,
+        "phase": "service",
+        "score": 900,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 3970,
+          "hold": 0,
+          "cleared": false,
+          "index": 1,
+          "distance": 420
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 900,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 16,
+          "signalAhead": false,
+          "signalDistance": 420,
+          "distance": 900,
+          "targetIsSignal": false,
+          "schedule": "Due 09:10 · 192s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 6.037735849056604,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 1711,
+          "calls": 97,
+          "triangles": 51226,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 6,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 4450.000002083333,
+        "v": 0.0001250000000000001,
+        "handle": 0.075,
+        "time": 457.64999999991244,
+        "next": 6,
+        "doors": null,
+        "phase": "service",
+        "score": 900,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 5780,
+          "hold": 0,
+          "cleared": false,
+          "index": 2,
+          "distance": 1329.9999979166669
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.0000020833331291214563,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m past. D opens the right doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6.000100005580357,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 1329.9999979166669,
+          "distance": -0.0000020833331291214563,
+          "targetIsSignal": false,
+          "schedule": "Due 09:10 · 92s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 7.975087346194886,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 2334,
+          "calls": 64,
+          "triangles": 41444,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 460.084,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 4450.000002083333,
+        "v": 0,
+        "handle": 0,
+        "time": 457.78333333324565,
+        "next": 6,
+        "doors": "right",
+        "phase": "service",
+        "score": 900,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 5780,
+          "hold": 0,
+          "cleared": false,
+          "index": 2,
+          "distance": 1329.9999979166669
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.0000020833331291214563,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · RIGHT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 1329.9999979166669,
+          "distance": -0.0000020833331291214563,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 7.975087346194886,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 2335,
+          "calls": 64,
+          "triangles": 41444,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 464.384,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 4450.000002083333,
+        "v": 0,
+        "handle": 0,
+        "time": 461.9499999999085,
+        "next": 7,
+        "doors": null,
+        "phase": "service",
+        "score": 1050,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 5780,
+          "hold": 0,
+          "cleared": false,
+          "index": 2,
+          "distance": 1329.9999979166669
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 899.9999979166669,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 16,
+          "signalAhead": false,
+          "signalDistance": 1329.9999979166669,
+          "distance": 899.9999979166669,
+          "targetIsSignal": false,
+          "schedule": "Due 10:50 · 188s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 6.666928114827971,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 2360,
+          "calls": 64,
+          "triangles": 41444,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 7,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 5350.000733280628,
+        "v": 0.0113739125691636,
+        "handle": 0.21000000000000008,
+        "time": 534.5833333331758,
+        "next": 7,
+        "doors": null,
+        "phase": "service",
+        "score": 1050,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 5780,
+          "hold": 0,
+          "cleared": false,
+          "index": 2,
+          "distance": 429.9992667193719
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.0007332806280828663,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m past. D opens the left doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": 17,
+          "zoneDistance": 1199.999266719372,
+          "brakingDistance": 6.009145332157877,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 429.9992667193719,
+          "distance": -0.0007332806280828663,
+          "targetIsSignal": false,
+          "schedule": "Due 10:50 · 115s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 4.390297442651665,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 2864,
+          "calls": 75,
+          "triangles": 70740,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 537.039,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 5350.000733280628,
+        "v": 0,
+        "handle": 0,
+        "time": 534.716666666509,
+        "next": 7,
+        "doors": "left",
+        "phase": "service",
+        "score": 1050,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 5780,
+          "hold": 0,
+          "cleared": false,
+          "index": 2,
+          "distance": 429.9992667193719
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": -0.0007332806280828663,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · LEFT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": 17,
+          "zoneDistance": 1199.999266719372,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": 429.9992667193719,
+          "distance": -0.0007332806280828663,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 4.390297442651665,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 2865,
+          "calls": 75,
+          "triangles": 70740,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 542.389,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 5350.000733280628,
+        "v": 0,
+        "handle": 0,
+        "time": 540.0333333331708,
+        "next": 8,
+        "doors": null,
+        "phase": "service",
+        "score": 1200,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": {
+          "at": 5780,
+          "hold": 0,
+          "cleared": false,
+          "index": 2,
+          "distance": 429.9992667193719
+        },
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": false,
+            "hold": 0
+          }
+        ],
+        "distance": 849.9992667193719,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Woodside Yard",
+            "error": 0,
+            "time": 539.0499999998384,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": 17,
+          "zoneDistance": 1199.999266719372,
+          "brakingDistance": 6,
+          "targetSpeed": 18,
+          "signalAhead": false,
+          "signalDistance": 429.9992667193719,
+          "distance": 849.9992667193719,
+          "targetIsSignal": false,
+          "schedule": "Due 12:20 · 200s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 5.806751316196808,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 2894,
+          "calls": 75,
+          "triangles": 70740,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 8,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 6200,
+        "v": 0,
+        "handle": -0.025,
+        "time": 635.8166666664171,
+        "next": 8,
+        "doors": null,
+        "phase": "service",
+        "score": 1200,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": null,
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Woodside Yard",
+            "error": 0,
+            "time": 539.0499999998384,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m short. D opens the right doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": 17,
+          "zoneDistance": 350,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": null,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Due 12:20 · 104s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 7.792713812585231,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 3458,
+          "calls": 61,
+          "triangles": 51298,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 638.243,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 6200,
+        "v": 0,
+        "handle": 0,
+        "time": 635.9499999997503,
+        "next": 8,
+        "doors": "right",
+        "phase": "service",
+        "score": 1200,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": null,
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Woodside Yard",
+            "error": 0,
+            "time": 539.0499999998384,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · RIGHT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": 17,
+          "zoneDistance": 350,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": null,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 7.792713812585231,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 3459,
+          "calls": 60,
+          "triangles": 50374,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 642.532,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 6200,
+        "v": 0,
+        "handle": 0,
+        "time": 640.1833333330798,
+        "next": 9,
+        "doors": null,
+        "phase": "service",
+        "score": 1350,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": null,
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          }
+        ],
+        "distance": 900,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Woodside Yard",
+            "error": 0,
+            "time": 539.0499999998384,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Meadows Park",
+            "error": 0,
+            "time": 640.0333333330799,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "NEXT STOP",
+          "text": "Hold Up to add power. Z coasts; Down moves the handle into brake.",
+          "action": "CRUISE",
+          "upcomingLimit": 17,
+          "zoneDistance": 350,
+          "brakingDistance": 6,
+          "targetSpeed": 22,
+          "signalAhead": false,
+          "signalDistance": null,
+          "distance": 900,
+          "targetIsSignal": false,
+          "schedule": "Due 14:00 · 200s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 8.46153846153846,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 3495,
+          "calls": 59,
+          "triangles": 50074,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wrongSideAttempt": 9,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 7100,
+        "v": 0,
+        "handle": -0.05,
+        "time": 712.8833333330136,
+        "next": 9,
+        "doors": null,
+        "phase": "service",
+        "score": 1350,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": null,
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Woodside Yard",
+            "error": 0,
+            "time": 539.0499999998384,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Meadows Park",
+            "error": 0,
+            "time": 640.0333333330799,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "AT PLATFORM",
+          "text": "Good alignment · 0m short. D opens the left doors.",
+          "action": "OPEN DOORS",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": null,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Due 14:00 · 127s early"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 0
+        },
+        "graphics": {
+          "fps": 8.235617083022788,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 4069,
+          "calls": 40,
+          "triangles": 13252,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 715.346,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 7100,
+        "v": 0,
+        "handle": 0,
+        "time": 712.9999999996802,
+        "next": 9,
+        "doors": "left",
+        "phase": "service",
+        "score": 1350,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": null,
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          }
+        ],
+        "distance": 0,
+        "aligned": true,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Woodside Yard",
+            "error": 0,
+            "time": 539.0499999998384,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Meadows Park",
+            "error": 0,
+            "time": 640.0333333330799,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "BOARDING · LEFT SIDE",
+          "text": "Passengers boarding · 4s. Doors lock the train safely.",
+          "action": "BOARDING",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": null,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Boarding 4s"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 1,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 8.235617083022788,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 4070,
+          "calls": 40,
+          "triangles": 13252,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "wall": 719.59,
+      "state": {
+        "route": "full",
+        "stationCount": 10,
+        "s": 7100,
+        "v": 0,
+        "handle": 0,
+        "time": 717.1666666663431,
+        "next": 10,
+        "doors": null,
+        "phase": "complete",
+        "score": 1500,
+        "assist": false,
+        "signal": "green",
+        "signalCleared": true,
+        "nextSignal": null,
+        "signals": [
+          {
+            "cleared": true,
+            "hold": 6.016666666666651
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          },
+          {
+            "cleared": true,
+            "hold": 5.016666666666654
+          }
+        ],
+        "distance": 0,
+        "aligned": false,
+        "stops": [
+          {
+            "name": "Canal Street",
+            "error": 0,
+            "time": 4.29999999999999,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Bowery",
+            "error": 0,
+            "time": 66.53333333333084,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "East River",
+            "error": 0,
+            "time": 159.3166666666856,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Grand Avenue",
+            "error": 0,
+            "time": 225.583333333405,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Queens Terminal",
+            "error": 0,
+            "time": 289.7333333333985,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Museum Row",
+            "error": 0,
+            "time": 357.60000000000343,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Jackson Square",
+            "error": 0,
+            "time": 461.9499999999085,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Woodside Yard",
+            "error": 0,
+            "time": 539.0499999998384,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Meadows Park",
+            "error": 0,
+            "time": 640.0333333330799,
+            "comfort": 100,
+            "assisted": false
+          },
+          {
+            "name": "Astoria Quay",
+            "error": 0,
+            "time": 717.1666666663431,
+            "comfort": 100,
+            "assisted": false
+          }
+        ],
+        "penalties": 0,
+        "totalOverspeed": 0,
+        "totalHarsh": 0,
+        "usedAssist": false,
+        "started": true,
+        "paused": false,
+        "view": "cab",
+        "graphicsLost": false,
+        "guide": {
+          "title": "PLATFORM APPROACH",
+          "text": "A little power moves you closer. D opens once aligned.",
+          "action": "EASE IN",
+          "upcomingLimit": null,
+          "zoneDistance": null,
+          "brakingDistance": 6,
+          "targetSpeed": 0,
+          "signalAhead": false,
+          "signalDistance": null,
+          "distance": 0,
+          "targetIsSignal": false,
+          "schedule": "Service complete"
+        },
+        "audio": {
+          "state": "running",
+          "masterGain": 0.0062356372363865376,
+          "allSourcesUseMaster": true,
+          "liveOneShots": 2
+        },
+        "graphics": {
+          "fps": 10.589065809083353,
+          "scale": 0.5,
+          "tier": 3,
+          "viewDistance": 700
+        },
+        "renderer": {
+          "frame": 4115,
+          "calls": 40,
+          "triangles": 13252,
+          "points": 0,
+          "lines": 0
+        }
+      }
+    }
+  ],
+  "earlyDoors": {
+    "route": "full",
+    "stationCount": 10,
+    "s": 0,
+    "v": 0,
+    "handle": 0,
+    "time": 0,
+    "next": 0,
+    "doors": "right",
+    "phase": "service",
+    "score": 0,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": false,
+    "nextSignal": {
+      "at": 1020,
+      "hold": 0,
+      "cleared": false,
+      "index": 0,
+      "distance": 1020
+    },
+    "signals": [
+      {
+        "cleared": false,
+        "hold": 0
+      },
+      {
+        "cleared": false,
+        "hold": 0
+      },
+      {
+        "cleared": false,
+        "hold": 0
+      }
+    ],
+    "distance": 0,
+    "aligned": true,
+    "stops": [],
+    "penalties": 0,
+    "totalOverspeed": 0,
+    "totalHarsh": 0,
+    "usedAssist": false,
+    "started": true,
+    "paused": false,
+    "view": "cab",
+    "graphicsLost": false,
+    "guide": {
+      "title": "BOARDING · RIGHT SIDE",
+      "text": "Passengers boarding · 4s. Doors lock the train safely.",
+      "action": "BOARDING",
+      "upcomingLimit": 15,
+      "zoneDistance": 760,
+      "brakingDistance": 6,
+      "targetSpeed": 0,
+      "signalAhead": false,
+      "signalDistance": 1020,
+      "distance": 0,
+      "targetIsSignal": false,
+      "schedule": "Boarding 4s"
+    },
+    "audio": {
+      "state": "running",
+      "masterGain": 0,
+      "allSourcesUseMaster": true,
+      "liveOneShots": 0
+    },
+    "graphics": {
+      "fps": 60,
+      "scale": 1,
+      "tier": 0,
+      "viewDistance": 2200
+    },
+    "renderer": {
+      "frame": 4,
+      "calls": 261,
+      "triangles": 118322,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "pauseFrozen": true,
+  "end": {
+    "route": "full",
+    "stationCount": 10,
+    "s": 7100,
+    "v": 0,
+    "handle": 0,
+    "time": 717.1666666663431,
+    "next": 10,
+    "doors": null,
+    "phase": "complete",
+    "score": 1500,
+    "assist": false,
+    "signal": "green",
+    "signalCleared": true,
+    "nextSignal": null,
+    "signals": [
+      {
+        "cleared": true,
+        "hold": 6.016666666666651
+      },
+      {
+        "cleared": true,
+        "hold": 5.016666666666654
+      },
+      {
+        "cleared": true,
+        "hold": 5.016666666666654
+      }
+    ],
+    "distance": 0,
+    "aligned": false,
+    "stops": [
+      {
+        "name": "Canal Street",
+        "error": 0,
+        "time": 4.29999999999999,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Bowery",
+        "error": 0,
+        "time": 66.53333333333084,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "East River",
+        "error": 0,
+        "time": 159.3166666666856,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Grand Avenue",
+        "error": 0,
+        "time": 225.583333333405,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Queens Terminal",
+        "error": 0,
+        "time": 289.7333333333985,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Museum Row",
+        "error": 0,
+        "time": 357.60000000000343,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Jackson Square",
+        "error": 0,
+        "time": 461.9499999999085,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Woodside Yard",
+        "error": 0,
+        "time": 539.0499999998384,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Meadows Park",
+        "error": 0,
+        "time": 640.0333333330799,
+        "comfort": 100,
+        "assisted": false
+      },
+      {
+        "name": "Astoria Quay",
+        "error": 0,
+        "time": 717.1666666663431,
+        "comfort": 100,
+        "assisted": false
+      }
+    ],
+    "penalties": 0,
+    "totalOverspeed": 0,
+    "totalHarsh": 0,
+    "usedAssist": false,
+    "started": true,
+    "paused": false,
+    "view": "cab",
+    "graphicsLost": false,
+    "guide": {
+      "title": "PLATFORM APPROACH",
+      "text": "A little power moves you closer. D opens once aligned.",
+      "action": "EASE IN",
+      "upcomingLimit": null,
+      "zoneDistance": null,
+      "brakingDistance": 6,
+      "targetSpeed": 0,
+      "signalAhead": false,
+      "signalDistance": null,
+      "distance": 0,
+      "targetIsSignal": false,
+      "schedule": "Service complete"
+    },
+    "audio": {
+      "state": "running",
+      "masterGain": 0.0062356372363865376,
+      "allSourcesUseMaster": true,
+      "liveOneShots": 2
+    },
+    "graphics": {
+      "fps": 10.589065809083353,
+      "scale": 0.5,
+      "tier": 3,
+      "viewDistance": 700
+    },
+    "renderer": {
+      "frame": 4115,
+      "calls": 40,
+      "triangles": 13252,
+      "points": 0,
+      "lines": 0
+    }
+  },
+  "wall": 719.98,
+  "pass": true
+}

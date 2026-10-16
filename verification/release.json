@@ -1,56 +1,170 @@
 {
-  "verifiedAt": "2026-10-16T03:18:41.405470+00:00",
+  "schemaVersion": 2,
+  "repositoryHeadsVerifiedAt": "2026-10-16T11:49:00.238623+00:00",
+  "scope": "Exact public Git repository commits, local cloud-browser gameplay and GitHub Pages build/deploy jobs. Direct live-origin gameplay is not verified by this release.",
   "games": [
     {
       "repo": "jets",
       "title": "Skybreak",
-      "commit": "e9fe42e607e1bd441ff981d58762962bb4eed218",
+      "commit": "dc24281f78877f4354eb3480a995d7304bc2859f",
       "pages": "https://greenkeewi.github.io/jets/",
-      "tests": 16
+      "simulationTests": 48,
+      "pagesDeployment": {
+        "runId": 38895526293,
+        "runUrl": "https://github.com/GreenKeewi/jets/actions/runs/38895526293",
+        "build": "success",
+        "deploy": "success"
+      },
+      "runtimeHashes": "source-hashes.json"
     },
     {
       "repo": "flight",
       "title": "Cloudliner",
-      "commit": "b5e4fff9538301cebd4696392b1ce5da18c5eb66",
+      "commit": "a9268309f30e1ac8286a34d0c048cc5862dbdf5d",
       "pages": "https://greenkeewi.github.io/flight/",
-      "tests": 13
+      "simulationTests": 22,
+      "pagesDeployment": {
+        "runId": 38895986972,
+        "runUrl": "https://github.com/GreenKeewi/flight/actions/runs/38895986972",
+        "build": "success",
+        "deploy": "success"
+      },
+      "runtimeHashes": "source-hashes.json",
+      "normalBrowserEvidence": {
+        "testedRuntimeCommit": "f99a43b2d5150481e1e2e89e6fa0da0b2f44921a",
+        "releaseChangesAreDocumentationOnly": true,
+        "report": "reports/current/flight-qa.json"
+      }
     },
     {
       "repo": "subway",
       "title": "Borough Line",
-      "commit": "cd01851186e2ed24f9f15f93e1109c1f4dcf027b",
+      "commit": "c051856feb31078e946f66940798a55d04f15815",
       "pages": "https://greenkeewi.github.io/subway/",
-      "tests": 9
+      "simulationTests": 18,
+      "pagesDeployment": {
+        "runId": 38895996248,
+        "runUrl": "https://github.com/GreenKeewi/subway/actions/runs/38895996248",
+        "build": "success",
+        "deploy": "success"
+      },
+      "runtimeHashes": "source-hashes.json",
+      "normalBrowserEvidence": {
+        "testedRuntimeCommit": "e62da912ac6ed5ea933619b17c4b07f70469f571",
+        "releaseChangesAreDocumentationOnly": true,
+        "report": "reports/current/subway-qa.json"
+      }
+    },
+    {
+      "repo": "taxi",
+      "title": "Toronto Taxi",
+      "commit": "648d048f470e9cd144fd9860336f15c5ff67cd8d",
+      "pages": "https://greenkeewi.github.io/taxi/",
+      "simulationTests": null,
+      "pagesDeployment": {
+        "runId": 38895536968,
+        "runUrl": "https://github.com/GreenKeewi/taxi/actions/runs/38895536968",
+        "build": "success",
+        "deploy": "success"
+      },
+      "runtimeHashes": "source-hashes.json"
+    },
+    {
+      "repo": "night-shift-taxi",
+      "title": "Toronto Taxi 3D mirror",
+      "commit": "2de989bb6d893ceab5ae3aa00aec0fbd7fb0d4db",
+      "pages": "https://greenkeewi.github.io/night-shift-taxi/3d/",
+      "simulationTests": null,
+      "pagesDeployment": {
+        "runId": 38895540545,
+        "runUrl": "https://github.com/GreenKeewi/night-shift-taxi/actions/runs/38895540545",
+        "build": "success",
+        "deploy": "success"
+      },
+      "runtimeHashes": "source-hashes.json"
     }
   ],
   "hub": {
     "url": "https://greenkeewi.github.io/games/",
     "runtimeFiles": {
-      "index.html": "44e562bfa81a622d29016f2caad4b904ffa075c7a8ea11888b754dce0a8f301b",
+      "index.html": "e4ef24e704b137d5a49d419ec9777455231f1d35222a572509a626196cf9c592",
       "style.css": "e6496edfbdfc26f2dccc92fe27cd56f20b3d7be95bfa2f9252ec286fddb13a4f",
-      "assets/flight.webp": "6cab44108daa52182a55d9a4926c0637ce19c1dd785ff0741012364f22595126",
-      "assets/jets.webp": "7172df5e34fc71970e919805209ec2f60f6a8b327c2b22b4a415be5c179e197a",
-      "assets/subway.webp": "cc127f9a1a9393183759d3a44039e8aae7d4806f0065991b87d8c521e2b9c477",
-      "assets/taxi.webp": "2aeb3bc01ba1fee03a24f6adcdd761e837c5bdd03d4123f72bd7c373ea9bfef1"
+      "assets/jets-current.png": "0ab4701786b70fb5ef7b5afa3b7beb88b12e4a6fc10e9a22feede7caf85b42a8",
+      "assets/flight-current.png": "739a64156374bb939ed4d05525eb484767c9cbdccae1d287b2682b1622cdb12c",
+      "assets/subway-current.png": "6adf45ba10b8af5cd2af925d252f70b0c31e332e196fa316ccc2568b42b7a1ae",
+      "assets/taxi-current.png": "860c8a9e13ed7791b45bc27faa740a7594c324a0639f211c9ca122808a817c88"
+    },
+    "previews": [
+      {
+        "repo": "jets",
+        "asset": "assets/jets-current.png",
+        "captureCommit": "dc24281f78877f4354eb3480a995d7304bc2859f",
+        "method": "Normal-rAF native keyboard Northpoint takeoff and route assist, 48.1 simulation seconds; no state mutation/stepping",
+        "report": "reports/current/jets-preview-native-route.json",
+        "sha256": "0ab4701786b70fb5ef7b5afa3b7beb88b12e4a6fc10e9a22feede7caf85b42a8",
+        "localCloudCapture": true,
+        "contentTransformed": false
+      },
+      {
+        "repo": "flight",
+        "asset": "assets/flight-current.png",
+        "captureCommit": "f99a43b2d5150481e1e2e89e6fa0da0b2f44921a",
+        "method": "Normal-rAF Ridgefield approach during complete gate-to-gate keyboard/AP trip; runtime identical to documentation-only current release",
+        "report": "reports/current/flight-qa.json",
+        "sha256": "739a64156374bb939ed4d05525eb484767c9cbdccae1d287b2682b1622cdb12c",
+        "localCloudCapture": true,
+        "contentTransformed": false
+      },
+      {
+        "repo": "subway",
+        "asset": "assets/subway-current.png",
+        "captureCommit": "e62da912ac6ed5ea933619b17c4b07f70469f571",
+        "method": "Exterior view during the complete normal-rAF manual full service at Woodside Yard; runtime identical to documentation-only current release",
+        "report": "reports/current/subway-qa.json",
+        "sha256": "6adf45ba10b8af5cd2af925d252f70b0c31e332e196fa316ccc2568b42b7a1ae",
+        "localCloudCapture": true,
+        "contentTransformed": false
+      },
+      {
+        "repo": "taxi",
+        "asset": "assets/taxi-current.png",
+        "captureCommit": "648d048f470e9cd144fd9860336f15c5ff67cd8d",
+        "method": "Fresh-title native keyboard pickup with 48 normal-traffic cars; no placement/stepping; zero collisions/red-light fines",
+        "report": "reports/current/taxi-preview-native-pickup.json",
+        "sha256": "860c8a9e13ed7791b45bc27faa740a7594c324a0639f211c9ca122808a817c88",
+        "localCloudCapture": true,
+        "contentTransformed": false
+      }
+    ],
+    "publicationVerification": "The hub commit and its own Pages job are verified after this manifest is committed; see the final publication report and repository Actions.",
+    "responsiveKeyboardReport": "reports/current/hub-final-local.json"
+  },
+  "fixes": [
+    {
+      "issue": "JET-STRIKE-01",
+      "result": "Defender elimination leaves strike active; bombing plus escape remains required; roles/squad sizes covered by regression; normal-rAF original-seed browser run passed"
+    },
+    {
+      "issue": "TAXI-KEYBOARD-01",
+      "result": "Native Tab/Shift+Tab/Enter/Space reaches menu buttons and original 2D link in both 3D copies; arrow menus and driving map still pass"
     }
-  },
-  "network": {
-    "nativeProtocolGroups": 10,
-    "isolatedProtocolContexts": 6,
-    "renderedGameGroups": 8,
-    "renderedGameDocuments": 2,
-    "livePublishedTestPassed": true,
-    "networkModuleSha256": "24b56f1f0f7f5d34dabc5a95b1c7344b12859d14b8dfe9acb3d403699ad70d91",
-    "separatePhysicalDevicesTested": false,
-    "renderConditions": "Shared browser profile; real WebGL and native RTC; 640 x 480 CSS viewport; drawing scale 0.35; antialiasing off; 200 ms test frame scheduler. Functional integration, not a performance benchmark."
-  },
-  "preserved": [
-    "https://greenkeewi.github.io/taxi/",
-    "https://greenkeewi.github.io/night-shift-taxi/?v=toronto-8"
   ],
+  "liveOrigin": {
+    "status": "proxy-blocked",
+    "chromiumError": "net::ERR_TUNNEL_CONNECTION_FAILED",
+    "curlError": "CONNECT tunnel failed, response 403",
+    "proxy": "envoy",
+    "report": "reports/current/public-load-check.json"
+  },
+  "historicalEvidence": {
+    "release": "history/release-20261016-0318.json",
+    "sourceHashes": "history/source-hashes-20261016-0318.json",
+    "note": "Reports directly under reports/ outside current/ describe earlier revisions and must not be interpreted as current-release live validation."
+  },
   "limitations": [
-    "Physical separate-device Wi-Fi not tested.",
-    "Chromebook-sized keyboard layouts tested in cloud Chromium; physical Chromebook hardware not tested.",
-    "The 1 GB test VM could not sustain six simultaneous rendered games. Six native protocol contexts and two rendered game peers passed."
+    "No physical Chromebook, separate-device Wi-Fi, hardware-speaker or human control assessment.",
+    "Cloudliner full trips used optional autopilot and Clear coast; they do not establish all-manual browser flights or every weather combination.",
+    "Taxi controlled intercity engine tests disable other traffic and use controlled starts; highway browser fixture uses explicit placement. An uninterrupted traffic-obeying browser intercity fare was not completed.",
+    "Historical multiplayer/live reports apply only to their recorded older source hashes. Current protocol regressions pass, but current separate-device/Wi-Fi connectivity is not asserted."
   ]
 }

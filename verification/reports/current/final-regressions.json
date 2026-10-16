@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "jets",
+    "commit": "dc24281f78877f4354eb3480a995d7304bc2859f",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit": 0,
+    "summary": "ook ahead and remain above real terrain during a dogfight (286.902779ms)\n\u2714 combat bearing hints use aircraft heading and target altitude (0.638921ms)\n\u2714 strike bearing cues respect the bomber mission and point defenders toward the bomber (0.300723ms)\n\u2714 edge guidance avoids the flight readouts and task card at Chromebook sizes (0.406251ms)\n\u2139 tests 48\n\u2139 suites 0\n\u2139 pass 48\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 2251.581279\nnpm notice\nnpm notice New major version of npm available! 11.9.0 -> 12.2.0\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0\nnpm notice To update run: npm install -g npm@12.2.0\nnpm notice\n"
+  },
+  {
+    "repo": "flight",
+    "commit": "a9268309f30e1ac8286a34d0c048cc5862dbdf5d",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit": 0,
+    "summary": " disengages autopilot and keeps a continuous aircraft state (61.192406ms)\n\u2714 paused simulation is stable, including mission timers and doors (2.944463ms)\n\u2714 landing practice autopilot completes approach and gate (43.491187ms)\n\u2714 a missed approach recovers safely, and can subsequently finish the flight (60.407227ms)\n\u2714 unsafe terrain/water contact recovers, rather than stranding the player (0.570788ms)\n\u2714 runway touchdown accepts safe alignment and scores the landing (0.263717ms)\n\u2714 boundary recovery and exact target data remain finite (2.675529ms)\n\u2139 tests 22\n\u2139 suites 0\n\u2139 pass 22\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1116.712185\n"
+  },
+  {
+    "repo": "subway",
+    "commit": "c051856feb31078e946f66940798a55d04f15815",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit": 0,
+    "summary": "s early stop and forgiving hold zone (0.490107ms)\n\u2714 driving keys override assist while doors are interlocked (0.110726ms)\n\u2714 ordinary full service brake is comfortable; emergency is graded (0.401784ms)\n\u2714 full line visits ten distinct stops and three signals without ending at quick terminus (30.989875ms)\n\u2714 extended signals coach and protect at their own stop lines (0.853093ms)\n\u2714 manual guide warns before lower line limits (0.261824ms)\n\u2714 precision guidance remains positive until the marker and supports accurate keyboard-style stops (10.906887ms)\n\u2139 tests 18\n\u2139 suites 0\n\u2139 pass 18\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 138.969647\n"
+  },
+  {
+    "repo": "taxi",
+    "commit": "648d048f470e9cd144fd9860336f15c5ff67cd8d",
+    "command": [
+      "node",
+      "tests-region.cjs"
+    ],
+    "exit": 0,
+    "summary": ": 0 }\nhighway 500 1 -> Toronto { points: 354, metres: 866, bad: 0 }\nhighway 7000 -1 -> Toronto { points: 267, metres: 987, bad: 0 }\nhighway 7000 1 -> Toronto { points: 742, metres: 3298, bad: 0 }\nhighway 15000 -1 -> Toronto { points: 312, metres: 1787, bad: 0 }\nhighway 15000 1 -> Toronto { points: 845, metres: 5138, bad: 0 }\nhighway 22000 -1 -> Toronto { points: 351, metres: 2487, bad: 0 }\nhighway 22000 1 -> Toronto { points: 806, metres: 4438, bad: 0 }\nhighway 29200 -1 -> Toronto { points: 391, metres: 3207, bad: 0 }\nhighway 29200 1 -> Toronto { points: 416, metres: 3246, bad: 0 }\nPASS region graph, ramp layers, routes, no surface shortcuts\n"
+  },
+  {
+    "repo": "taxi",
+    "commit": "648d048f470e9cd144fd9860336f15c5ff67cd8d",
+    "command": [
+      "node",
+      "physical-regression.cjs"
+    ],
+    "exit": 0,
+    "summary": "nds\":272.9166666666667,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Pickering\",\"to\":\"Toronto\",\"ok\":true,\"seconds\":190.21666666666667,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Pickering\",\"to\":\"Oshawa\",\"ok\":true,\"seconds\":219.7,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Oshawa\",\"to\":\"Toronto\",\"ok\":true,\"seconds\":241.8,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Oshawa\",\"to\":\"Pickering\",\"ok\":true,\"seconds\":186.48333333333332,\"collisions\":0}\n{\"service\":\"509\",\"stops\":10,\"laps\":1,\"boarded\":77,\"alighted\":41}\n{\"service\":\"900\",\"stops\":6,\"laps\":1,\"boarded\":55,\"alighted\":19}\nPASS continuous drives, physical bus approaches, controlled fare states and save restore\n"
+  },
+  {
+    "repo": "taxi",
+    "commit": "648d048f470e9cd144fd9860336f15c5ff67cd8d",
+    "command": [
+      "node",
+      "physics-checks.cjs"
+    ],
+    "exit": 0,
+    "summary": "[\n  { vehicle: 'taxi', underpasses: '3 passed at ground height' },\n  { vehicle: 'taxi', mapEdge: 'contained' },\n  { vehicle: 'bus', underpasses: '3 passed at ground height' },\n  { vehicle: 'bus', mapEdge: 'contained' },\n  { highwayFollowing: 'stop and resume, no overlap' },\n  { debt: 'red light -$12, assist -$15' },\n  {\n    rightOnRed: 'full stop and right exit accepted; straight crossing fined'\n  },\n  { seeds: '1, 42, 8427, 12345, 999999' }\n]\n"
+  },
+  {
+    "repo": "taxi",
+    "commit": "648d048f470e9cd144fd9860336f15c5ff67cd8d",
+    "command": [
+      "node",
+      "journey-polish.cjs"
+    ],
+    "exit": 0,
+    "summary": "5,\n    estimatedMinutes: 4.9,\n    exit: 3\n  },\n  {\n    from: 'Pickering',\n    to: 'Toronto',\n    routeKm: 2.29,\n    highwayKm: 1.21,\n    estimatedMinutes: 3.4,\n    exit: 1\n  },\n  {\n    from: 'Pickering',\n    to: 'Oshawa',\n    routeKm: 2.41,\n    highwayKm: 1.23,\n    estimatedMinutes: 4,\n    exit: 3\n  },\n  {\n    from: 'Oshawa',\n    to: 'Toronto',\n    routeKm: 3.61,\n    highwayKm: 2.53,\n    estimatedMinutes: 4.3,\n    exit: 1\n  },\n  {\n    from: 'Oshawa',\n    to: 'Pickering',\n    routeKm: 2.25,\n    highwayKm: 1.21,\n    estimatedMinutes: 3.3,\n    exit: 2\n  }\n]\nPASS route distances, highway share, exit selection, scenic variety and opening approach\n"
+  },
+  {
+    "repo": "night-shift-taxi/3d",
+    "commit": "2de989bb6d893ceab5ae3aa00aec0fbd7fb0d4db",
+    "command": [
+      "node",
+      "tests-region.cjs"
+    ],
+    "exit": 0,
+    "summary": ": 0 }\nhighway 500 1 -> Toronto { points: 354, metres: 866, bad: 0 }\nhighway 7000 -1 -> Toronto { points: 267, metres: 987, bad: 0 }\nhighway 7000 1 -> Toronto { points: 742, metres: 3298, bad: 0 }\nhighway 15000 -1 -> Toronto { points: 312, metres: 1787, bad: 0 }\nhighway 15000 1 -> Toronto { points: 845, metres: 5138, bad: 0 }\nhighway 22000 -1 -> Toronto { points: 351, metres: 2487, bad: 0 }\nhighway 22000 1 -> Toronto { points: 806, metres: 4438, bad: 0 }\nhighway 29200 -1 -> Toronto { points: 391, metres: 3207, bad: 0 }\nhighway 29200 1 -> Toronto { points: 416, metres: 3246, bad: 0 }\nPASS region graph, ramp layers, routes, no surface shortcuts\n"
+  }
+]

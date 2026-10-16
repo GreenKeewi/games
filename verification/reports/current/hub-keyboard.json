@@ -1,0 +1,74 @@
+{
+  "environment": "LOCAL hub markup; native keyboard activates original public links. Destination proxy-blocked. No link rewriting/interception.",
+  "runs": [
+    {
+      "game": "jets",
+      "before": {
+        "focused": "https://greenkeewi.github.io/jets/",
+        "label": "Play Skybreak"
+      },
+      "afterUrl": "http://127.0.0.1:8765/games/",
+      "navigation": "page.waitForNavigation: net::ERR_TUNNEL_CONNECTION_FAILED\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "failed": [
+        {
+          "url": "https://greenkeewi.github.io/jets/",
+          "failure": {
+            "errorText": "net::ERR_TUNNEL_CONNECTION_FAILED"
+          }
+        }
+      ]
+    },
+    {
+      "game": "flight",
+      "before": {
+        "focused": "https://greenkeewi.github.io/flight/",
+        "label": "Play Cloudliner"
+      },
+      "afterUrl": "http://127.0.0.1:8765/games/",
+      "navigation": "page.waitForNavigation: net::ERR_TUNNEL_CONNECTION_FAILED\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "failed": [
+        {
+          "url": "https://greenkeewi.github.io/flight/",
+          "failure": {
+            "errorText": "net::ERR_TUNNEL_CONNECTION_FAILED"
+          }
+        }
+      ]
+    },
+    {
+      "game": "subway",
+      "before": {
+        "focused": "https://greenkeewi.github.io/subway/",
+        "label": "Play Borough Line"
+      },
+      "afterUrl": "http://127.0.0.1:8765/games/",
+      "navigation": "page.waitForNavigation: net::ERR_TUNNEL_CONNECTION_FAILED\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "failed": [
+        {
+          "url": "https://greenkeewi.github.io/subway/",
+          "failure": {
+            "errorText": "net::ERR_TUNNEL_CONNECTION_FAILED"
+          }
+        }
+      ]
+    },
+    {
+      "game": "taxi",
+      "before": {
+        "focused": "https://greenkeewi.github.io/taxi/",
+        "label": "Play Toronto Taxi"
+      },
+      "afterUrl": "http://127.0.0.1:8765/games/",
+      "navigation": "page.waitForNavigation: net::ERR_TUNNEL_CONNECTION_FAILED\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "failed": [
+        {
+          "url": "https://greenkeewi.github.io/taxi/",
+          "failure": {
+            "errorText": "net::ERR_TUNNEL_CONNECTION_FAILED"
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

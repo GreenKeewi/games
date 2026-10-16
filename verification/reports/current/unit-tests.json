@@ -1,0 +1,65 @@
+[
+  {
+    "repo": "jets",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit": 0,
+    "output": "ground roll, full route, approach, touchdown and stop complete naturally (73.05388ms)\n\u2714 an early practice touchdown cannot claim the route award (0.281479ms)\n\u2714 unsafe off-runway touchdown gives a recoverable go-around (0.190294ms)\n\u2714 strike bomb destroys the target, then escape completes the objective (4.996769ms)\n\u2714 intercepting the bomber ends strike mode for the defender (0.832421ms)\n\u2714 six connected players receive alternating authoritative seats (0.650741ms)\n\u2714 snapshot roundtrip retains mission rules, rejects wrong formats (8.010691ms)\n\u2714 a player-flown strike can defeat active defenders using timely counters and a clean release (161.655577ms)\n\u2714 six cooperative pilots spawn fully within the runway and can take off together (18.910319ms)\n\u2714 airport runway/apron and target hardstand match their visible foundations (1.57726ms)\n\u2714 coast finder follows the actual waterline around irregular shoreline (7.626212ms)\n\u2714 a hillside collision recovers free flight above real terrain instead of underground (34.739192ms)\n\u2714 combat aircraft cannot fly through a ridge (7.522927ms)\n\u2714 missiles collide with the solid mountain surface (0.540633ms)\n\u2714 bots look ahead and remain above real terrain during a dogfight (491.735511ms)\n\u2714 combat bearing hints use aircraft heading and target altitude (0.541644ms)\n\u2714 strike bearing cues respect the bomber mission and point defenders toward the bomber (0.211178ms)\n\u2714 edge guidance avoids the flight readouts and task card at Chromebook sizes (1.100914ms)\n\u2139 tests 47\n\u2139 suites 0\n\u2139 pass 47\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 4156.288323\nnpm notice\nnpm notice New major version of npm available! 11.9.0 -> 12.2.0\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0\nnpm notice To update run: npm install -g npm@12.2.0\nnpm notice\n"
+  },
+  {
+    "repo": "flight",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit": 0,
+    "output": "eight and separates manual and crew instructions (89.266398ms)\n\u2714 airport transforms round-trip arbitrary orientations and elevation (0.26183ms)\n\u2714 conditions and flight identifiers validate, wind is deterministic and recovery preserves selection (1.084437ms)\n\u2714 landing grades reward gentle touchdown while preserving safe arrivals (0.177945ms)\n\u2714 an early touchdown and firm braking never strand the aircraft before the runway exit (180.55555ms)\n\u2714 a complete gate-to-gate autopilot flight at 60 Hz, with no safety recovery (264.997982ms)\n\u2714 low frame rates retain full mission progress and safe arrival (214.271523ms)\n\u2714 boarding prevents motion until doors are closed (12.494088ms)\n\u2714 manual taxi inputs accelerate, turn and brake without an active autopilot (12.132394ms)\n\u2714 doors remain locked at speed and away from the gate (8.405633ms)\n\u2714 manual runway takeoff is possible using only W, with assisted rotation (23.018175ms)\n\u2714 any flight input disengages autopilot and keeps a continuous aircraft state (96.700227ms)\n\u2714 paused simulation is stable, including mission timers and doors (7.992633ms)\n\u2714 landing practice autopilot completes approach and gate (135.519281ms)\n\u2714 a missed approach recovers safely, and can subsequently finish the flight (95.587865ms)\n\u2714 unsafe terrain/water contact recovers, rather than stranding the player (0.470477ms)\n\u2714 runway touchdown accepts safe alignment and scores the landing (0.197477ms)\n\u2714 boundary recovery and exact target data remain finite (0.171007ms)\n\u2139 tests 22\n\u2139 suites 0\n\u2139 pass 22\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1981.952836\nnpm notice\nnpm notice New major version of npm available! 11.9.0 -> 12.2.0\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0\nnpm notice To update run: npm install -g npm@12.2.0\nnpm notice\n"
+  },
+  {
+    "repo": "subway",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exit": 0,
+    "output": "\n> borough-line@1.0.0 test\n> node --test tests/sim.test.js\n\n\u2714 boarding enforces dwell and movement interlock (4.029977ms)\n\u2714 wrong-side doors refuse, platform side succeeds (0.224264ms)\n\u2714 red signal protects train and releases after wait (0.722267ms)\n\u2714 recovery restores missed platform and applies penalty (0.141771ms)\n\u2714 full assisted service visits all five stations and obeys signal (26.066858ms)\n\u2714 manual input overrides assist and invalid timestep is harmless (1.056595ms)\n\u2714 recovering beyond a red signal does not teleport backwards (0.289642ms)\n\u2714 two FPS follows real elapsed time for boarding and departure (0.592673ms)\n\u2714 fixed frame caps suspended-tab catchup and rejects invalid elapsed (0.192287ms)\n\u2714 coaching gives speed-dependent brake cue and prioritizes red signal (0.548267ms)\n\u2714 coast overrides assist and stop grades capture comfort (0.28859ms)\n\u2714 signal coaching explains early stop and forgiving hold zone (0.411984ms)\n\u2714 driving keys override assist while doors are interlocked (0.089573ms)\n\u2714 ordinary full service brake is comfortable; emergency is graded (0.260518ms)\n\u2714 full line visits ten distinct stops and three signals without ending at quick terminus (60.69663ms)\n\u2714 extended signals coach and protect at their own stop lines (1.088723ms)\n\u2714 manual guide warns before lower line limits (0.667184ms)\n\u2714 precision guidance remains positive until the marker and supports accurate keyboard-style stops (17.250776ms)\n\u2139 tests 18\n\u2139 suites 0\n\u2139 pass 18\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 355.632304\n"
+  },
+  {
+    "repo": "taxi",
+    "command": [
+      "node",
+      "tests-region.cjs"
+    ],
+    "exit": 0,
+    "output": "oe -> King & Yonge { points: 43, metres: 97, bad: 0 }\n509 King & Yonge -> Union East { points: 23, metres: 31, bad: 0 }\n509 Union East -> Yonge Harbour { points: 43, metres: 93, bad: 0 }\n509 Yonge Harbour -> Lake Shore Market { points: 24, metres: 35, bad: 0 }\n509 Lake Shore Market -> Harbourfront { points: 43, metres: 97, bad: 0 }\n509 Harbourfront -> Music Garden { points: 43, metres: 96, bad: 0 }\n509 Music Garden -> Spadina Quay { points: 24, metres: 35, bad: 0 }\n509 Spadina Quay -> Spadina & Front { points: 42, metres: 93, bad: 0 }\n900 Toronto Union Coach Terminal -> Toronto Union Coach Terminal { points: 43, metres: 67, bad: 0 }\n900 Toronto Union Coach Terminal -> Pickering GO Station { points: 650, metres: 2491, bad: 0 }\n900 Pickering GO Station -> Oshawa GO Station { points: 574, metres: 2340, bad: 0 }\n900 Oshawa GO Station -> Oshawa Civic Terminal { points: 43, metres: 81, bad: 0 }\n900 Oshawa Civic Terminal -> Pickering Civic Terminal { points: 586, metres: 2349, bad: 0 }\n900 Pickering Civic Terminal -> Toronto Union Coach Terminal { points: 624, metres: 2432, bad: 0 }\nhighway 500 -1 -> Toronto { points: 380, metres: 896, bad: 0 }\nhighway 500 1 -> Toronto { points: 354, metres: 866, bad: 0 }\nhighway 7000 -1 -> Toronto { points: 267, metres: 987, bad: 0 }\nhighway 7000 1 -> Toronto { points: 742, metres: 3298, bad: 0 }\nhighway 15000 -1 -> Toronto { points: 312, metres: 1787, bad: 0 }\nhighway 15000 1 -> Toronto { points: 845, metres: 5138, bad: 0 }\nhighway 22000 -1 -> Toronto { points: 351, metres: 2487, bad: 0 }\nhighway 22000 1 -> Toronto { points: 806, metres: 4438, bad: 0 }\nhighway 29200 -1 -> Toronto { points: 391, metres: 3207, bad: 0 }\nhighway 29200 1 -> Toronto { points: 416, metres: 3246, bad: 0 }\nPASS region graph, ramp layers, routes, no surface shortcuts\n"
+  },
+  {
+    "repo": "taxi",
+    "command": [
+      "node",
+      "physical-regression.cjs"
+    ],
+    "exit": 0,
+    "output": "{\"vehicle\":\"taxi\",\"from\":\"Toronto\",\"to\":\"Pickering\",\"ok\":true,\"seconds\":212.01666666666668,\"collisions\":0}\n{\"vehicle\":\"taxi\",\"from\":\"Toronto\",\"to\":\"Oshawa\",\"ok\":true,\"seconds\":261.25,\"collisions\":0}\n{\"vehicle\":\"taxi\",\"from\":\"Pickering\",\"to\":\"Toronto\",\"ok\":true,\"seconds\":184.11666666666667,\"collisions\":0}\n{\"vehicle\":\"taxi\",\"from\":\"Pickering\",\"to\":\"Oshawa\",\"ok\":true,\"seconds\":210.41666666666666,\"collisions\":0}\n{\"vehicle\":\"taxi\",\"from\":\"Oshawa\",\"to\":\"Toronto\",\"ok\":true,\"seconds\":233.16666666666666,\"collisions\":0}\n{\"vehicle\":\"taxi\",\"from\":\"Oshawa\",\"to\":\"Pickering\",\"ok\":true,\"seconds\":179.93333333333334,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Toronto\",\"to\":\"Pickering\",\"ok\":true,\"seconds\":221.53333333333333,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Toronto\",\"to\":\"Oshawa\",\"ok\":true,\"seconds\":272.9166666666667,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Pickering\",\"to\":\"Toronto\",\"ok\":true,\"seconds\":190.21666666666667,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Pickering\",\"to\":\"Oshawa\",\"ok\":true,\"seconds\":219.7,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Oshawa\",\"to\":\"Toronto\",\"ok\":true,\"seconds\":241.8,\"collisions\":0}\n{\"vehicle\":\"bus\",\"from\":\"Oshawa\",\"to\":\"Pickering\",\"ok\":true,\"seconds\":186.48333333333332,\"collisions\":0}\n{\"service\":\"509\",\"stops\":10,\"laps\":1,\"boarded\":77,\"alighted\":41}\n{\"service\":\"900\",\"stops\":6,\"laps\":1,\"boarded\":55,\"alighted\":19}\nPASS continuous drives, physical bus approaches, controlled fare states and save restore\n"
+  },
+  {
+    "repo": "taxi",
+    "command": [
+      "node",
+      "physics-checks.cjs"
+    ],
+    "exit": 0,
+    "output": "[\n  { vehicle: 'taxi', underpasses: '3 passed at ground height' },\n  { vehicle: 'taxi', mapEdge: 'contained' },\n  { vehicle: 'bus', underpasses: '3 passed at ground height' },\n  { vehicle: 'bus', mapEdge: 'contained' },\n  { highwayFollowing: 'stop and resume, no overlap' },\n  { debt: 'red light -$12, assist -$15' },\n  {\n    rightOnRed: 'full stop and right exit accepted; straight crossing fined'\n  },\n  { seeds: '1, 42, 8427, 12345, 999999' }\n]\n"
+  },
+  {
+    "repo": "taxi",
+    "command": [
+      "node",
+      "journey-polish.cjs"
+    ],
+    "exit": 0,
+    "output": "[\n  {\n    from: 'Toronto',\n    to: 'Pickering',\n    routeKm: 2.43,\n    highwayKm: 1.23,\n    estimatedMinutes: 4,\n    exit: 2\n  },\n  {\n    from: 'Toronto',\n    to: 'Oshawa',\n    routeKm: 3.75,\n    highwayKm: 2.55,\n    estimatedMinutes: 4.9,\n    exit: 3\n  },\n  {\n    from: 'Pickering',\n    to: 'Toronto',\n    routeKm: 2.29,\n    highwayKm: 1.21,\n    estimatedMinutes: 3.4,\n    exit: 1\n  },\n  {\n    from: 'Pickering',\n    to: 'Oshawa',\n    routeKm: 2.41,\n    highwayKm: 1.23,\n    estimatedMinutes: 4,\n    exit: 3\n  },\n  {\n    from: 'Oshawa',\n    to: 'Toronto',\n    routeKm: 3.61,\n    highwayKm: 2.53,\n    estimatedMinutes: 4.3,\n    exit: 1\n  },\n  {\n    from: 'Oshawa',\n    to: 'Pickering',\n    routeKm: 2.25,\n    highwayKm: 1.21,\n    estimatedMinutes: 3.3,\n    exit: 2\n  }\n]\nPASS route distances, highway share, exit selection, scenic variety and opening approach\n"
+  }
+]

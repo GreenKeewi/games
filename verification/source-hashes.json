@@ -1,303 +1,126 @@
 [
   {
     "repo": "jets",
-    "files": 19,
-    "allPublishedFilesMatch": true,
-    "blobs": [
-      {
-        "path": ".nojekyll",
-        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-        "localMatch": true
-      },
-      {
-        "path": "README.md",
-        "gitBlobSha": "2eab127a474fe585e210a4d9c72ee7d44f99b979",
-        "localMatch": true
-      },
-      {
-        "path": "assets/fighter-menu-art.webp",
-        "gitBlobSha": "793f1335ad7a527a313fbf3cbb2aa504ca271429",
-        "localMatch": true
-      },
-      {
-        "path": "audio.js",
-        "gitBlobSha": "7177f0740c02dbeab034ee8fa2a6b40fe9f6d7e8",
-        "localMatch": true
-      },
-      {
-        "path": "favicon.svg",
-        "gitBlobSha": "34a1bb06871d783b823d2addb2734394a249bbf9",
-        "localMatch": true
-      },
-      {
-        "path": "game.js",
-        "gitBlobSha": "b7747feb8ea73dc235168b20b9586f70849812c7",
-        "localMatch": true
-      },
-      {
-        "path": "index.html",
-        "gitBlobSha": "da9b9d376e676dcffdcd33edfa2a7dc6163dce02",
-        "localMatch": true
-      },
-      {
-        "path": "network-ui.js",
-        "gitBlobSha": "9680976f5a6fd7845dc771854fe4ba7811d14d28",
-        "localMatch": true
-      },
-      {
-        "path": "network.js",
-        "gitBlobSha": "5a7649ef50c510a30df67b1029c9a443e9faf2de",
-        "localMatch": true
-      },
-      {
-        "path": "package.json",
-        "gitBlobSha": "1e55905c09b28a81a6721a496f123510d2a33498",
-        "localMatch": true
-      },
-      {
-        "path": "render.js",
-        "gitBlobSha": "8b9da3a002fdc2b9a92f20155262eaf15db54caf",
-        "localMatch": true
-      },
-      {
-        "path": "sim.js",
-        "gitBlobSha": "0f4ea13bdfed97753904d9584a48044129bf1f1c",
-        "localMatch": true
-      },
-      {
-        "path": "style.css",
-        "gitBlobSha": "6ed026d28e54676dc77d38b758168d6698e499a5",
-        "localMatch": true
-      },
-      {
-        "path": "tests/network.test.js",
-        "gitBlobSha": "042c9322d1b9a9d497f58380ac50eefd66648432",
-        "localMatch": true
-      },
-      {
-        "path": "tests/realtime-loss-defender.cjs",
-        "gitBlobSha": "94553944a420f041e5947e174d0d1bc4a552fe13",
-        "localMatch": true
-      },
-      {
-        "path": "tests/sim.test.js",
-        "gitBlobSha": "0c0f5ba34360309430d062b7714268f08c976830",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/THREE-LICENSE.txt",
-        "gitBlobSha": "cf781430404b0ae0ba7d8dea3457a3515dd7c9b9",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/three.core.js",
-        "gitBlobSha": "7dcd0fbcbc04b8d9a20ecb96c1ce344cb55150d5",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/three.module.js",
-        "gitBlobSha": "477ca4dafa7af919a2b9818e01b5ae25198d4aa4",
-        "localMatch": true
-      }
-    ]
+    "commit": "dc24281f78877f4354eb3480a995d7304bc2859f",
+    "repositoryHeadMatched": true,
+    "scope": "Runtime files in exact Git repository commit; not a direct public Pages byte comparison",
+    "sha256": {
+      ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "aircraft.js": "358fd4e14491dc76076d1da465092d61f0f9fc0af234e6c4fa3c2ea2932ebaf5",
+      "assets/cloud-volume-1.webp": "061ec8a0d5c2164b5497a1fbf677d6859b4a8bd6ac3dc6b9088124773aec6cad",
+      "assets/cloud-volume-2.webp": "20a53ae35f0705a7cc9169cf7ea8307962a21b42475a127a048cd8b0778c6cf2",
+      "assets/cloud-volume-3.webp": "25c2dc0e0327f7675d99399bbbddceaefa18b3b6980121798f9f440ebd1b5339",
+      "assets/fighter-menu-art.webp": "cd4c9569fb862811ce5c4c2bbaa4f454576f6b4ff76534a99fbee15b144a80df",
+      "audio.js": "e83f641c34c89e9c58219df6bba4e1d435b02ff124bb17478446ab9992b95ff8",
+      "favicon.svg": "1ef0c2c41dfd70e0e88bddadcf0c04f654ca6a848ca7739eeb5f425df2acdabe",
+      "game.js": "ca0dcb7890bd94be3718000aed258174de2e66d13eebb3d32aada0d2975f4e89",
+      "geometry.js": "2f5c42c1093aa4c0f01b5dc71129a6e7e2bfdd7e36692aded40e441efc2d38cb",
+      "guidance.js": "43023bf9742a3000c5df1fc5b9ae0ecde09a36dbbd196e4b0cba9587e7b40375",
+      "index.html": "f6909c286078ca2029933dc0dbc6394712ad6173cd726868861e3c14e30381da",
+      "instruments.js": "fbe215dc0b4aae7f51c790708fba1d4ca3eb050ba93a6f69b5f2e193f1576516",
+      "missions.js": "55859e2bd3d03a8304340b03cb44a9fa06b2d77404e6fd5247ae5e68e09705a5",
+      "network-ui.js": "88c8d1b0f520d3c9ad1762b26986c9f375140db6dc70b7925b0a69be445d4d2a",
+      "network.js": "659872cb01758ac044e550903c05515656a8d5813a4d8b0b9fbfc041263292b1",
+      "render.js": "4072a88910f5e75cad32c835231a74d36795e55686ef8e5a33f494ff0c4912f8",
+      "scenery.js": "479500aff0b9b84543ccc6f2649c78e9ed8b7ed392af7e941d26ee9cc64f088d",
+      "sim.js": "b777bd8ab8842bfd4ba8c1a76d55bd172c71593d3bd25bccb2090d590d6752cf",
+      "style.css": "608245241abb9049f0995dac976732fc75f85e965284052456e2fc5c37e53968",
+      "vendor/three.core.js": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "vendor/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "world.js": "a148ecea78a3031baafd17943256ed3898790aa6070081eb5a7c357e77ec5476"
+    }
   },
   {
     "repo": "flight",
-    "files": 21,
-    "allPublishedFilesMatch": true,
-    "blobs": [
-      {
-        "path": ".gitignore",
-        "gitBlobSha": "b506c2e29d6d0e55f0b97012470f5264c6aca35e",
-        "localMatch": true
-      },
-      {
-        "path": ".nojekyll",
-        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-        "localMatch": true
-      },
-      {
-        "path": "README.md",
-        "gitBlobSha": "d2f218baaf6e0d6d13b8bcb81a665e040d23ceea",
-        "localMatch": true
-      },
-      {
-        "path": "VALIDATION.md",
-        "gitBlobSha": "51186ce42bf51674c91178105f7a37a7b9bb55b7",
-        "localMatch": true
-      },
-      {
-        "path": "assets/airliner-menu-art.webp",
-        "gitBlobSha": "0ebea691baee2ea5e0da0a80454b4b7ab7002eb8",
-        "localMatch": true
-      },
-      {
-        "path": "assets/gameplay.webp",
-        "gitBlobSha": "fdc09346d171d502070933e5ad55c168ad117bea",
-        "localMatch": true
-      },
-      {
-        "path": "audio.js",
-        "gitBlobSha": "5651a63650cfdc4c0cc0e69d11b6d005377784ad",
-        "localMatch": true
-      },
-      {
-        "path": "game.js",
-        "gitBlobSha": "313941bf3d6384743242b72fbf7a1627caba71bc",
-        "localMatch": true
-      },
-      {
-        "path": "index.html",
-        "gitBlobSha": "74f78e603d9fec346cf5eb4d4ae4b4ba2c355777",
-        "localMatch": true
-      },
-      {
-        "path": "package.json",
-        "gitBlobSha": "1e45c1b9dc88167fa3c4bdebc0080dfcf52a61b0",
-        "localMatch": true
-      },
-      {
-        "path": "renderer.js",
-        "gitBlobSha": "c7d378c2c6e9e3808d71c92bfceb73e60b645367",
-        "localMatch": true
-      },
-      {
-        "path": "sim.js",
-        "gitBlobSha": "5c2add3184165ac98d6506e6cd51e873f90b06ef",
-        "localMatch": true
-      },
-      {
-        "path": "style.css",
-        "gitBlobSha": "7ade3c6277f16add65d62a55fe0b813038bf0e5d",
-        "localMatch": true
-      },
-      {
-        "path": "tests/manual-policy.mjs",
-        "gitBlobSha": "d62a54cfa9bcd0c8ca23cebaa740186dabe193e6",
-        "localMatch": true
-      },
-      {
-        "path": "tests/mission.test.js",
-        "gitBlobSha": "8220ad0527c234c480cb63e9bddadea2625c48bc",
-        "localMatch": true
-      },
-      {
-        "path": "tests/realtime.cjs",
-        "gitBlobSha": "526a611ac371836ed818e673d90e96b8f76069cc",
-        "localMatch": true
-      },
-      {
-        "path": "tests/smoke.cjs",
-        "gitBlobSha": "a8c48c1ded8dfaa12cd8949caad54e1270d32645",
-        "localMatch": true
-      },
-      {
-        "path": "tests/visual.cjs",
-        "gitBlobSha": "962e7bc55a315db3e8697a7abab84aad8b8e8525",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/THREE-LICENSE.txt",
-        "gitBlobSha": "cf781430404b0ae0ba7d8dea3457a3515dd7c9b9",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/three.core.js",
-        "gitBlobSha": "7dcd0fbcbc04b8d9a20ecb96c1ce344cb55150d5",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/three.module.js",
-        "gitBlobSha": "477ca4dafa7af919a2b9818e01b5ae25198d4aa4",
-        "localMatch": true
-      }
-    ]
+    "commit": "a9268309f30e1ac8286a34d0c048cc5862dbdf5d",
+    "repositoryHeadMatched": true,
+    "scope": "Runtime files in exact Git repository commit; not a direct public Pages byte comparison",
+    "sha256": {
+      ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "aircraft.js": "d85e25863f72c26cb34ed0370ede2f41929182d0a569d5c12af1f96691a59064",
+      "airports.js": "068998aae67dc4a3c789e0a1d9855b9004ac7f64ac76e1cebc3db30856736fba",
+      "assets/airliner-menu-art.webp": "6bc6989f96eb0087104b59bb258e17ce78bc5cc08913486571363f503040571e",
+      "assets/gameplay.webp": "a4fb6c8803faffbdda5eb4d0b0aa3b2bca0d3fcb684260b3812caebdd75776f3",
+      "audio.js": "b9334f8146e702b5eeb6f44138aa37b4311b4ce7fe010d5b8105a299eb562023",
+      "cockpit.js": "c5d15c43feb18dd710ddbf81b6082a988192936b1b2ccf13aa2601c43ead7ac2",
+      "game.js": "d6792ea6d0b69b507d76cdc9428308213628e6963f8eee3688389c37649c1c4a",
+      "geometry.js": "448d5b7ceee58f19d13177c4262535d70f51fbc281fc06f5f04aab8de09b0a1d",
+      "guidance.js": "0a57ca63f3b1aac48b3c002f2fa3a15e9bdcc0a324ec12d75190c7a368e9dfea",
+      "index.html": "f5491ac593824443068e06ecc156526c7801d78f89eb1e33f56120e100f2bf38",
+      "renderer.js": "42de0d08f8016a22d1c11bb8a1b739ab56066499c530933dd2ba9c5fbaa5a788",
+      "routes.js": "ef6de0022b0269c312f8b77d1205e063f33dfea9aa60605746bcd135e0187a0f",
+      "scenery.js": "995ab7d0f6e885fd646ec0e8848e2a4277ebe1c4c280f2852a7fb25a959c5794",
+      "sim.js": "10d14431a2a9051d4ef77848669f7fd4570415f3a39133d47fa1137ecf09c41a",
+      "style.css": "faef84a298e8ad2315fb8b83bda395947647d520564820bf014b4dd4bfdd7e59",
+      "vendor/three.core.js": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "vendor/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "world.js": "5e49023b186becc7b3bbc4981b6080647477d52b338d5a9424d47b7a60357d6f"
+    }
   },
   {
     "repo": "subway",
-    "files": 16,
-    "allPublishedFilesMatch": true,
-    "blobs": [
-      {
-        "path": ".gitignore",
-        "gitBlobSha": "2752eb92e5922f0f1d60494d1793a54775e0d830",
-        "localMatch": true
-      },
-      {
-        "path": ".nojekyll",
-        "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-        "localMatch": true
-      },
-      {
-        "path": "README.md",
-        "gitBlobSha": "a0f5783eb75092a92b3987c8c73b7bcb1d6b1ab5",
-        "localMatch": true
-      },
-      {
-        "path": "index.html",
-        "gitBlobSha": "eaf293917cd0ee141860c6b26a0c602be85ade0d",
-        "localMatch": true
-      },
-      {
-        "path": "main.js",
-        "gitBlobSha": "269f0c971a13f3bd66faae40b5b681c40e28f890",
-        "localMatch": true
-      },
-      {
-        "path": "package.json",
-        "gitBlobSha": "98d0f4338e7684a0225ad5f170c12076bfcfef4a",
-        "localMatch": true
-      },
-      {
-        "path": "sim.js",
-        "gitBlobSha": "7faa4988e77914272b97bd79370fba358cfdca50",
-        "localMatch": true
-      },
-      {
-        "path": "style.css",
-        "gitBlobSha": "1eca1c43de86b25f2d396afd33c8f8768961a052",
-        "localMatch": true
-      },
-      {
-        "path": "tests/browser-realtime.cjs",
-        "gitBlobSha": "744a0019d17f2c71e127b186581e130c3c7337c3",
-        "localMatch": true
-      },
-      {
-        "path": "tests/browser-smoke.cjs",
-        "gitBlobSha": "612c513b14ed33db52e6fd2597f5fe42e43d72dd",
-        "localMatch": true
-      },
-      {
-        "path": "tests/sim.test.js",
-        "gitBlobSha": "3d818630925f52311891ccd1770096d64d906775",
-        "localMatch": true
-      },
-      {
-        "path": "timing.js",
-        "gitBlobSha": "34ca0e354b096ca2fa8cdfd3bf31e47855e99be1",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/BufferGeometryUtils.js",
-        "gitBlobSha": "0f0c0583091c11181390c01710f20a03060ce3a4",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/THREE-LICENSE.txt",
-        "gitBlobSha": "cf781430404b0ae0ba7d8dea3457a3515dd7c9b9",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/three.core.js",
-        "gitBlobSha": "7dcd0fbcbc04b8d9a20ecb96c1ce344cb55150d5",
-        "localMatch": true
-      },
-      {
-        "path": "vendor/three.module.js",
-        "gitBlobSha": "477ca4dafa7af919a2b9818e01b5ae25198d4aa4",
-        "localMatch": true
-      }
-    ]
+    "commit": "c051856feb31078e946f66940798a55d04f15815",
+    "repositoryHeadMatched": true,
+    "scope": "Runtime files in exact Git repository commit; not a direct public Pages byte comparison",
+    "sha256": {
+      ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "audio.js": "264325e96a73700a7d6c29e11361d8b5f22f6653879367b173c86e607d324397",
+      "coaching.js": "c789999193c3a34d7fc698e0c86dee45634de08054790c58d307dd2699ffe006",
+      "extended-world.js": "4b27f558efca1002edffcdcb77b94c349f7e315c0d7e6e6980458f7be8a1afe8",
+      "index.html": "ebab6d410d86a719c31e0d19d7431132ca38db74dbc19f86eedfa193b62c3d21",
+      "main.js": "46f0449f0d18f9f88b2c3c62c886164de7da01f40aa93a0a12aa32fbe3a1880f",
+      "sim.js": "fed95e35ef26e8f200aad5f25d60827da7d0771e0db96d827433e6129acaf225",
+      "style.css": "2d4137d1e0acb8d3c7f90e845f05a094c0f95d04cedfcf4c7534dfc43fdcd189",
+      "timing.js": "bb23cfa18211467140dfa69234059272f23a52b3c4e272a5f56cfb2b40a3bcc7",
+      "vendor/BufferGeometryUtils.js": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c",
+      "vendor/three.core.js": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "vendor/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "world-detail.js": "10687b890f97be92e3233ce9dc1fbca43eeb47d36495695cb28527d3eb94d754"
+    }
+  },
+  {
+    "repo": "taxi",
+    "commit": "648d048f470e9cd144fd9860336f15c5ff67cd8d",
+    "repositoryHeadMatched": true,
+    "scope": "Runtime files in exact Git repository commit; not a direct public Pages byte comparison",
+    "sha256": {
+      ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "aircraft.js": "fa7c5f2848bab4273e2e067a28386cd6ac034355dda380f48803418b38598d7b",
+      "audio.js": "54960967c162b47b098688d96a6ad5219ec9aa55d4f18952fdeb87dba712600b",
+      "city.js": "b5154b3386a30cbecf56346ad917f4392bff8f024bffed454e4ba1bf37da91f0",
+      "cockpit.js": "c97181ae96bba9900fab913680cc63deb511681a97ab023b6f3fb030807a7570",
+      "engine3d.js": "98cadef187968fdd24f23dbdcb9b86b85e4451ad45be3a471f926831569748b1",
+      "game.js": "cd26328308935d9db6f7ff60a324095a07d1b906959e509494d5f29a5fa153c7",
+      "index.html": "8333dd3f498b5fe7dbce39e6c3ad7c16735b301557ab58bfa0228c78d5f1a70a",
+      "region.js": "8e0a4251433fcaa323076e08bbe5392abae9d423584b1b4e0ee5bf0a9fd91a12",
+      "regional-scene.js": "c3f929ea139999c81915e0848e5e9913430e6bba089c66a1c4a3b5d7cfd4fadb",
+      "renderer.js": "fb9ff1f69b0b1a2eda145f5fb77e80631e1c62081ac4c576a2340de0a4306cf7",
+      "roads.js": "c455979ba2fc7508f6ee677feacab7f9d940e8aca97f96d2c686f409e267d5bd",
+      "software.js": "835ea6309df7e08d03fb2eb8e5e5aa72c4601b9d74bdd70c2d30c373bab17cf6",
+      "style.css": "9ce02fca93bf4d85162319d39af7cbde1f426fe6d762bb148111cbd580a14103",
+      "taxi-engine.js": "14a288fb1da3375d0907dab26a8ce11b68c342d4c51446ebb9fc34709886e693"
+    }
+  },
+  {
+    "repo": "night-shift-taxi",
+    "commit": "2de989bb6d893ceab5ae3aa00aec0fbd7fb0d4db",
+    "repositoryHeadMatched": true,
+    "scope": "Runtime files in exact Git repository commit; not a direct public Pages byte comparison",
+    "sha256": {
+      "3d/aircraft.js": "fa7c5f2848bab4273e2e067a28386cd6ac034355dda380f48803418b38598d7b",
+      "3d/audio.js": "54960967c162b47b098688d96a6ad5219ec9aa55d4f18952fdeb87dba712600b",
+      "3d/city.js": "b5154b3386a30cbecf56346ad917f4392bff8f024bffed454e4ba1bf37da91f0",
+      "3d/cockpit.js": "c97181ae96bba9900fab913680cc63deb511681a97ab023b6f3fb030807a7570",
+      "3d/engine3d.js": "98cadef187968fdd24f23dbdcb9b86b85e4451ad45be3a471f926831569748b1",
+      "3d/game.js": "cd26328308935d9db6f7ff60a324095a07d1b906959e509494d5f29a5fa153c7",
+      "3d/index.html": "8333dd3f498b5fe7dbce39e6c3ad7c16735b301557ab58bfa0228c78d5f1a70a",
+      "3d/region.js": "8e0a4251433fcaa323076e08bbe5392abae9d423584b1b4e0ee5bf0a9fd91a12",
+      "3d/regional-scene.js": "c3f929ea139999c81915e0848e5e9913430e6bba089c66a1c4a3b5d7cfd4fadb",
+      "3d/renderer.js": "fb9ff1f69b0b1a2eda145f5fb77e80631e1c62081ac4c576a2340de0a4306cf7",
+      "3d/roads.js": "c455979ba2fc7508f6ee677feacab7f9d940e8aca97f96d2c686f409e267d5bd",
+      "3d/software.js": "835ea6309df7e08d03fb2eb8e5e5aa72c4601b9d74bdd70c2d30c373bab17cf6",
+      "3d/style.css": "9ce02fca93bf4d85162319d39af7cbde1f426fe6d762bb148111cbd580a14103",
+      "3d/taxi-engine.js": "14a288fb1da3375d0907dab26a8ce11b68c342d4c51446ebb9fc34709886e693"
+    }
   }
 ]

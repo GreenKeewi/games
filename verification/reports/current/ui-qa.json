@@ -1,0 +1,1863 @@
+{
+  "environment": "LOCAL clone, keyboard navigation at 683x384 CSS pixels",
+  "pages": [
+    {
+      "game": "games",
+      "focus": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Skip to games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 137.546875,
+            "h": 44
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "g. GreenKeewi",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 25,
+            "w": 121.78125,
+            "h": 29
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 170.65625,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 350.5,
+            "y": 170.65625,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 192.9375,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 350.5,
+            "y": 192.9375,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Original 2D Taxi ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 416.125,
+            "y": 309.9375,
+            "w": 99.234375,
+            "h": 18
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Made by GreenKeewi",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 544.078125,
+            "y": 309.9375,
+            "w": 118.921875,
+            "h": 18
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "Skip to games\n  \n    \n      g. GreenKeewi\n      Pick your next shift.Fly, drive,",
+          "visible": true,
+          "fullyVisible": false,
+          "rect": {
+            "x": 0,
+            "y": -872,
+            "w": 683,
+            "h": 1256.4375
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Skip to games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 137.546875,
+            "h": 44
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "g. GreenKeewi",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 25,
+            "w": 121.78125,
+            "h": 29
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 170.65625,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 350.5,
+            "y": 170.65625,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 192.9375,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 350.5,
+            "y": 192.9375,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Original 2D Taxi ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 416.125,
+            "y": 309.9375,
+            "w": 99.234375,
+            "h": 18
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Made by GreenKeewi",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 544.078125,
+            "y": 309.9375,
+            "w": 118.921875,
+            "h": 18
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "Skip to games\n  \n    \n      g. GreenKeewi\n      Pick your next shift.Fly, drive,",
+          "visible": true,
+          "fullyVisible": false,
+          "rect": {
+            "x": 0,
+            "y": -872,
+            "w": 683,
+            "h": 1256.4375
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Skip to games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 137.546875,
+            "h": 44
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "g. GreenKeewi",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 25,
+            "w": 121.78125,
+            "h": 29
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 20,
+            "y": 170.65625,
+            "w": 312.5,
+            "h": 43
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Play ↗",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 350.5,
+            "y": 170.65625,
+            "w": 312.5,
+            "h": 43
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Skip to games",
+          "href": "http://127.0.0.1:8765/games/#collection"
+        },
+        {
+          "text": "g. GreenKeewi",
+          "href": "http://127.0.0.1:8765/games/"
+        },
+        {
+          "text": "Play ↗",
+          "href": "https://greenkeewi.github.io/jets/"
+        },
+        {
+          "text": "Play ↗",
+          "href": "https://greenkeewi.github.io/flight/"
+        },
+        {
+          "text": "Play ↗",
+          "href": "https://greenkeewi.github.io/subway/"
+        },
+        {
+          "text": "Play ↗",
+          "href": "https://greenkeewi.github.io/taxi/"
+        },
+        {
+          "text": "Original 2D Taxi ↗",
+          "href": "https://greenkeewi.github.io/night-shift-taxi/?v=toronto-8"
+        },
+        {
+          "text": "Made by GreenKeewi",
+          "href": "https://github.com/GreenKeewi"
+        }
+      ]
+    },
+    {
+      "game": "jets",
+      "focus": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 16,
+            "w": 78.1875,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-sound",
+          "text": "Sound on",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 578.28125,
+            "y": 17,
+            "w": 82.71875,
+            "h": 36
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "01⌁DogfightOutfly the other squadron.",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 258.671875,
+            "w": 205.65625,
+            "h": 125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "02⌖Strike & escapeHit the target. Make it home.",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 238.65625,
+            "y": 258.671875,
+            "w": 205.671875,
+            "h": 125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "03→Free flightTake off. Find your calm.",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 455.328125,
+            "y": 258.671875,
+            "w": 205.671875,
+            "h": 125
+          }
+        },
+        {
+          "tag": "SELECT",
+          "id": "team-size",
+          "text": "1 v 12 v 23 v 3",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 173.671875,
+            "w": 110,
+            "h": 36
+          }
+        },
+        {
+          "tag": "SELECT",
+          "id": "bot-skill",
+          "text": "StandardAce",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 146,
+            "y": 173.671875,
+            "w": 110,
+            "h": 36
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "launch",
+          "text": "Launch sortie →",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 231.671875,
+            "w": 260,
+            "h": 48
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "network-open",
+          "text": "Play with friends +",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 294,
+            "y": 231.671875,
+            "w": 235,
+            "h": 48
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-help",
+          "text": "All controls",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 405.296875,
+            "y": 303.671875,
+            "w": 56.90625,
+            "h": 25
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "✦Preparing the islandLoading Skybreak…\n\n \n ← All games3D · KEYBOARD READYSound o",
+          "visible": false,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 0
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 16,
+            "w": 78.1875,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-sound",
+          "text": "Sound on",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 578.28125,
+            "y": 17,
+            "w": 82.71875,
+            "h": 36
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "01⌁DogfightOutfly the other squadron.",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 258.671875,
+            "w": 205.65625,
+            "h": 125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "02⌖Strike & escapeHit the target. Make it home.",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 238.65625,
+            "y": 258.671875,
+            "w": 205.671875,
+            "h": 125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "03→Free flightTake off. Find your calm.",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 455.328125,
+            "y": 258.671875,
+            "w": 205.671875,
+            "h": 125
+          }
+        },
+        {
+          "tag": "SELECT",
+          "id": "team-size",
+          "text": "1 v 12 v 23 v 3",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 173.671875,
+            "w": 110,
+            "h": 36
+          }
+        },
+        {
+          "tag": "SELECT",
+          "id": "bot-skill",
+          "text": "StandardAce",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 146,
+            "y": 173.671875,
+            "w": 110,
+            "h": 36
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "launch",
+          "text": "Launch sortie →",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 231.671875,
+            "w": 260,
+            "h": 48
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "network-open",
+          "text": "Play with friends +",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 294,
+            "y": 231.671875,
+            "w": 235,
+            "h": 48
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-help",
+          "text": "All controls",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 405.296875,
+            "y": 303.671875,
+            "w": 56.90625,
+            "h": 25
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 22,
+            "y": 16,
+            "w": 78.1875,
+            "h": 38
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "All games",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        }
+      ],
+      "pauseText": "SKYBREAK\nAll games\nControls H\nPause Esc\nAIR SUPERIORITY\nClear the skies\n1 friendly · 1 hostile remaining. Keep your target near the crosshair.\n+\nBANDIT · 3.5 km\nHEAT READY\nAIRSPEED\n278\nKNOTS\nALTITUDE\n700\nMETERS\nSpace\nHEAT\n6\nR\nRADAR\n4\nF\nFLARE\n6\nC\nCHAFF\n6\nWeapons free. Protect your wingmates.\nTAKE A BREATHER\nHolding pattern.\n\nYour sortie is paused.\n\nBack to the sky →\nRestart sortie\nMission menu\nExtra instruments: off · I"
+    },
+    {
+      "game": "flight",
+      "focus": [
+        {
+          "tag": "BUTTON",
+          "id": "practice",
+          "text": "Practice a landing",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 353.4375,
+            "y": 179.859375,
+            "w": 130.703125,
+            "h": 49
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Flight conditions Clear coast",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 265.859375,
+            "w": 450,
+            "h": 20
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "How to fly & accessibility",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 293.859375,
+            "w": 450,
+            "h": 20
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "✈Preparing your aircraft…A whole coast to discover.\n\n ← All games\n K KEEWI AIR A",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "CANVAS",
+          "id": "world",
+          "text": "3D flight view. Arrow keys turn, climb and descend. W increases thrust, S reduce",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 22,
+            "w": 77.546875,
+            "h": 15
+          }
+        },
+        {
+          "tag": "SELECT",
+          "id": "destination",
+          "text": "Northport · The coastal hopRidgefield · The highland coastPalm Reach · The islan",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 334.859375,
+            "w": 450,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "start",
+          "text": "Fly from the gate ↵",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 179.859375,
+            "w": 307.296875,
+            "h": 49
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "practice",
+          "text": "Practice a landing",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 353.4375,
+            "y": 179.859375,
+            "w": 130.703125,
+            "h": 49
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Flight conditions Clear coast",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 265.859375,
+            "w": 450,
+            "h": 20
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "How to fly & accessibility",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 293.859375,
+            "w": 450,
+            "h": 20
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "✈Preparing your aircraft…A whole coast to discover.\n\n ← All games\n K KEEWI AIR A",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "CANVAS",
+          "id": "world",
+          "text": "3D flight view. Arrow keys turn, climb and descend. W increases thrust, S reduce",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 22,
+            "w": 77.546875,
+            "h": 15
+          }
+        },
+        {
+          "tag": "SELECT",
+          "id": "destination",
+          "text": "Northport · The coastal hopRidgefield · The highland coastPalm Reach · The islan",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 334.859375,
+            "w": 450,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "start",
+          "text": "Fly from the gate ↵",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 179.859375,
+            "w": 307.296875,
+            "h": 49
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "practice",
+          "text": "Practice a landing",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 353.4375,
+            "y": 179.859375,
+            "w": 130.703125,
+            "h": 49
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Flight conditions Clear coast",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 265.859375,
+            "w": 450,
+            "h": 20
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "How to fly & accessibility",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 293.859375,
+            "w": 450,
+            "h": 20
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "✈Preparing your aircraft…A whole coast to discover.\n\n ← All games\n K KEEWI AIR A",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "CANVAS",
+          "id": "world",
+          "text": "3D flight view. Arrow keys turn, climb and descend. W increases thrust, S reduce",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 34.140625,
+            "y": 22,
+            "w": 77.546875,
+            "h": 15
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "All games →",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "All games →",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "All games",
+          "href": "https://greenkeewi.github.io/games/"
+        }
+      ],
+      "pauseText": "← All games\nChase C\nPause & help P\n01 / 08\nSBY → NPT\nBoarding\n\nE · Close the doors\n\nBoarding is complete. Close up, then follow the blue taxi lights.\n\nGATE 01\nAutopilot OFFSpace\nWelcome aboard. Close the doors with E.\nAIRSPEED\n0kt\nPARKED\nALTITUDE\n0ft\nON GROUND\nCAPTAIN’S BREAK\nTake your time.\n\nSouth Bay → Northport · Clear coast · 00:00\n\nResume flight\n↵\nRestart this flight\nKeyboard controls\nArrows\nTurn, climb / descend. On ground: accelerate / brake.\nW / S\nSet thrust up / down. Releasing keeps power. Hold S to brake.\nSpace\nAutopilot. Flight input returns manual control.\nE · C\nGate doors · cockpit / chase view\nG · H\nGo-around circuit · immediate safe recovery\nM · P\nSound · pause / resume\nLighter graphics\nReduced camera motion\nShow route map\nExtra flight instruments\nSound on M\nChoose a destination\nAll games →"
+    },
+    {
+      "game": "subway",
+      "focus": [
+        {
+          "tag": "BUTTON",
+          "id": "training",
+          "text": "Ride with driving assist A",
+          "visible": true,
+          "fullyVisible": false,
+          "rect": {
+            "x": 40.96875,
+            "y": 346.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-help",
+          "text": "How to drive H",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 220.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 275.40625,
+            "w": 72.984375,
+            "h": 15
+          }
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "text": "",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 49.96875,
+            "y": 62.90625,
+            "w": 15,
+            "h": 15
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "start",
+          "text": "Start your shift ↵",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 128.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "training",
+          "text": "Ride with driving assist A",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 174.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-help",
+          "text": "How to drive H",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 220.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 275.40625,
+            "w": 72.984375,
+            "h": 15
+          }
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "text": "",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 49.96875,
+            "y": 62.90625,
+            "w": 15,
+            "h": 15
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "start",
+          "text": "Start your shift ↵",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 128.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "training",
+          "text": "Ride with driving assist A",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 174.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-help",
+          "text": "How to drive H",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 220.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 275.40625,
+            "w": 72.984375,
+            "h": 15
+          }
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "text": "",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 49.96875,
+            "y": 62.90625,
+            "w": 15,
+            "h": 15
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "start",
+          "text": "Start your shift ↵",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 128.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "training",
+          "text": "Ride with driving assist A",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 174.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-help",
+          "text": "How to drive H",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 220.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "← All games",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 275.40625,
+            "w": 72.984375,
+            "h": 15
+          }
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "text": "",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 49.96875,
+            "y": 62.90625,
+            "w": 15,
+            "h": 15
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "start",
+          "text": "Start your shift ↵",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 128.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "training",
+          "text": "Ride with driving assist A",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 174.40625,
+            "w": 440,
+            "h": 38
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-help",
+          "text": "How to drive H",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 40.96875,
+            "y": 220.40625,
+            "w": 440,
+            "h": 38
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        },
+        {
+          "text": "← All games",
+          "href": "https://greenkeewi.github.io/games/"
+        }
+      ],
+      "pauseText": "← All games\nB\nBOROUGH LINE\nQueens Terminal · Quick Local\nII Pause\nBOARDING\nCanal Street\n\nLet passengers board, then close doors with D.\n\nCanal\nBowery\nEast River\nGrand\nQueens\nSIGNAL CLEAR\n0MPH\nLIMIT 42\nAT PLATFORM\n00:00\n0 PTS\nCOAST\nBRAKE\nPOWER\nUp Power\nDn Brake\nD Doors\nZ Coast\nA Assist\nBOARDING\nMANUAL\nRIGHT DOORS\nBoarding\nR-68 / 2146\n0\nBRAKE PIPE\n90PSI\nTAKE A BREATHER\nService paused.\nBack to the cab\n↵\nControls & route\nH\nService stops & timetable\nRestart service\nR\nChoose another service\n← All games"
+    },
+    {
+      "game": "taxi",
+      "focus": [
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Play the original 2D game ↗",
+          "href": "https://greenkeewi.github.io/night-shift-taxi/"
+        },
+        {
+          "text": "Open the 2D game",
+          "href": "https://greenkeewi.github.io/night-shift-taxi/"
+        }
+      ]
+    },
+    {
+      "game": "night-shift-taxi/3d",
+      "focus": [
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "PICKUP 01Rogers Centre20 m route180 sec●●●↑Follow the blue laneThen Oshawa · $17",
+          "visible": true,
+          "fullyVisible": true,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 384
+          }
+        }
+      ],
+      "links": [
+        {
+          "text": "Play the original 2D game ↗",
+          "href": "https://greenkeewi.github.io/night-shift-taxi/"
+        },
+        {
+          "text": "Open the 2D game",
+          "href": "https://greenkeewi.github.io/night-shift-taxi/"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

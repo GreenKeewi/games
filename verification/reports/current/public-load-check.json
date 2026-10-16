@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-16T11:51:10.422Z",
+  "method": "Actual public HTTPS URLs through normal cloud proxy; no request interception or proxy changes",
+  "loads": [
+    {
+      "url": "https://greenkeewi.github.io/games/",
+      "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://greenkeewi.github.io/games/\nCall log:\n\u001b[2m  - navigating to \"https://greenkeewi.github.io/games/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "url": "https://greenkeewi.github.io/jets/",
+      "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://greenkeewi.github.io/jets/\nCall log:\n\u001b[2m  - navigating to \"https://greenkeewi.github.io/jets/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "url": "https://greenkeewi.github.io/flight/",
+      "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://greenkeewi.github.io/flight/\nCall log:\n\u001b[2m  - navigating to \"https://greenkeewi.github.io/flight/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "url": "https://greenkeewi.github.io/subway/",
+      "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://greenkeewi.github.io/subway/\nCall log:\n\u001b[2m  - navigating to \"https://greenkeewi.github.io/subway/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "url": "https://greenkeewi.github.io/taxi/",
+      "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://greenkeewi.github.io/taxi/\nCall log:\n\u001b[2m  - navigating to \"https://greenkeewi.github.io/taxi/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "url": "https://greenkeewi.github.io/night-shift-taxi/3d/",
+      "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://greenkeewi.github.io/night-shift-taxi/3d/\nCall log:\n\u001b[2m  - navigating to \"https://greenkeewi.github.io/night-shift-taxi/3d/\", waiting until \"load\"\u001b[22m\n"
+    }
+  ]
+}

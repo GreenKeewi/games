@@ -1,0 +1,216 @@
+{
+  "origin": "http://127.0.0.1:8766/games/",
+  "method": "Local static hub responsive/image/native-keyboard checks; public destination loads separately proxy-blocked",
+  "sizes": [
+    {
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "assets/jets-current.png",
+          "width": 960,
+          "height": 540,
+          "alt": "Actual Skybreak gameplay showing a twin-tail fighter above the mountainous Northpoint route"
+        },
+        {
+          "src": "assets/flight-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Cloudliner gameplay showing an airliner approaching the highland runway"
+        },
+        {
+          "src": "assets/subway-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Borough Line gameplay showing a stainless subway train beside the rail yard"
+        },
+        {
+          "src": "assets/taxi-current.png",
+          "width": 1280,
+          "height": 800,
+          "alt": "Actual Toronto Taxi gameplay from the driver’s seat on a downtown street"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "assets/jets-current.png",
+          "width": 960,
+          "height": 540,
+          "alt": "Actual Skybreak gameplay showing a twin-tail fighter above the mountainous Northpoint route"
+        },
+        {
+          "src": "assets/flight-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Cloudliner gameplay showing an airliner approaching the highland runway"
+        },
+        {
+          "src": "assets/subway-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Borough Line gameplay showing a stainless subway train beside the rail yard"
+        },
+        {
+          "src": "assets/taxi-current.png",
+          "width": 1280,
+          "height": 800,
+          "alt": "Actual Toronto Taxi gameplay from the driver’s seat on a downtown street"
+        }
+      ]
+    },
+    {
+      "width": 683,
+      "height": 384,
+      "scrollWidth": 683,
+      "images": [
+        {
+          "src": "assets/jets-current.png",
+          "width": 960,
+          "height": 540,
+          "alt": "Actual Skybreak gameplay showing a twin-tail fighter above the mountainous Northpoint route"
+        },
+        {
+          "src": "assets/flight-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Cloudliner gameplay showing an airliner approaching the highland runway"
+        },
+        {
+          "src": "assets/subway-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Borough Line gameplay showing a stainless subway train beside the rail yard"
+        },
+        {
+          "src": "assets/taxi-current.png",
+          "width": 1280,
+          "height": 800,
+          "alt": "Actual Toronto Taxi gameplay from the driver’s seat on a downtown street"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "scrollWidth": 1024,
+      "images": [
+        {
+          "src": "assets/jets-current.png",
+          "width": 960,
+          "height": 540,
+          "alt": "Actual Skybreak gameplay showing a twin-tail fighter above the mountainous Northpoint route"
+        },
+        {
+          "src": "assets/flight-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Cloudliner gameplay showing an airliner approaching the highland runway"
+        },
+        {
+          "src": "assets/subway-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Borough Line gameplay showing a stainless subway train beside the rail yard"
+        },
+        {
+          "src": "assets/taxi-current.png",
+          "width": 1280,
+          "height": 800,
+          "alt": "Actual Toronto Taxi gameplay from the driver’s seat on a downtown street"
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "images": [
+        {
+          "src": "assets/jets-current.png",
+          "width": 960,
+          "height": 540,
+          "alt": "Actual Skybreak gameplay showing a twin-tail fighter above the mountainous Northpoint route"
+        },
+        {
+          "src": "assets/flight-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Cloudliner gameplay showing an airliner approaching the highland runway"
+        },
+        {
+          "src": "assets/subway-current.png",
+          "width": 1024,
+          "height": 650,
+          "alt": "Actual Borough Line gameplay showing a stainless subway train beside the rail yard"
+        },
+        {
+          "src": "assets/taxi-current.png",
+          "width": 1280,
+          "height": 800,
+          "alt": "Actual Toronto Taxi gameplay from the driver’s seat on a downtown street"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "keyboard": [
+    {
+      "href": "https://greenkeewi.github.io/jets/",
+      "label": "Play Skybreak",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/flight/",
+      "label": "Play Cloudliner",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/subway/",
+      "label": "Play Borough Line",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/taxi/",
+      "label": "Play Toronto Taxi",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/night-shift-taxi/?v=toronto-8",
+      "label": "Original 2D Taxi ↗",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/jets/",
+      "label": "Play Skybreak",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/flight/",
+      "label": "Play Cloudliner",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/subway/",
+      "label": "Play Borough Line",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/taxi/",
+      "label": "Play Toronto Taxi",
+      "visible": true
+    },
+    {
+      "href": "https://greenkeewi.github.io/night-shift-taxi/?v=toronto-8",
+      "label": "Original 2D Taxi ↗",
+      "visible": true
+    }
+  ],
+  "pass": true
+}
