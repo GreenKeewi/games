@@ -17,4 +17,6 @@ assert.match(game,/href="\.\.\/" aria-label="All games"/);
 for(const rel of ['src/main.js','src/game.js','src/render.js','src/network.js','style.css','icon.svg'])assert.ok(fs.existsSync('breach/'+rel));
 assert.match(game,/src="src\/main.js"/);assert.match(game,/<title>Breach/);
 assert.match(fs.readFileSync('breach/dist/Breach.html','utf8'),/class="all-games" href="https:\/\/greenkeewi.github.io\/games\/"/);
+assert.doesNotMatch(game,/<(?:header|nav|aside|footer)\b/);
+assert.match(fs.readFileSync('breach/src/main.js','utf8'),/\$\('menuShell'\)\.hidden=true/);
 console.log('PASS: four cards; three original cards byte-identical; existing links/statuses preserved; Breach route, assets and All games links valid.');

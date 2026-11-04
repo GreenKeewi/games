@@ -1,6 +1,6 @@
 {
   "name": "breach",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "A keyboard-only top-down tactical co-op browser game.",
@@ -8,6 +8,11 @@
     "test": "node --test tests/*.test.js",
     "check": "node --check src/game.js && node --check src/main.js && node --check src/render.js && node --check src/network.js",
     "dev": "node tools/serve.mjs",
-    "build": "node tools/package.mjs"
+    "build": "node tools/package.mjs",
+    "benchmark": "node tools/benchmark-visibility.mjs",
+    "render-check": "node tools/verify-render.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100"
   }
 }

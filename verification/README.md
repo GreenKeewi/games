@@ -1,3 +1,7 @@
+## Breach update, 2026-11-04
+
+See [Breach 0.2 redesign verification](breach-redesign-20261104.md) and [initial integration](breach-20261104.md). The initial Breach public route was verified after deployment; the older proxy limits below describe those historical checks, not the current Breach result. Breach uses an original labelled illustration, while the three existing flight/driving cards retain their gameplay captures.
+
 # Current browser game verification
 
 [Release manifest](release.json) · [Runtime source hashes](source-hashes.json) · [Exact game Pages build/deploy jobs](reports/current/pages-game-jobs.json) · [Final regression results](reports/current/final-regressions.json) · [Responsive hub and keyboard checks](reports/current/hub-final-local.json)
@@ -26,3 +30,4 @@ All four card previews are actual local gameplay captures, with no image-content
 Cloud Chromium uses software WebGL. No physical Chromebook frame rate, separate-device Wi-Fi compatibility, hardware-speaker listening, or human assessment is claimed. Current protocol tests do not replace physical multiplayer validation.
 
 The [03:18 release](history/release-20261016-0318.json) and its [source hashes](history/source-hashes-20261016-0318.json) are retained as historical evidence. Reports directly under `reports/` outside `current/` belong to those earlier revisions. Their old test counts, live-origin passes and multiplayer results must not be applied to the current release. The current manifest supersedes them and explicitly records the present proxy limitation.
+

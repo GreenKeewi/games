@@ -1,12 +1,12 @@
 /** Breach friend rooms. Data-only PeerJS/WebRTC; the host owns the simulation. */
-export const PROTOCOL = 'BREACH-1';
+export const PROTOCOL = 'BREACH-2';
 export const MAX_PLAYERS = 4;
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const MAX_BYTES = 60000;
 const HIGH_WATER = 131072;
 const BLOCKED = 'A direct connection could not open. This network may block WebRTC or need a TURN relay. No TURN relay is configured.';
 const plain = v => v !== null && typeof v === 'object' && !Array.isArray(v) && (Object.getPrototypeOf(v) === Object.prototype || Object.getPrototypeOf(v) === null);
-const peerId = code => `breach-v1-${code.toLowerCase()}`;
+const peerId = code => `breach-v2-${code.toLowerCase()}`;
 let library;
 
 export function normalizeRoomCode(value) {

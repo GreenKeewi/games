@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {generateMap,createGame,blocked,lineOfSight,canSee,findPath,moveEntity,tick,interact,addPlayer,removePlayer,reload,snapshot} from '../src/game.js';
+import {MAP_WIDTH,MAP_HEIGHT,generateMap,createGame,blocked,lineOfSight,raycast,canSee,findPath,moveEntity,tick,interact,addPlayer,removePlayer,reload,snapshot} from '../src/game.js';
 
 function arena(){
  const g=createGame({seed:42,bots:false});
@@ -80,4 +80,67 @@ test('enemy spawn clearance accommodates its collision radius',()=>{
  for(let seed=1;seed<=160;seed++)for(const entry of ['west','east']){
   const g=createGame({seed,entry});for(const e of g.enemies)for(const [dx,dy] of [[-1,-1],[1,-1],[-1,1],[1,1]])assert.equal(blocked(g.map,e.x+dx*.23,e.y+dy*.23),false,`embedded enemy ${seed} ${entry} ${e.id}`);
  }
+});
+
+test('expanded geometry keeps staging, all operators and both extraction points in bounds',()=>{
+ assert.equal(MAP_WIDTH,45);assert.equal(MAP_HEIGHT,33);
+ for(const entry of ['west','east']){
+  const g=createGame({seed:42,entry});assert.equal(g.map.w,MAP_WIDTH);assert.equal(g.map.h,MAP_HEIGHT);
+  assert.equal(g.map.tiles.length,MAP_WIDTH*MAP_HEIGHT);assert.equal(g.map.spawn.y,MAP_HEIGHT-1.5);
+  assert.equal(g.map.spawn.x,entry==='west'?5.5:MAP_WIDTH-5.5);
+  assert.equal(g.players[1].y,g.map.spawn.y);
+  for(const id of ['two','three','four'])addPlayer(g,id);
+  for(const p of g.players){assert.equal(p.y,g.map.spawn.y);assert.equal(blocked(g.map,p.x,p.y),false);}
+  for(const room of g.map.rooms){assert.ok(room.x+room.w<MAP_WIDTH);assert.ok(room.y+room.h<=MAP_HEIGHT-3);}
+ }
+});
+test('grid traversal hits exact walls, cover and doors without overshooting its range',()=>{
+ const {map:m}=arena(),a={x:2.5,y:2.5};
+ assert.deepEqual(raycast(m,a.x,a.y,0,2),{x:4.5,y:2.5});
+ m.tiles[2*m.w+4]=2;
+ assert.equal(lineOfSight(m,a,{x:8.5,y:2.5}),false);
+ assert.deepEqual(raycast(m,a.x,a.y,0,8),{x:4,y:2.5});
+ assert.equal(lineOfSight(m,a,{x:3.999,y:2.5}),true);
+ assert.equal(lineOfSight(m,a,{x:4,y:2.5}),false);
+ assert.equal(lineOfSight(m,{x:4.5,y:2.5},a),false);
+ m.tiles[2*m.w+4]=0;m.doors=[{x:4,y:2,open:false}];
+ assert.deepEqual(raycast(m,a.x,a.y,0,8),{x:4,y:2.5});
+ m.doors[0].open=true;assert.equal(lineOfSight(m,a,{x:8.5,y:2.5}),true);
+ assert.deepEqual(raycast(m,6.5,2.5,Math.PI,8),{x:1,y:2.5+Math.sin(Math.PI)*5.5});
+ assert.equal(lineOfSight(m,a,a),true);
+});
+test('grid traversal seals diagonal corners and catches tiny crossed wall segments',()=>{
+ const {map:m}=arena(),a={x:2.5,y:2.5},b={x:4.5,y:4.5};
+ for(const [x,y] of [[3,2],[2,3]]){
+  m.tiles[y*m.w+x]=1;
+  assert.equal(lineOfSight(m,a,b),false);assert.equal(lineOfSight(m,b,a),false);
+  const hit=raycast(m,a.x,a.y,Math.PI/4,8);
+  assert.ok(Math.abs(hit.x-3)<1e-10&&Math.abs(hit.y-3)<1e-10);
+  m.tiles[y*m.w+x]=0;
+ }
+ assert.equal(lineOfSight(m,a,b),true);
+ m.tiles[2*m.w+3]=1;
+ assert.equal(lineOfSight(m,{x:2.99,y:2.98},{x:3.03,y:3.02}),false);
+ assert.equal(lineOfSight(m,{x:3.03,y:3.02},{x:2.99,y:2.98}),false);
+ // A ray starting exactly on a grid edge must check the cell it enters.
+ assert.equal(lineOfSight(m,{x:4,y:2.5},{x:2,y:2.5}),false);
+});
+test('door index follows live door changes, replacement arrays and replacement maps',()=>{
+ const {map:m}=arena();m.doors=[{x:4,y:2,open:false}];
+ assert.equal(blocked(m,4.5,2.5),true);
+ m.doors[0].open=true;assert.equal(blocked(m,4.5,2.5),false);
+ m.doors[0].open=false;assert.equal(blocked(m,4.5,2.5,true),false);
+ m.doors=[{x:5,y:2,open:false}];assert.equal(blocked(m,4.5,2.5),false);assert.equal(blocked(m,5.5,2.5),true);
+ m.doors.push({x:6,y:2,open:false});assert.equal(blocked(m,6.5,2.5),true);
+ const next=JSON.parse(JSON.stringify(m));next.doors[0].open=true;
+ assert.equal(blocked(next,5.5,2.5),false);assert.equal(blocked(m,5.5,2.5),true);
+});
+test('derived door lookup is non-enumerable and absent from snapshots',()=>{
+ const g=createGame({seed:42}),keys=Object.keys(g.map),json=JSON.stringify(g.map);
+ blocked(g.map,g.players[0].x,g.players[0].y);lineOfSight(g.map,g.players[0],g.map.hostage);
+ const symbols=Object.getOwnPropertySymbols(g.map);assert.equal(symbols.length,1);
+ assert.equal(Object.getOwnPropertyDescriptor(g.map,symbols[0]).enumerable,false);
+ assert.deepEqual(Object.keys(g.map),keys);assert.equal(JSON.stringify(g.map),json);
+ const next=snapshot(g);assert.equal(Object.getOwnPropertySymbols(next.map).length,0);
+ assert.equal(blocked(next.map,next.players[0].x,next.players[0].y),false);
 });

@@ -1,3 +1,33 @@
+# Breach 0.2 verification
+
+Date: 2026-11-04. Integrated under `GreenKeewi/games/breach/`. No Skybreak Jets or Cloudflare changes.
+
+## Redesign checks
+
+- `npm test`: all 32 simulation and transport tests pass, including 320 seeded map configurations.
+- `npm run check`: all production JavaScript parses. `npm run build` regenerates the standalone bundle.
+- `npm run render-check`: all 1,092 unknown floor/cover cells in the fixture are opaque black. Closed doors hide entities, opening reveals them, turning away conceals them again, and unseen wall outlines remain visible.
+- Collision/visibility regressions cover exact wall/door hits, diagonal corner occlusion, mutable doors, map replacement and non-serialized caches. Combat, reload, rescue, extraction, revive/loss and network protocol regressions are retained.
+- `npm run benchmark`: new indexed grid traversal measured roughly 2–4× faster LOS/raycast queries than the prior sampled algorithms on the same expanded map. This is a query microbenchmark, not a full-game FPS claim.
+- Normal browser checks: compact centered menu; optional friend controls; keyboard start, door interaction, movement, aim, firing, reload and flash; in-canvas pause/help; B returns to menu. During play only the canvas and an accessibility status remain, with no header, navigation, sidebar or external menu.
+- Visual inspection: wider edge-clamped camera, 45×33 map, solid black unknown interiors, subtle architectural outlines, detailed visible cover/actors and restrained status display.
+- `node breach-integration-check.mjs`: original three game cards remain byte-identical, existing links/statuses are preserved, and Breach routes/assets/back-links remain valid.
+
+The previous initial integration was deployed as `68075fabc167ed14c8bf73213052fa07f61460ae` and its public route was checked. The 0.2 deployment is verified separately after publication; local checks above are not represented as a live deployment pass.
+
+## Limits
+
+- Real end-to-end multiplayer is still unverified. Previous two-tab tests reached PeerJS signaling but both peers completed ICE gathering with zero candidates, so no data channel or game handshake opened. The specific environment/network restriction is unknown.
+- BREACH-2 uses a new room namespace for the larger map. All participants must reload the same version. Mock transport tests are not proof of cross-device play.
+- Full hostage extraction passes deterministic simulation tests, not a complete manual browser raid. No physical Chromebook frame rate or school-network compatibility is claimed.
+- Keyboard-only, no touch controls. No TURN, Cloudflare backend, host migration or dedicated server. Browser background throttling can slow a host.
+
+All graphics are original canvas/SVG; audio is synthesized.
+
+---
+
+## Historical 0.1 verification
+
 # Breach MVP verification
 
 Date: 2026-11-04. The initial standalone MVP was built in an isolated directory. This copy is integrated into the Games repository; see ../../verification/breach-20261104.md. No changes to Skybreak Jets or Cloudflare.

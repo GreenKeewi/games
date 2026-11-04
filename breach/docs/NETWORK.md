@@ -2,7 +2,7 @@
 
 ## What works now
 
-Breach uses the same basic friend-room architecture as Skybreak Jets: PeerJS room-code signaling, data-only WebRTC connections, public Cloudflare STUN, and a host-authoritative simulation. It does not connect to Jets rooms, share their match state, or use a dedicated game server. The protocol namespace is `BREACH-1` and room peer IDs start with `breach-v1-`.
+Breach uses the same basic friend-room architecture as Skybreak Jets: PeerJS room-code signaling, data-only WebRTC connections, public Cloudflare STUN, and a host-authoritative simulation. It does not connect to Jets rooms, share their match state, or use a dedicated game server. The protocol namespace is `BREACH-2` and room peer IDs start with `breach-v2-`.
 
 The host occupies slot 0. Up to three guests occupy slots 1–3. Guests connect only to the host, not to each other. The host advances AI, collision, objectives, health and ammunition; clients send controls and render host snapshots. Anyone with the code can join an available seat, so share codes privately. There are no accounts, passwords, persistent identities or host migration. Closing the host ends the room; a disconnected guest rejoins as a newly allocated seat.
 
@@ -73,3 +73,5 @@ The briefing's **Connection details** panel records lifecycle state, candidate c
 In the cloud browser retest, signaling opened on both peers and the host received the guest offer. Both peers completed ICE gathering with zero local and remote candidates. ICE stayed `new`, the data channel never opened, and no handshake packets were sent. This locates the observed failure below the game protocol, in browser/network WebRTC negotiation. The precise environment restriction is not established; no security or network policy was bypassed.
 
 Separately, two defensive lifecycle problems were reproduced and fixed: attaching an already-open connection now sends hello exactly once, and failed hello/welcome sends reject and clean up instead of admitting a peer. These fixes are verified with mock regression tests; they are not claimed to cure the observed zero-candidate browser failure.
+
+The 0.2 release uses a 45×33 map and BREACH-2 namespace. Reload all participants together; old 0.1 rooms are not interoperable. No real-network P2P pass is claimed.
